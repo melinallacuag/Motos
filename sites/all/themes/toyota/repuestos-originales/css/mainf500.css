@@ -1,0 +1,2610 @@
+/*! HTML5 Boilerplate v7.2.0 | MIT License | https://html5boilerplate.com/ */
+
+/* main.css 2.0.0 | MIT License | https://github.com/h5bp/main.css#readme */
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+@font-face{
+    font-family:"toyota_textregular";
+    src:url("../fonts/toyotatext_rg_0-webfont.html") format("woff2"),url("../fonts/toyotatext_rg_0-webfont.woff") format("woff");
+    font-weight:400;
+    font-style:normal
+}
+@font-face{
+    font-family:"toyota_textbold";
+    src:url("../fonts/toyotatext-webfont.html") format("woff2"),url("../fonts/toyotatext-webfont.woff") format("woff");
+    font-weight:400;
+    font-style:normal
+}
+@font-face{
+    font-family:"toyota_displaybold";
+    src:url("../fonts/toyotadisplay_bd-webfont.html") format("woff2"),url("../fonts/toyotadisplay_bd-webfont.woff") format("woff");
+    font-weight:400;
+    font-style:normal
+}
+@font-face {
+    font-family: 'ToyotaDisplay-Heavy';
+    src: url('../fonts/ToyotaDisplay-Heavyd41d.eot?#iefix') format('embedded-opentype'),  url('../fonts/ToyotaDisplay-Heavy.woff') format('woff'), url('../fonts/ToyotaDisplay-Heavy.ttf')  format('truetype'), url('../fonts/ToyotaDisplay-Heavy.svg#ToyotaDisplay-Heavy') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family:"toyota_displayregular";
+    src:url("../fonts/toyotadisplay_rg-webfont.html") format("woff2"),url("../fonts/toyotadisplay_rg-webfont.woff") format("woff");
+    font-weight:400;
+    font-style:normal
+}
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * Vendor-prefixed and regular ::selection selectors cannot be combined:
+ * https://stackoverflow.com/a/16982510/7133471
+ *
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+::selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+body
+{
+  width: 100%;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+
+#main{
+    font-size: 1rem;  
+}
+
+#main a, #main li, #main p {
+    letter-spacing: initial;
+}
+
+
+#main .w-100 {
+    width: 100%!important;
+}
+
+#main h1, #mainh2, #main h3, #main h4, #main h5, #main h6 {
+    margin-top: 0;
+    margin-bottom: .5rem;
+}
+
+#main .h1, #main .h2, #main .h3, #main .h4, #main .h5, #main .h6, 
+#main h1, #main h2, #main h3, #main h4, #main h5, #main h6 {
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: initial;
+}
+
+#main .btn {
+    display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.browserupgrade {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+#main p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+
+#main .slider{
+  overflow: hidden;
+}
+#main .slider img{
+  width: 100%;
+  height: auto;
+}
+#main .slick-dots {
+  position: absolute;
+  bottom: 30px;
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+}
+#main .slick-dots li button {
+  font-size: 0;
+  line-height: 0;
+  display: block;
+  width: 18px;
+  height: 18px;
+  padding: 0;
+  cursor: pointer;
+  color: transparent;
+  border: 0;
+  outline: none;
+  background: #FFF;
+  border-radius: 50%;
+}
+#main .slick-dots li button:before {
+  font-family: 'slick';
+  font-size: 6px;
+  line-height: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 18px;
+  height: 18px;
+  content: '';
+  text-align: center;
+  opacity: 1;
+  color: #FFF;
+  background-color: #FFF;
+  border-radius: 50%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+#main .slick-dots li.slick-active button:before {
+  opacity: 1;
+  background-color: #cf2f39;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  margin: 4px;
+}
+
+#main .slider .item{
+  position: relative;
+}
+
+#main .slider .item1 .info{
+  opacity: 0;
+}
+
+#main .slider .text{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #FFF;
+  z-index: 5;
+  max-width: 1140px;
+  width: 100%;
+  height: 100%;
+}
+
+#main .slider .text.light-shadow{
+  filter: drop-shadow(0px 3px 3px rgba(0, 0, 0, 0.4));
+}
+
+#main .slider .text.dark-shadow{
+  filter: drop-shadow(0px 3px 3px rgba(0, 0, 0, 1));
+}
+
+#main .slider .text .info{
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+#main .slider .text h2 img, .slider .text h3 img{
+  width: 100%;
+  height: auto;
+}
+
+#main .slider .text figure{
+  position: absolute;
+  top: 39%;
+  width: 39.38%;
+  left: 3.15%;
+}
+
+#main #menu{
+  width: 52px;
+  background: rgba(0, 0, 0, .47);
+  position: fixed;
+  left: -52px;
+  top: 66px;
+  height: 100%;
+  z-index: 10;
+}
+#main #menu #social{
+  list-style: none;
+  margin: 45px 0 0 0;
+  padding: 0;
+}
+#main #menu #social li{
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+#main #menu #social li a{
+  opacity: 1;
+}
+#main #menu #social li a:hover{
+  opacity: .5;
+}
+#main #menu #links{
+  list-style: none;
+  margin: 87px 0 0 0;
+  padding: 0;
+}
+#main #menu #links li{
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+#main #menu #links li a{
+  display: block;
+  position: relative;
+  width: 23px;
+  height: 12px;
+  line-height: 12px;
+  margin: 0 auto;
+}
+#main #menu #links li a span{
+  width: 100%;
+  background-color: #FFF;
+  height: 2px;
+  display: block;
+  margin: 5px 0;
+}
+.tooltip-inner{
+  font-family:"toyota_textregular";
+  font-size: 10px;
+}
+#beneficios h2{
+  font-family:"toyota_displaybold";
+  color: #ed1b2f;
+  font-size: 28px;
+  margin: 60px 0 40px 0;
+}
+#beneficios .txt{
+  display: block;
+  width: 100%;
+  margin: 20px 0 40px 0;
+  font-family:"toyota_textbold";
+  font-size: 20px;
+}
+#conoce{
+  overflow: hidden;
+}
+#conoce .info{
+  position: relative;
+}
+#conoce .info img{
+  width: 100%;
+  height: auto;
+}
+#conoce .interna{
+  display: none;
+}
+#conoce .interna img{
+  width: 100%;
+  height: auto;
+}
+#conoce .interna .top{
+  background: url("../img/bg-top-interna.jpg") no-repeat center bottom;
+  background-size: cover;
+}
+
+#conoce .txt1{
+  position: absolute;
+  left: -25%;
+  top: 11.88%;
+  z-index: 5;
+  width: 20.6%;
+  opacity: 0;
+}
+#conoce .txt1.final{
+  left: 11.33%;
+  transition: all ease-in-out .75s;
+  opacity: 1;
+}
+#conoce .txt2{
+  position: absolute;
+  top: 16.77%;
+  left: 100%;
+  z-index: 5;
+  width: 37.66%;
+  background-color: #FFF;
+  font-size: 1.35vw;
+  padding: 8.19% 5.33%;
+  color: #464646;
+  font-family:"toyota_textregular";
+  opacity: 0;
+}
+#conoce .txt2.final{
+  left: 50%;
+  transition: all ease-in-out .75s;
+  opacity: 1;
+}
+#conoce .pic{
+  position: absolute;
+  left: 12.33%;
+  top: 52.866%;
+  z-index: 5;
+  width: 42.93%;
+}
+#conoce .pic img{
+  margin-left: -800px;
+  opacity: 0;
+}
+#conoce .pic img.final{
+  margin-left: 0;
+  transition: all ease-in-out .75s;
+  opacity: 1;
+}
+#conoce .txt3{
+  position: absolute;
+  left: 50%;
+  top: 56.42%;
+  z-index: 5;
+  width: 34.26%;
+}
+#conoce .txt3 img{
+  margin-left: 800px;
+  opacity: 0;
+}
+#conoce .txt3 img.final{
+  margin-left: 0;
+  transition: all ease-in-out .75s;
+  opacity: 1;
+}
+#conoce .btn{
+  position: absolute;
+  left: 57.2%;
+  top: 85.58%;
+  z-index: 5;
+  width: 10.13%;
+}
+#centros .info img{
+  width: 100%;
+  height: auto;
+}
+#centros .info .left{
+  background: url("../img/centros1.jpg") no-repeat center top;
+  background-size: cover;
+}
+#centros .info .txt{
+  position: absolute;
+  left: 26.51%;
+  top: 20.52%;
+  opacity: 0;
+}
+#centros .info .left h4{
+  font-size: 2.5vw;
+  font-family:"toyota_displaybold";
+  color: #FFF;
+}
+#centros .info .left p{
+  font-size: 1.1vw;
+  font-family:"toyota_textregular";
+  color: #FFF;
+  margin: 50px 0 80px 0;
+}
+#centros .info .left a{
+  display: block;
+  width: auto;
+  color: #FFF; 
+  font-family:"toyota_displaybold";
+  font-size: 1.5vw;
+  text-transform: uppercase;
+  background-color: #FFF;
+  color: #000000;
+  border-radius: 20px;
+  padding: 2.5% 5.8%;
+  float: left;
+}
+#centros .info .left a:hover{
+  text-decoration: none;
+  color: #FFF;
+  background-color: #000;
+}
+#centros .right img{
+  opacity: 0;
+}
+
+.btn-back,.btn-back::before{
+  background-color:#000;
+  color:#fff
+}
+
+.toRight{
+  left: 0!important;
+  transition: all ease-in-out .75s;
+}
+.toLeft{
+  right: 0!important;
+  transition: all ease-in-out .75s;
+}
+.fade-in {
+	opacity: 1!important;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 1.5s;
+}
+.fade-out {
+	opacity: 0!important;
+	animation-name: fadeOutOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 1.5s;
+}
+.fade-in-2{
+	opacity: 1!important;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: .35s;
+}
+.fade-top{
+	opacity: 0!important;
+	top: -300px;
+	animation-name: fadeOutTop;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: .35s;
+}
+#loader{
+  position: fixed;
+  z-index: 10000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: url("../img/loader.gif") no-repeat center center #FFF;;
+}
+.back{
+  display: block;
+  font-family:"toyota_textbold";
+  color: #FFF;
+  text-transform: uppercase;
+  line-height: 22px;
+  margin: 50px 0 0 0;
+}
+.back span.img{
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  margin: 0 12px 0 0;
+  line-height: 22px;
+}
+.back:hover{
+  color: #CCC;
+  text-decoration: none;
+}
+.back span img{
+  position: relative;
+  top: -2px;
+  width: 100%;
+  height: auto;
+}
+#main .interna .top .controls{
+  padding: 0 0 24px 0;
+}
+#main .interna .container{
+  max-width: 980px;
+}
+#main .interna .center h4{
+  font-family:"toyota_textbold";
+  color: #FFF;
+  text-align: center;
+  font-size: 27px;
+  line-height: 1;
+  margin: 26px auto 0 auto;
+}
+#main .interna .center h4 span{
+  font-family:"toyota_textbold";
+  color: #FFF;
+  text-align: center;
+  font-size: 12px;
+}
+#main .interna .right .txt{
+  color: #FFF;
+  float: left;
+  margin: 0;
+  font-family:"toyota_displayregular";
+  font-size: 16px;
+} 
+#main .interna .right .elegir{
+  float: right;
+  margin: 20px 0 0 0;
+}
+#main .elegir .txt{
+  margin: 26px 10px 0 0!important;
+}
+#main .custom-select {
+  position: relative;
+  padding: 0;
+  border: none;
+  font-family:"toyota_displaybold";
+  font-size: 11px;
+  text-transform: uppercase;
+  float: left;
+  margin: 24px 0 0 0;
+}
+
+
+#main .custom-select select {
+  display: none; /*hide original SELECT element: */
+}
+
+#main .select-selected {
+  background-color: #ff142b;
+}
+
+/* Style the arrow inside the select element: */
+#main .select-selected:after {
+  position: absolute;
+  content: "";
+  top: 14px;
+  right: 10px;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-color: #fff transparent transparent transparent;
+}
+
+/* Point the arrow upwards when the select box is open (active): */
+#main .select-selected.select-arrow-active:after {
+  border-color: transparent transparent #fff transparent;
+  top: 7px;
+}
+
+/* style the items (options), including the selected item: */
+#main .select-items div,.select-selected {
+  color: #ffffff;
+  padding: 8px 16px;
+  border: 1px solid transparent;
+  border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+  cursor: pointer;
+  transition: all ease-in-out .25s;
+}
+
+/* Style items (options): */
+#main .select-items {
+  position: absolute;
+  background-color:  #ff142b;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+
+/* Hide the items when the select box is closed: */
+#main .select-hide {
+  display: none;
+}
+
+#main .select-items div:hover, .same-as-selected {
+  transition: all ease-in-out .35s;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+#main .interna .title{
+  color: #FFF;
+  font-family:"toyota_textbold";
+  font-size: 22px;
+  text-align: center;
+  line-height: 82px;
+  text-transform: uppercase;
+  border-top: solid 4px #FFF;
+}
+#main .interna .contenido{
+  position: relative;
+}
+#main .interna .contenido .left{
+  background-color: #e52134;
+  padding: 54px 11.46% 0 0;
+  box-sizing: border-box;
+}
+#main .interna .contenido .right{
+  background-color: #d1d3d4;
+  padding: 54px 0 0 11.46%;
+  box-sizing: border-box;
+}
+#main .interna .contenido .left h3{
+  font-family:"toyota_displaybold";
+  font-size: 1.9vw;
+  color: #FFF;
+  margin: 0;
+}
+#main .interna .contenido .bottom-left img{
+  width: 100%;
+  height: auto;
+}
+#main .interna .contenido .bottom-right{
+  background-color: #d1d3d4;
+}
+#main .interna .contenido .bottom-right img{
+  width: 100%;
+  height: auto;
+}
+#main .interna .contenido .left .txt ul{
+  margin: 0;
+  padding: 0;
+}
+#main .interna .contenido .left .txt ul li{
+  color: #FFF;
+  font-family:"toyota_textregular";
+  font-size: 0.9vw;
+}
+#main .interna .pastillas{
+  position: absolute;
+  left: 100%;
+  top: 12.28%;
+  z-index: 10;
+  width: 100%;
+  display: block;
+}
+#main .interna .pastillas img{
+  width: 100%;
+  height: auto;
+}
+#main .interna .filtro-aceite{
+  position: absolute;
+  left: 100%;
+  top: 4.28%;
+  z-index: 10;
+  width: 100%;
+  display: block;
+}
+#main .interna .filtro-aceite img{
+  width: 100%;
+  height: auto;
+}
+
+#main .interna .contenido .right h3{
+  font-family:"toyota_displaybold";
+  font-size: 1.9vw;
+  color: #e52134;
+  margin: 0%;
+}
+#main .interna .contenido .right p{
+  font-family: "toyota_textregular";
+  font-size: 1vw;
+  color: #e52134;
+  margin: 0;
+  padding: 0;
+}
+
+#pastillas .lista{
+  margin: 8% 0;
+}
+#filtro-aceite, #amortiguadores{
+  display: none;
+}
+.block1, .block2{
+  position: relative;
+  z-index: 5;
+}
+.block3{
+  position: relative;
+  z-index: 1;
+  margin-top: -6.2%!important;
+  background: url("../img/bg-amortiguadores.png") no-repeat center top;
+  background-size: 100%;
+  border-bottom: solid .3rem #FFF;
+}
+
+.block3 .txt{
+  position: relative;
+  z-index: 5;
+  margin: 6.5% 0 0 0;
+}
+.block3 .txt h3{
+  font-family:"toyota_displaybold";
+  font-size: 1.3vw;
+  color: #FFF;
+  margin: 0;
+  padding: 0;
+}
+.block3 .txt p{
+  font-family:"toyota_textregular";
+  font-size: 1.1vw;
+  color: #FFF;
+  margin: 0;
+  padding: 40px 0;
+}
+.block1 p{
+  font-family:"toyota_textregular";
+  font-size: 1vw;
+  color: #FFF;
+  margin: 0;
+  padding: 0;
+}
+.interna .amortiguadores{
+  position: absolute;
+  left: 50%;
+  top: 0;
+  z-index: 10;
+  width: 22.26%;
+  transform: translateX(-50%);
+}
+.interna .amortiguadores img{
+  width: 100%;
+  height: auto;
+}
+.hidden-mob{
+  display: block;
+}
+.busca-concesionario{
+  position: fixed;
+  top: calc( 50% - 86px );
+  transform: translateY(-50%);
+  right: -107px;
+  width: 107px;
+  height: 85px;
+  display: block;
+  z-index: 10;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.25);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.25);
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.25);
+  -webkit-border-top-left-radius: 10px;
+  -webkit-border-bottom-left-radius: 10px;
+  -moz-border-radius-topleft: 10px;
+  -moz-border-radius-bottomleft: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background-color: #ed1b2f;
+  overflow: hidden;
+}
+.busca-concesionario img{
+  width: 100%;
+  height: auto;
+  max-width: 57px;
+}
+.busca{
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #FFF;
+  font-family:"toyota_textbold";
+  font-size: 15px;
+  line-height: 85px;
+  width: 296px;
+  background: url("../img/btn-busca.png") no-repeat right 25px top 8px;
+  padding: 0 0 0 25px;
+}
+.busca-concesionario:hover{
+  text-decoration: none;
+  color: #FFF;
+  width: 296px;
+  transition: all ease-in-out .35s;
+  right: 296px;
+}
+.busca-concesionario:hover a{
+  color: #FFF;
+  text-decoration: none;
+}
+#tabla-de-prevencion{
+  background: url("../img/bg-tabla.jpg") no-repeat center top;
+  background-size: 100%;
+  padding: 80px 0;
+}
+#tabla-de-prevencion h3{
+  color: #000;
+  font-size: 53px;
+  font-family:"toyota_textbold";
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+#tabla-de-prevencion h3 span{
+  color: #eb1b2d;
+}
+#tabla-de-prevencion h4{
+  color: #000;
+  font-size: 20px;
+  font-family:"toyota_displayregular";
+  text-transform: uppercase;
+}
+#tabla-de-prevencion .carousel{
+  background: url("../img/bg-carousel.jpg") no-repeat center top;
+  background-size: cover;
+  min-height: 640px;
+  overflow: hidden;
+}
+#tabla-de-prevencion .carousel h5{
+  position: absolute;
+  font-family:"toyota_displaybold";
+  font-size: 22px;
+  color: #FFF;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 45px;
+  padding: 0;
+  text-align: center;
+  width: 100%;
+  text-align: center;
+}
+#tabla-de-prevencion .timeline{
+  width: 86.83%;
+  margin: 0 auto;
+  position: relative;
+}
+#tabla-de-prevencion .timeline img{
+  width: 100%;
+  height: auto;
+}
+#tabla-de-prevencion  .arrow-left{
+  position: absolute;
+  width: 5.28%;
+  left: 1.72%;
+  top: 25%;
+  display: block;
+  z-index: 10;
+}
+#tabla-de-prevencion .arrow-left img{
+  width: 100%;
+  height: auto;
+}
+#tabla-de-prevencion .arrow-right{
+  position: absolute;
+  width: 5.28%;
+  right: 1.72%;
+  top: 25%;
+  display: block;
+  z-index: 10;
+}
+#tabla-de-prevencion .arrow-right img{
+  width: 100%;
+  height: auto;
+}
+/* #tabla-de-prevencion .timeline .bar{
+  width: 250%;
+  height: 33px;
+  background: url("../img/unit.svg") repeat-x left top;
+} */
+/* #tabla-de-prevencion .timeline ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#tabla-de-prevencion .timeline ul li{
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  width: 75px;
+} */
+/* #tabla-de-prevencion .timeline ul li img{
+  max-width: 15px;
+} */
+#tabla-de-prevencion .carousel .items{
+  margin: 100px 0 0 0;
+  min-height: 445px;
+}
+#tabla-de-prevencion .carousel .item{
+  float: left;
+  position: relative;
+}
+#tabla-de-prevencion .carousel .item2{
+  position: absolute;
+  left: 100%;
+  top: 0;
+}
+#tabla-de-prevencion .carousel .item3{
+  position: absolute;
+  left: 200%;
+  top: 0;
+}
+#tabla-de-prevencion .timeline .car{
+  position: absolute;
+  width: 8.64%;
+  top: 120px;
+  left: .5%;
+  z-index: 1;
+}
+#tabla-de-prevencion .timeline .car img{
+  width: 100%;
+  height: auto;
+}
+#tabla-de-prevencion .timeline .car .info{
+  width: 205px;
+  background-color: #FFF;
+  margin: 20px 0 0 0;
+  position: relative;
+  padding: 10px 0 35px 0;
+  -webkit-box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.22);
+  -moz-box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.22);
+  box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.22);
+}
+#tabla-de-prevencion .timeline .car .info:after{
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 10px solid #FFF;
+  font-size: 0;
+  line-height: 0;
+  left: 20%;
+  top: -10px;
+  z-index: 10;
+  transform: translateX(-50%);
+  transition: all ease-in-out .35s;
+}
+#tabla-de-prevencion .timeline .car .info .title{
+  background-color: #000;
+  line-height: 27px;
+  padding: 4px 25px 0 25px;
+  color: #FFF;
+  display: block;
+  font-family:"toyota_textbold";
+  font-size: 14px;
+  text-transform: uppercase;
+  max-width: 157px;
+  margin: 0 auto;
+}
+#tabla-de-prevencion .timeline .car .txt{
+  display: none;
+}
+#tabla-de-prevencion .timeline2 .car, #tabla-de-prevencion .timeline3 .car{
+  display: none;
+}
+#tabla-de-prevencion .timeline .block{
+  width: 2%;
+  height: 40px;
+  position: absolute;
+  cursor: pointer;
+}
+#tabla-de-prevencion .timeline .bloque1{
+  left: 3.4%;
+  top: 60px;
+}
+#tabla-de-prevencion .timeline .bloque2{
+  left: 11%;
+  top: 60px;
+}
+#tabla-de-prevencion .timeline .bloque3{
+  left: 18.6%;
+  top: 60px;
+}
+#tabla-de-prevencion .timeline .bloque4{
+  left: 26.1%;
+  top: 60px;
+}
+#tabla-de-prevencion .timeline .bloque5{
+  left: 33.7%;
+  top: 60px;
+}
+#tabla-de-prevencion .timeline .bloque6{
+  left: 41.4%;
+  top: 60px;
+}
+#tabla-de-prevencion .timeline .bloque7{
+  left: 49.1%;
+  top: 60px;
+}
+#tabla-de-prevencion .timeline .bloque8{
+  left: 56.4%;
+  top: 60px;
+}
+#tabla-de-prevencion .timeline .bloque9{
+  left: 64.1%;
+  top: 60px;
+}
+#tabla-de-prevencion .timeline .bloque10{
+  left: 71.6%;
+  top: 60px;
+}
+#tabla-de-prevencion .timeline .bloque11{
+  left: 79.1%;
+  top: 60px;
+}
+#tabla-de-prevencion .timeline .bloque12{
+  left: 86.8%;
+  top: 60px;
+}
+#tabla-de-prevencion .timeline .bloque13{
+  left: 94.4%;
+  top: 60px;
+}
+#tabla-de-prevencion .timeline .ver-detalle{
+  display: block;
+  float: right;
+  color: #000;
+  padding: 3px 10px 0 10px;
+  font-size: 9px;
+  border-radius: 6px;
+  background-color: #b5b5b5;
+  font-family:"toyota_textbold";
+  line-height: 20px;
+  margin: 0 20px 0 0;
+  text-transform: uppercase;
+}
+#tabla-de-prevencion .timeline .ver-detalle:hover{
+  text-decoration: none;
+  background-color: #000;
+  color: #FFF;
+}
+#tabla-de-prevencion .timeline .car .info ul{
+  margin: 10px 0;
+  padding: 0 20px;
+}
+#tabla-de-prevencion .timeline .car .info ul li{
+  color: #eb1b2d;
+  font-family:"toyota_textregular";
+  font-size: 14px;
+  line-height: 18px;
+  margin: 0 0 0 20px;
+}
+#tabla-de-prevencion .timeline .detalle{
+  position: relative;
+  width: 100%;
+  min-height: 250px;
+  display: none;
+}
+#tabla-de-prevencion .timeline .detalle ul{
+  margin: 10px 0;
+  padding: 0 0 0 10px;
+}
+#tabla-de-prevencion .timeline .detalle ul li{
+  color: #eb1b2d;
+  font-family:"toyota_textregular";
+  font-size: 14px;
+  line-height: 22px;
+  margin: 0 0 0 20px;
+}
+#tabla-de-prevencion .timeline .detalle .title{
+  background-color: #000;
+  line-height: 27px;
+  padding: 4px 20px 0 20px;
+  color: #FFF;
+  display: block;
+  font-family:"toyota_textbold";
+  font-size: 14px;
+  text-transform: uppercase;
+  max-width: 157px;
+  margin: 0 auto;
+}
+.detalle-content{
+  display: none;
+  background-color: #FFF;
+  background: url(../img/bg-detalle.jpg) no-repeat center top;
+  background-size: cover;
+  margin-top: 61px;
+  position: relative;
+  z-index: 5;
+}
+/* #tabla-de-prevencion .timeline .detalle .content{
+  opacity: 0;
+  transition: all ease-in-out .35s;
+}
+#tabla-de-prevencion .timeline .detalle .content.display{
+  opacity: 1;
+  
+} */
+#main .last:after{
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 10px solid #FFF;
+  font-size: 0;
+  line-height: 0;
+  left: 79%!important;
+  top: -10px;
+  z-index: 10;
+  transform: translateX(-50%);
+  transition: all ease-in-out .35s;
+}
+
+#main .prelast:after{
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 10px solid #FFF;
+  font-size: 0;
+  line-height: 0;
+  left: 79%!important;
+  top: -10px;
+  z-index: 10;
+  transform: translateX(-50%);
+  transition: all ease-in-out .35s;
+}
+.border-right{
+  border-right: solid 1px #c2c2c2!important;
+}
+.detalle-content .close{
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  display: block;
+  z-index: 10;
+}
+
+.mobile-hidden{
+  display: block;
+}
+.mobile-show{
+  display: block;
+}
+
+
+#main .row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+#main [class*="col-"], #main .col{
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: none;
+}
+#main .col{
+    flex-basis:0;
+    -webkit-box-flex:1;
+    flex-grow:1;
+    max-width:100%;
+    width: 100%;
+}
+
+#main .col-3 {
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+
+#main .col-5 {
+    -ms-flex: 0 0 41.666667%;
+    flex: 0 0 41.666667%;
+    max-width: 41.666667%;
+}
+
+#main .col-7 {
+    -ms-flex: 0 0 58.333333%;
+    flex: 0 0 58.333333%;
+    max-width: 58.333333%;
+}
+
+#main .col-9 {
+    -ms-flex: 0 0 75%;
+    flex: 0 0 75%;
+    max-width: 75%;
+}
+
+#main .container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container-fluid {
+    width: 100%;
+}
+
+#main .d-none {
+    display: none!important;
+}
+
+#main .d-block {
+    display: block!important;
+}
+
+#main .relative{
+  position: relative;
+}
+
+#main .m-0 {
+    margin: 0!important;
+}
+
+#main .p-0 {
+    padding: 0!important;
+}
+
+
+#main .mr-auto, #main .mx-auto {
+    margin-right: auto!important;
+}
+
+#main .ml-auto, #main .mx-auto {
+    margin-left: auto!important;
+}
+
+#main .pt-4, #main .py-4 {
+    padding-top: 1.5rem!important;
+}
+
+#main .pb-4, #main .py-4 {
+    padding-bottom: 1.5rem!important;
+}
+
+#main .p-4 {
+    padding: 1.5rem!important;
+}
+
+#main .ml-0, #main .mx-0 {
+    margin-left: 0!important;
+}
+
+#main .mr-0, #main .mx-0 {
+    margin-right: 0!important;
+}
+
+#main .mb-2, #main .my-2 {
+    margin-bottom: .5rem!important;
+}
+
+#main .mt-4, #main .my-4 {
+    margin-top: 1.5rem!important;
+}
+
+#main .mb-4, #main .my-4 {
+    margin-bottom: 1.5rem!important;
+}
+
+#main .text-center {
+    text-align: center!important;
+}
+
+#tabla-de-prevencion .pie{
+  color: #FFF;
+  font-family:"toyota_displayregular";
+  width: 100%;
+  text-align: center;
+  font-size: 13px;
+}
+
+@media (min-width: 576px)
+{
+    #main .container {
+        max-width: 540px;
+    } 
+
+    #main .col-sm-6 {
+      -ms-flex: 0 0 50%;
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+
+    #main .col-sm-12 {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    } 
+
+    #main .mr-sm-0, #main .mx-sm-0 {
+        margin-right: 0!important;
+    }
+
+    #main .ml-sm-0, #main .mx-sm-0 {
+        margin-left: 0!important;
+    }
+
+    #main .pr-sm-0, #main .px-sm-0 {
+        padding-right: 0!important;
+    }
+
+    #main .pl-sm-0, #main .px-sm-0 {
+        padding-left: 0!important;
+    }
+
+}
+
+@media (min-width: 768px)
+{
+    #main .container {
+        max-width: 720px;
+    }
+
+    #main .d-md-none {
+        display: none!important;
+    }
+
+    #main .d-md-inline-block {
+        display: inline-block!important;
+    }
+    
+    #main .d-md-block {
+        display: block!important;
+    }
+
+    #main .mb-md-4, #main .my-md-4 {
+        margin-bottom: 1.5rem!important;
+    } 
+
+    #main .mt-md-4, #main .my-md-4 {
+        margin-top: 1.5rem!important;
+    }
+
+    #main .pb-md-4, #main .py-md-4 {
+        padding-bottom: 1.5rem!important;
+    }
+
+    #main .col-md-1 {
+        -ms-flex: 0 0 8.333333%;
+        flex: 0 0 8.333333%;
+        max-width: 8.333333%;
+    }
+
+    #main .col-md-2 {
+      -ms-flex: 0 0 16.666667%;
+      flex: 0 0 16.666667%;
+      max-width: 16.666667%;
+    }
+
+    #main .col-md-3 {
+        -ms-flex: 0 0 25%;
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+
+    #main .col-md-4 {
+        -ms-flex: 0 0 33.333333%;
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+    }
+
+    #main .col-md-5 {
+        -ms-flex: 0 0 41.666667%;
+        flex: 0 0 41.666667%;
+        max-width: 41.666667%;
+    }
+
+    #main .col-md-6 {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    } 
+
+    #main .col-md-7 {
+        -ms-flex: 0 0 58.333333%;
+        flex: 0 0 58.333333%;
+        max-width: 58.333333%;
+    }
+
+    #main .col-md-8 {
+        -ms-flex: 0 0 66.666667%;
+        flex: 0 0 66.666667%;
+        max-width: 66.666667%;
+    }
+
+    #main .col-md-9 {
+        -ms-flex: 0 0 75%;
+        flex: 0 0 75%;
+        max-width: 75%;
+    }
+
+    #main .col-md-11 {
+        -ms-flex: 0 0 91.666667%;
+        flex: 0 0 91.666667%;
+        max-width: 91.666667%;
+    }
+
+    #main .col-md-12 {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 992px)
+{
+
+    #main .d-lg-none {
+        display: none!important;
+    }
+
+    #main .d-lg-inline-block {
+        display: inline-block!important;
+    }
+    
+    #main .d-lg-block {
+        display: block!important;
+    }
+
+    #main .mb-lg-4, #main .my-lg-4 {
+        margin-bottom: 1.5rem!important;
+    } 
+
+    #main .mt-lg-4, #main .my-lg-4 {
+        margin-top: 1.5rem!important;
+    }
+
+    #main .pb-lg-4, #main .py-lg-4 {
+        padding-bottom: 1.5rem!important;
+    }
+    #main .container {
+        max-width: 960px;
+    }
+
+    #main .col-lg-1 {
+        -ms-flex: 0 0 8.333333%;
+        flex: 0 0 8.333333%;
+        max-width: 8.333333%;
+    }
+
+    #main .col-lg-2 {
+      -ms-flex: 0 0 16.666667%;
+      flex: 0 0 16.666667%;
+      max-width: 16.666667%;
+    }
+
+    #main .col-lg-3 {
+        -ms-flex: 0 0 25%;
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+
+    #main .col-lg-4 {
+        -ms-flex: 0 0 33.333333%;
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+    }
+
+    #main .col-lg-5 {
+        -ms-flex: 0 0 41.666667%;
+        flex: 0 0 41.666667%;
+        max-width: 41.666667%;
+    }
+
+    #main .col-lg-6 {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    } 
+
+    #main .col-lg-7 {
+        -ms-flex: 0 0 58.333333%;
+        flex: 0 0 58.333333%;
+        max-width: 58.333333%;
+    }
+
+    #main .col-lg-8 {
+        -ms-flex: 0 0 66.666667%;
+        flex: 0 0 66.666667%;
+        max-width: 66.666667%;
+    }
+
+    #main .col-lg-9 {
+        -ms-flex: 0 0 75%;
+        flex: 0 0 75%;
+        max-width: 75%;
+    }
+
+    #main .col-lg-10 {
+        -ms-flex: 0 0 83.3333%;
+        flex: 0 0 83.3333%;
+        max-width: 83.3333%;
+    }
+
+    #main .col-lg-11 {
+        -ms-flex: 0 0 91.666667%;
+        flex: 0 0 91.666667%;
+        max-width: 91.666667%;
+    }
+
+    #main .col-lg-12 {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 1200px)
+{
+    #main .container {
+        max-width: 1140px;
+    }  
+}
+
+#main .parent{
+  position: relative;
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+
+#main .child{
+  display: table-cell;
+  vertical-align: middle;
+}
+
+#main .float-right {
+    float: right!important;
+}
+
+#videos {
+    height: auto;
+    text-align: center;
+    position: relative;
+    margin-top: 0;
+    margin-bottom: 80px;
+    background-image: linear-gradient(to right, white 50%, #ed1b2f 50%);
+}
+
+#videos h4
+{
+  text-align: left;
+}
+
+#videos .reproductor-video
+  {
+    margin-bottom: 0;
+    display: none;
+    margin-top: 19px;
+    margin-bottom: 40px;
+  }
+
+  #videos .reproductor-video.active
+  {
+    display: block;
+  }
+
+
+  #videos .columna-lista-mini-video
+  {
+    display: block;
+    position: relative;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  #videos .item-mini-imagen
+  {
+    position: relative;
+    width: 100%;
+    
+    margin-bottom: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+
+  #videos .item-mini-imagen.active
+  {
+    opacity: 0.7;
+  }
+
+  #videos .item-mini-imagen .border-imagen-video
+  {
+    margin-right: 7.5px;
+    padding-bottom: 27.5625%;
+    position: relative;
+    width: 49%;
+  }
+
+  #videos .item-mini-imagen h5
+  {
+    width: calc(51% - 7.5px);
+    text-align: left;
+    font-family: 'Toyota Display', sans-serif;
+    font-size: 12px;
+    color: #fff;
+  }
+
+  #videos .item-mini-imagen .border-imagen-video > img
+  {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    top: 0;
+    left: 0;
+  }
+
+  #videos .item-mini-imagen .border-imagen-video .play
+  {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+
+  #videos .slick-prev {
+    left: auto;
+    right: auto;
+    top: auto;
+    bottom: auto;
+    top: -25px;
+    left: 50%;
+    background-image: url(../img/prev.html);
+    transform: rotate(90deg) translateY(50%);
+    width: 25px;
+    height: 25px;
+    margin: 0;
+  }
+
+  #videos .slick-next {
+    left: auto;
+    right: auto;
+    top: auto;
+    bottom: auto;
+    left: 50%;
+    bottom: -25px;
+    background-image: url(../img/next.html);
+    transform: rotate(90deg) translateY(50%);
+    width: 25px;
+    height: 25px;
+    margin: 0;
+  }
+
+
+@media only screen and (min-width: 1440px){
+  #main .interna .contenido .left .txt ul li{
+    color: #FFF;
+    font-family:"toyota_textregular";
+    font-size: 15px;
+  }
+}
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes fadeOutOpacity {
+	0% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+@keyframes fadeOutTop {
+	0% {
+		opacity: 1;
+		top: 0;
+	}
+	100% {
+		opacity: 0;
+		top: -300px;
+	}
+}
+
+.zoom-out {
+	transform: scale(1)!important;
+	transition: all linear 1s!important;
+	/*animation-name: zoomOut;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 1.5s;*/
+}
+@keyframes zoomOut {
+	 0% {
+        transform: scale(1,1);
+    }
+    50% {
+        transform: scale(1.2,1.2);
+    }
+    100% {
+        transform: scale(1,1);
+    }
+
+}
+
+
+@media only screen and (max-width: 991px){
+  /* #tabla-de-prevencion{
+    display: none;
+  } */
+  #tabla-de-prevencion h3 {
+    color: #000;
+    font-size: 22px;
+    font-family: "toyota_textbold";
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+  }
+  #tabla-de-prevencion {
+    background: url(../img/bg-tabla.jpg) no-repeat center top;
+    background-size: 10px;
+    padding: 30px 0;
+  }
+  #tabla-de-prevencion h4 {
+    color: #000;
+    font-size: 16px;
+    font-family: "toyota_displayregular";
+    text-transform: none;
+    width: 100%;
+    text-align: center;
+    margin: 20px 0 34px 0;
+  }
+  #tabla-de-prevencion .carousel h5 {
+    position: relative;
+    font-family: "toyota_displaybold";
+    font-size: 13px;
+    color: #FFF;
+    top: 0;
+    padding: 24px 70px 0 20px;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    height: 80px;
+    background: url("../img/bg-header-prevencion-mobile.png") no-repeat center top;
+    background-size: cover;
+  }
+  #tabla-de-prevencion .carousel {
+    background: #FFF;
+    background-size: cover;
+    min-height: 640px;
+    overflow: hidden;
+    position: relative;
+  }
+  .carousel .elegir{
+    position: absolute;
+    right: 10px;
+    top: 22px;
+  }
+
+  #conoce .txt2{
+    font-size: 1rem;
+  }
+
+#centros .info .left p {
+    font-size: 1rem;
+    margin: 2rem 0 2rem 0;
+}
+
+#centros .info .txt {
+    left: 50%;
+    top: 50%;
+    opacity: 0;
+    transform: translate(-50%,-50%);
+    width: 75%;
+}
+
+  .pull {
+    width: 41px;
+    height: 35px;
+    border-bottom: none;
+    border-right: none;
+    padding: 0;
+    margin: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-size: 14px;
+    background: url("../img/bg-pull-mobile.png") no-repeat left top;
+    background-size: cover;
+  }
+  .pull.ierror {
+    border: none;
+  }
+  .pulldown {
+    height: 41px;
+    padding: 0;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+    box-sizing: border-box;
+    line-height: 35px;
+    width: 41px;
+    border: none;
+    outline: none;
+  }
+  .pulldown div.txtpull {
+    margin: 0;
+    line-height: 35px;
+    text-align: left;
+    width: 41px;
+    height: 35px;
+    font-size: 14px;
+    overflow: hidden;
+    word-wrap: break-word;
+    position: absolute;
+    z-index: 5;
+  }
+  .pulldown select {
+    cursor: pointer;
+    width: 41px;
+    margin: 0 auto;
+    left: 0;
+    top: 5px;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    -moz-opacity: 0;
+    position: absolute;
+    z-index: 10;
+  }
+  #tabla-de-prevencion .carousel .items {
+    margin: 10px 10px;
+    padding: 0 0 20px 0;
+    min-height: auto;
+    background-color: #ee3b4b;
+  }
+  .detalle-content {
+    display: none;
+    background-color: #FFF;
+    background: url(../img/bg-detalle.jpg) no-repeat center top;
+    background-size: cover;
+    margin-top: 0;
+    position: relative;
+    z-index: 5;
+  }
+  .detalle-content:before{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 10px solid #FFF;
+    font-size: 0;
+    line-height: 0;
+    left: 50%;
+    top: -10px;
+    z-index: 10;
+    transform: translateX(-50%);
+    transition: all ease-in-out .35s;
+  }
+  .car-mobile{
+    margin: 25px 0 0 0;
+    text-align: center;
+    width: 100%;
+  }
+  .car-mobile .num{
+    font-family: "toyota_displaybold";
+    font-size: 35px;
+    color: #FFF;
+  }
+  .car-mobile .car-mob{
+    width: 100%;
+    max-width: 203px;
+    margin: 5px auto 20px auto;
+  }
+  #tabla-de-prevencion .timeline .detalle ul {
+    margin: 0;
+    padding: 0 0 0 10px;
+  }
+  #tabla-de-prevencion {
+    background: url(../img/bg-tabla.jpg) no-repeat center top;
+    background-size: 10px;
+    padding: 30px 0 0 0;
+  }
+  #tabla-de-prevencion .pie {
+    color: #FFF;
+    font-family: "toyota_displayregular";
+    width: 100%;
+    text-align: center;
+    font-size: 13px;
+    background-color: #ee3b4b;
+    padding: 30px!important;
+  }
+  #tabla-de-prevencion .timeline .detalle{
+    display: inherit;
+    padding: 0 0 20px 0;
+  }
+  #tabla-de-prevencion .timeline1 .detalle2, 
+  #tabla-de-prevencion .timeline1 .detalle3, 
+  #tabla-de-prevencion .timeline1 .detalle4 , 
+  #tabla-de-prevencion .timeline1 .detalle5,
+  #tabla-de-prevencion .timeline1 .detalle6,
+  #tabla-de-prevencion .timeline1 .detalle7,
+  #tabla-de-prevencion .timeline1 .detalle8,
+  #tabla-de-prevencion .timeline1 .detalle9,
+  #tabla-de-prevencion .timeline1 .detalle10,
+  #tabla-de-prevencion .timeline1 .detalle11,
+  #tabla-de-prevencion .timeline1 .detalle12,
+  #tabla-de-prevencion .timeline1 .detalle13
+   {
+    display: none;
+  }
+  #tabla-de-prevencion .timeline2 .detalle1,
+  #tabla-de-prevencion .timeline2 .detalle2, 
+  #tabla-de-prevencion .timeline2 .detalle3, 
+  #tabla-de-prevencion .timeline2 .detalle4 , 
+  #tabla-de-prevencion .timeline2 .detalle5,
+  #tabla-de-prevencion .timeline2 .detalle6,
+  #tabla-de-prevencion .timeline2 .detalle7,
+  #tabla-de-prevencion .timeline2 .detalle8,
+  #tabla-de-prevencion .timeline2 .detalle9,
+  #tabla-de-prevencion .timeline2 .detalle10,
+  #tabla-de-prevencion .timeline2 .detalle11,
+  #tabla-de-prevencion .timeline2 .detalle12,
+  #tabla-de-prevencion .timeline2 .detalle13
+   {
+    display: none;
+  }
+  #tabla-de-prevencion .timeline3 .detalle1, 
+  #tabla-de-prevencion .timeline3 .detalle2, 
+  #tabla-de-prevencion .timeline3 .detalle3, 
+  #tabla-de-prevencion .timeline3 .detalle4 , 
+  #tabla-de-prevencion .timeline3 .detalle5,
+  #tabla-de-prevencion .timeline3 .detalle6,
+  #tabla-de-prevencion .timeline3 .detalle7,
+  #tabla-de-prevencion .timeline3 .detalle8,
+  #tabla-de-prevencion .timeline3 .detalle9,
+  #tabla-de-prevencion .timeline3 .detalle10,
+  #tabla-de-prevencion .timeline3 .detalle11,
+  #tabla-de-prevencion .timeline3 .detalle12,
+  #tabla-de-prevencion .timeline3 .detalle13
+   {
+    display: none;
+  }
+
+  .item1 .detalle-content, .item1 .detalle-content .detalle1{
+    display: block;
+  }
+  #tabla-de-prevencion .carousel .item1 {
+    float: left;
+    position: relative;
+    left: 0;
+    top: 0;
+  }
+  #tabla-de-prevencion .carousel .item2 {
+    float: left;
+    position: relative;
+    display: none;
+    left: 0;
+    top: 0;
+  }
+  #tabla-de-prevencion .carousel .item3 {
+    float: left;
+    position: relative;
+    display: none;
+    left: 0;
+    top: 0;
+  }
+  .mobile-hidden{
+    display: none!important;
+  }
+  .mobile-show{
+    display: block!important;
+  }
+}
+
+@media only screen and (max-width: 767px){
+  #videos 
+  {
+    margin-top: 80px;
+  }
+  #videos .reproductor-video {
+    margin-bottom: 15px;
+    display: block;
+  }
+
+  #videos .columna-lista-mini-video {
+      display: none;
+  }
+  #main .col-xs-6{
+    width: 50%!important;
+  }
+  #main .slider .text figure{
+    position: absolute;
+    top: 47.99%;
+    width: 76.57%;
+    left: 6.52%;
+  }
+  #beneficios .txt{
+    display: block;
+    width: 100%;
+    margin: 20px 0 40px 0;
+    font-family:"toyota_textbold";
+    font-size: 15px;
+  }
+  #conoce .txt1{
+    position: absolute;
+    left: 6.52%;
+    top: 7.73%;
+    z-index: 5;
+    width: 63%;
+  }
+  #conoce .txt2{
+    position: absolute;
+    top: 26.80%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 5;
+    width: 86.95%;
+    background-color: #FFF;
+    font-size: 3vw;
+    padding: 17.19% 15.33%;
+    color: #464646;
+    font-family:"toyota_textregular";
+  }
+  #conoce .pic{
+    position: absolute;
+    left: 6.52%;
+    top: 54.43%;
+    z-index: 5;
+    width: 87.19%;
+  }
+  #conoce .txt3{
+    position: absolute;
+    left: 50%;
+    top: 60.42%;
+    z-index: 5;
+    width: 34.26%;
+  }
+  #conoce .btn{
+    position: absolute;
+    left: 6.52%;
+    top: 94.27%;
+    z-index: 5;
+    width: 28.71%;
+    padding: 0;
+    margin: 0;
+  }
+  #conoce .txt4{
+    position: absolute;
+    left: 10.62%;
+    top: 50.44%;
+    z-index: 5;
+    width: 78.98%;
+  }
+  #conoce .txt5{
+    position: absolute;
+    left: 6.52%;
+    top: 82.05%;
+    z-index: 5;
+    width: 86.95%;
+  }
+ 
+  #centros .info .left{
+    background: url("../img/centros1_mobile.png") no-repeat center top;
+    background-size: cover;
+    padding: 40px 0;
+  }
+  #centros .info .txt {
+    position: relative;
+    margin: 0 auto;
+    width: 87.43%;
+    transform: none;
+    left: auto;
+    top: auto;
+  }
+  #centros .info .left h4{
+    font-size: 6vw;
+    font-family:"toyota_displaybold";
+    color: #FFF;
+  }
+  #centros .info .left p{
+    font-size: 4.5vw;
+    font-family:"toyota_textregular";
+    color: #FFF;
+    margin: 30px 0 40px 0;
+  }
+  #centros .info .left a{
+    display: block;
+    width: auto;
+    color: #FFF; 
+    font-family:"toyota_displaybold";
+    font-size: 5vw;
+    text-transform: uppercase;
+    background-color: #FFF;
+    color: #000000;
+    border-radius: 10px;
+    padding: 2.5% 5.8%;
+    float: left;
+  }
+  #centros .info .left a:hover{
+    text-decoration: none;
+    color: #FFF;
+    background-color: #000;
+  }
+
+  .col-xs-2, .col-sm-2{
+    width: 16.66%!important;
+  }
+  .col-xs-4, .col-sm-4{
+    width: 33.33%!important;
+  }
+  .col-xs-8, .col-sm-8{
+    width: 66.66%!important;
+  }
+  .interna .controls .left, .interna .controls .center, .interna .controls .right{
+    text-align: center;
+  }
+  .tit{
+    color: #FFF;
+    font-family:"toyota_textbold";
+    font-size: 12px;
+  }
+  .interna .top .controls {
+    padding: 0 0 0 0;
+    height: 90px;
+  }
+  .back {
+    display: block;
+    font-family: "toyota_textbold";
+    color: #FFF;
+    text-transform: uppercase;
+    line-height: 22px;
+    margin: 0 auto;
+    width: 22px;
+  }
+  .back span.img {
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    margin: 0;
+  }
+  .interna .right .elegir {
+    float: none;
+    margin: 0;
+    height: 100%;
+    position: relative;
+  }
+  .interna .right .elegir .sel{
+    max-width: 22px;
+    margin: 0 auto;
+  }
+  
+  #main .col-xs-10, #main .col-sm-10{
+    width: 83.33%!important;
+  }
+  #main  .interna .contenido .left {
+    background-color: #e52134;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  #main .interna .contenido .left h3 {
+    font-family: "toyota_displaybold";
+    font-size:20px;
+    color: #FFF;
+    margin: 0;
+  }
+  .block1 p {
+    font-family: "toyota_textregular";
+    font-size: 14px;
+    color: #FFF;
+    margin: 0;
+    padding: 0 20px 0 0;
+  }
+  .px-xs-0, .px-sm-0{
+    padding-left: 0!important;
+    padding-right: 0!important;
+  }
+  .mx-xs-0, .mx-sm-0{
+    margin-left: 0!important;
+    margin-right: 0!important;
+  }
+  #conoce .interna .img img{
+    max-width: 52px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  #conoce .interna .tabs{
+    background-color: #e52134;
+  }
+  #conoce .interna .tabs a{
+    color: #FFF;
+    text-decoration: none;
+    font-family: "toyota_displaybold";
+    font-size: 16px;
+    background: transparent;
+    display: inline-block;
+    padding: 0 14px;
+    line-height: 40px;
+  }
+  #conoce .interna .tabs a.active{
+    background-color: #000;
+    position: relative;
+  }
+  #conoce .interna .tabs a:first-child{
+    margin: 0 5% 0 0;
+  }
+  #conoce .interna .foto{
+    background-color: #e52134;
+  }
+  #conoce .interna .foto img{
+    width: 68%;
+    margin: 0 auto;
+  }
+  #conoce .interna .tabs a:after{
+    content: "";
+    position: absolute;
+    border-top: 10px solid transparent;
+    font-size: 0;
+    line-height: 0;
+    left: 50%;
+    top: 100%;
+    z-index: 10;
+    transform: translateX(-50%);
+    transition: all ease-in-out .1s;
+  }
+  #conoce .interna .tabs a.active:after{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #000;
+    font-size: 0;
+    line-height: 0;
+    left: 50%;
+    top: 100%;
+    z-index: 10;
+    transform: translateX(-50%);
+    transition: all ease-in-out .35s;
+  }
+  #main .interna .contenido .right {
+    transition: all ease-in-out .35s;
+    background-color: #d1d3d4;
+    padding: 0;
+    box-sizing: border-box;
+    display: none;
+  }
+
+  #main .interna .contenido .right p {
+    font-family: "toyota_textregular";
+    font-size: 14px;
+    color: #e52134;
+    margin: 0;
+    padding: 0 20px 0 0;
+  }
+  .gris{
+    background-color: #d1d3d4!important;
+  }
+  .rojo{
+    background-color: #e52134!important;
+  }
+  .block3 {
+    position: relative;
+    z-index: 1;
+    margin-top: -26.2%!important;
+    background: url(../img/bg-amortiguadores.png) no-repeat center top;
+    background-size: 100%;
+    border-bottom: solid .3rem #FFF;
+  }
+  .block2 .bottom-right{
+    display: none;
+  }
+  .interna .contenido .bottom-right{
+    background-color: transparent;
+  }
+  .hidden-mob{
+    display: none;
+  }
+  .block3 {
+    position: relative;
+    z-index: 1;
+    margin-top: -26.2%!important;
+    background: url("../img/bg-amortiguadores.png") no-repeat center top;
+    background-size: 100%;
+    border-bottom: solid .15rem #FFF;
+  }
+  .block3 .txt {
+    position: relative;
+    z-index: 5;
+    margin: 32% 0 0 0;
+  }
+  .block3 .txt h3 {
+    font-family: "toyota_displaybold";
+    font-size: 12px;
+    color: #FFF;
+    margin: 0;
+    padding: 0;
+  }
+  .block3 .txt p {
+    font-family: "toyota_textregular";
+    font-size: 9px;
+    color: #FFF;
+    margin: 7px 0 15px 0;
+    padding: 0;
+  }
+  .pastillas{
+    display: none;
+  }
+  .interna .amortiguadores {
+    display: none;
+  }
+  .pic-mob{
+    padding: 30px 0;
+  }
+  .busca-concesionario{
+    position: fixed;
+    top: calc( 50% + 56px );
+    transform: translateY(-50%);
+    right: -53px;
+    width: 53px;
+    height: 43px;
+    display: block;
+    z-index: 10;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.25);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.25);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.25);
+    -webkit-border-top-left-radius: 10px;
+    -webkit-border-bottom-left-radius: 10px;
+    -moz-border-radius-topleft: 10px;
+    -moz-border-radius-bottomleft: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: #ed1b2f;
+    overflow: hidden;
+  }
+  .busca-concesionario img{
+    width: 100%;
+    height: auto;
+    max-width: 29px;
+  }
+  .busca{
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #FFF;
+    font-family:"toyota_textbold";
+    font-size: 9px;
+    line-height: 43px;
+    width: 160px;
+    background: url("../img/btn-busca.png") no-repeat right 12px top 4px;
+    padding: 0 0 0 12px;
+    background-size: 29px;
+  }
+  .busca-concesionario:hover{
+    text-decoration: none;
+    color: #FFF;
+    width: 160px;
+    transition: all ease-in-out .35s;
+    right: 160px;
+  }
+  .busca-concesionario:hover a{
+    color: #FFF;
+    text-decoration: none;
+  }
+  .header .burger{
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .header .burger a{
+    display: block;
+  }
+  nav.mobile{
+    position: fixed;
+    width: 100%;
+    height: calc( 100% - 66px );
+    top: 66px;
+    background-color: #2e2e2d;
+    color: #FFF; 
+    font-family: "toyota_displaybold";
+    z-index: 100;
+    display: none;
+  }
+  nav.mobile ul{
+    position: relative;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  nav.mobile ul li{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
+  nav.mobile ul li a{
+    color: #c4c4c4;
+    font-size: 18px;
+    text-transform: uppercase;
+    line-height: 36px;
+  }
+  nav.mobile ul li a:hover{
+    color: #FFF;
+    text-decoration: none;
+  }
+}
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Hide visually and from screen readers
+ */
+
+.hidden {
+  display: none !important;
+}
+
+/*
+* Hide only visually, but have it available for screen readers:
+* https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+*
+* 1. For long content, line feeds are not interpreted as spaces and small width
+*    causes content to wrap 1 word per line:
+*    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
+*/
+
+.sr-only {
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  /* 1 */
+}
+
+/*
+* Extends the .sr-only class to allow the element
+* to be focusable when navigated to via the keyboard:
+* https://www.drupal.org/node/897638
+*/
+
+.sr-only.focusable:active,
+.sr-only.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  white-space: inherit;
+  width: auto;
+}
+
+/*
+* Hide visually and from screen readers, but maintain layout
+*/
+
+.invisible {
+  visibility: hidden;
+}
+
+/*
+* Clearfix: contain floats
+*
+* For modern browsers
+* 1. The space content is one way to avoid an Opera bug when the
+*    `contenteditable` attribute is included anywhere else in the document.
+*    Otherwise it causes space to appear at the top and bottom of elements
+*    that receive the `clearfix` class.
+* 2. The use of `table` rather than `block` is only necessary if using
+*    `:before` to contain the top-margins of child elements.
+*/
+
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+  /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+  (-webkit-min-device-pixel-ratio: 1.25),
+  (min-resolution: 1.25dppx),
+  (min-resolution: 120dpi) {
+  /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   https://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+@media print {
+  *,
+  *:before,
+  *:after {
+    background: transparent !important;
+    color: #000 !important;
+    /* Black prints faster */
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
+  abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+  /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+  a[href^="#"]:after,
+  a[href^="javascript:"]:after {
+    content: "";
+  }
+  pre {
+    white-space: pre-wrap !important;
+  }
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+  /*
+     * Printing Tables:
+     * https://web.archive.org/web/20180815150934/http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
+  thead {
+    display: table-header-group;
+  }
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+}
+

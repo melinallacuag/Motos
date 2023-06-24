@@ -1,0 +1,711 @@
+@font-face {
+  font-family: 'Toyota Display';
+  src: url("../fonts/toyota/display_regular/toyotadisplay_rg-webfont.eot");
+  src: url("../fonts/toyota/display_regular/toyotadisplay_rg-webfontd41d.eot?#iefix") format("embedded-opentype"), url("../fonts/toyota/display_regular/toyotadisplay_rg-webfont.html") format("woff2"), url("../fonts/toyota/display_regular/toyotadisplay_rg-webfont.woff") format("woff"), url("../fonts/toyota/display_regular/toyotadisplay_rg-webfont.ttf") format("truetype"), url("../fonts/toyota/display_regular/toyotadisplay_rg-webfont.svg#toyota_displayregular") format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Toyota Display';
+  src: url("../fonts/toyota/display_bold/toyotadisplay_bd-webfont.eot");
+  src: url("../fonts/toyota/display_bold/toyotadisplay_bd-webfontd41d.eot?#iefix") format("embedded-opentype"), url("../fonts/toyota/display_bold/toyotadisplay_bd-webfont.html") format("woff2"), url("../fonts/toyota/display_bold/toyotadisplay_bd-webfont.woff") format("woff"), url("../fonts/toyota/display_bold/toyotadisplay_bd-webfont.ttf") format("truetype"), url("../fonts/toyota/display_bold/toyotadisplay_bd-webfont.svg#toyota_displaybold") format("svg");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Toyota Display';
+  src: url("../fonts/toyota/display_heavy/toyotadisplay_he-webfont.eot");
+  src: url("../fonts/toyota/display_heavy/toyotadisplay_he-webfontd41d.eot?#iefix") format("embedded-opentype"), url("../fonts/toyota/display_heavy/toyotadisplay_he-webfont.html") format("woff2"), url("../fonts/toyota/display_heavy/toyotadisplay_he-webfont.woff") format("woff"), url("../fonts/toyota/display_heavy/toyotadisplay_he-webfont.ttf") format("truetype"), url("../fonts/toyota/display_heavy/toyotadisplay_he-webfont.svg#toyota_displayheavy") format("svg");
+  font-weight: 800;
+  font-style: normal;
+}
+/* line 6, ../scss/_main.scss */
+* {
+  outline: none !important;
+}
+
+.row-centrado-horizontal
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.titulo
+{
+  margin: 0;
+  margin-bottom: 35px;
+  font-size: 50px;
+  text-transform: uppercase;
+  font-family: 'Toyota Display';
+  font-style: italic;
+  letter-spacing: 0.5px;
+  font-weight: 400;
+  color: #4f4f4f;
+}
+
+.titulo span
+{
+  display: block;
+  font-family: Toyota Display;
+  color: #c91123;
+  font-weight: 800;
+}
+
+.titulo-2
+{
+  margin: 0;
+  margin-bottom: 75px;
+  text-align: center;
+  font-size: 28px;
+  text-transform: uppercase;
+}
+
+.titulo-2 span
+{
+  display: block;
+  font-family: toyotadisplay_rg;
+}
+
+.solo-desktop
+{
+  display: block;
+}
+
+.solo-mobile
+{
+  display: none;
+}
+
+.sin-padding-izquierda
+{
+  padding-left: 0;
+}
+
+.sin-padding-derecha
+{
+  padding-right: 0;
+}
+
+.container-especial
+{
+  width: 77%;
+}
+
+#banners{
+
+}
+
+#banners img{
+  width: 100%;
+  height: auto;
+}
+
+#menu-gris
+{
+  background-color: #dfdfdf;
+  padding-bottom: 25px;
+  padding-top: 25px;
+}
+
+#menu-gris.fixed
+{
+    position: fixed;
+    top: 4rem;
+    z-index: 1000;
+    width: 100%;
+}
+
+#menu-gris .container
+{
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+
+#menu-gris ul
+{
+  padding: 0;
+  list-style: none;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#menu-gris ul li
+{
+  padding: 0 10px;
+}
+
+#menu-gris ul li:last-child
+{
+  padding-right:0;
+}
+
+#menu-gris ul li a
+{
+  text-decoration: none;
+  color: #4f4f4f;
+  font-size: 0.7rem;
+}
+
+#menu-gris ul li a:hover
+{
+  color: #c91123;
+}
+
+#beneficios
+{
+  background-color: #fff;
+  padding-bottom: 100px;
+  padding-top: 100px;
+
+}
+
+#beneficios .row
+{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#beneficios .columna-lineas
+{
+  position: relative;
+}
+
+#beneficios .columna-lineas:before
+{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 33.33%;
+  height: 100%;
+  width: 1px;
+  background-color: #838383;
+}
+
+#beneficios .columna-lineas:after
+{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 66.66%;
+  height: 100%;
+  width: 1px;
+  background-color: #838383;
+}
+
+#beneficios .columna-bloque
+{
+  max-width: 33.33%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+#beneficios .columna-bloque img
+{
+  display: block;
+  width: 127px;
+  height: auto;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+#beneficios .columna-bloque p
+{
+  padding-right: 45px;
+  padding-left: 45px;
+}
+
+#beneficios .solo-desktop,
+#beneficios .solo-mobile
+{
+  margin-bottom: 75px;
+}
+
+#beneficios .titulo
+{
+  margin-bottom: 75px;
+}
+
+#beneficios .borde-bloque
+{
+  border: 1px solid #4f4f4f;
+  border-radius: 2px;
+  padding: 45px 100px ;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+#beneficios .borde-bloque img
+{
+  width: 10%;
+  display: block;
+}
+
+#beneficios .borde-bloque p
+{
+  width: 90%;
+  padding-left: 30px;
+}
+
+#beneficios .terminos
+{
+  font-size: 0.8rem;
+}
+
+#conocelo,#preguntas,#contactanos{
+  position: relative;
+}
+
+#conocelo .fondo-seccion,
+#preguntas .fondo-seccion,
+#contactanos .fondo-seccion{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-position: center;
+  object-fit: cover;
+}
+
+#conocelo
+{
+  padding-bottom: 100px;
+  padding-top: 100px;
+}
+
+#conocelo .titulo
+{
+  color: #fff;
+  margin-bottom: 75px;
+}
+
+#conocelo .titulo span
+{
+  color: #fff;
+  display: inline-block;
+}
+
+#conocelo p
+{
+  color: #fff;
+}
+
+#conocelo .columna-bloque-rojo
+{
+  display: flex;
+  flex-wrap: wrap;
+
+  align-items: center;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-bottom: 30px;
+}
+
+#conocelo .columna-bloque-rojo .bloque-img-rojo
+{
+  width: 8.33%;
+  padding-right: 30px;
+  position: relative;
+}
+
+#conocelo .columna-bloque-rojo .bloque-img-rojo:before
+{
+  height: 75%;
+  width: 1px;
+  background-color: #fff;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  content: "";
+  transform: translateY(-50%);
+}
+
+#conocelo .columna-bloque-rojo .bloque-img-rojo img
+{
+  display: block;
+  width: 100%;
+}
+
+#conocelo .columna-bloque-rojo p
+{
+  width: 83.33%;
+  padding-left: 30px;
+}
+
+#conocelo .borde-boque-rojo
+{
+  border: 1px solid #fff;
+  padding: 40px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+#conocelo .borde-boque-rojo:before
+{
+  content: "";
+  height: 100%;
+  width: 1px;
+  background-color: #fff;
+  position: absolute;
+  top: 0;
+  left: 73%;
+}
+
+#conocelo .collumna-texto-rojo
+{
+  padding: 0 75px ;
+  width: 73%;
+  font-size: 14px;
+}
+
+#conocelo .collumna-imagen-rojo
+{
+  padding: 0 75px ;
+  width: 27%;
+}
+
+#conocelo .collumna-imagen-rojo img
+{
+  width: 100%;
+  display: block;
+}
+
+#preguntas
+{
+  color: #fff;
+}
+
+#preguntas .preguntas-rojo
+{
+  margin-top: 80px;
+  background-color: #c52235;
+  padding: 81px 86px;
+}
+
+#preguntas .titulo
+{
+  color: #fff;
+  font-weight: 800;
+}
+
+#preguntas .titulo span
+{
+  font-weight: 400;
+  color: #fff;
+}
+
+#preguntas .bloque-numero
+{
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#preguntas .bloque-numero:last-child
+{
+  margin-bottom: 0;
+}
+
+#preguntas .bloque-numero .contador
+{
+  font-size: 70px;
+  width: 10%;
+  line-height: 1;
+}
+
+#preguntas .bloque-numero .descripcion-contador
+{
+  padding-left: 30px;
+  width: 90%;
+}
+
+#contactanos
+{
+}
+
+#contactanos .titulo
+{
+  text-align: center;
+  color: #4f4f4f;
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+#contactanos .titulo span
+{
+  color: #4f4f4f;
+  font-size: 55px;
+}
+
+#contactanos .pregunta-gris
+{
+  background-color: #ededed;
+  padding: 81px 90px;
+  margin-bottom: 217px;
+}
+
+#contactanos .boton-gris,
+#contactanos .boton-rojo
+{
+    display: block;
+    color: #fff;
+    font-size: 14px;
+    line-height: 1;
+    font-weight: 400;
+    padding: 10px 10px;
+    text-align: center;
+    border-radius: 20px;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    background-color: #4f4f4f;
+    width: 58.33%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+#contactanos .boton-rojo
+{
+  background-color: #e32c40;
+  margin-bottom: 0;
+}
+
+
+@media(max-width: 1199px)
+{
+  #contactanos .boton-gris, #contactanos .boton-rojo
+  {
+    width: 100%;
+  }
+  #conocelo .collumna-imagen-rojo {
+      padding: 0 60px;
+      width: 27%;
+  }
+}
+
+
+@media(max-width: 992px)
+{
+  .solo-desktop
+  {
+    display: none;
+  }
+
+  .solo-mobile
+  {
+    display: block;
+  }
+
+  #beneficios .bloque-beneficio
+  {
+    margin-bottom: 70px;
+  }
+
+  #beneficios .bloque-beneficio img
+  {
+    display: block;
+    width: 33.33%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+
+  #conocelo .bloque-beneficio-rojo
+  {
+    margin-bottom: 70px;
+  }
+
+  #conocelo .bloque-beneficio-rojo img
+  {
+    display: block;
+    width: 25%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+
+  #beneficios .solo-mobile
+  {
+    margin-bottom: 140px;
+    margin-top: 40px;
+  }
+
+  #conocelo .solo-mobile
+  {
+    margin-bottom: 70px;
+  }
+
+  #preguntas .preguntas-rojo,
+  #contactanos .pregunta-gris
+  {
+    padding: 40px;
+  }
+
+  #contactanos .boton-gris, #contactanos .boton-rojo
+  {
+    width: 100%;
+  }
+
+  #conocelo .collumna-imagen-rojo {
+    padding: 0 15px;
+    width: 27%;
+  }
+
+  #beneficios .borde-bloque
+  {
+    padding: 45px 45px;
+  }
+}
+
+
+@media(max-width: 767px)
+{
+ 
+  .container-especial
+  {
+    width: 87%;
+  }
+
+  .sin-padding-izquierda,
+  .sin-padding-derecha {
+    padding: 0;
+  }
+ 
+  .titulo
+  {
+    font-size: 26px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .titulo span
+  {
+    font-size: 26px;
+  }
+
+  #menu-gris
+  {
+    display: none;
+  }
+
+  #conocelo,
+  #beneficios
+  {
+    padding-bottom: 70px;
+    padding-top: 70px;
+  }
+
+  #beneficios .row
+  {
+    justify-content: center;
+  }
+
+  #beneficios .col-lg-12,
+  #conocelo .col-lg-12
+  {
+    width: 100%;
+  }
+
+  #beneficios .titulo{
+    margin-bottom: 30px;
+  }
+
+
+
+  #beneficios .borde-bloque
+  {
+    border:none;
+    border-bottom: 1px solid #4f4f4f;
+    padding: 40px 0;
+    margin-bottom: 70px;
+  }
+
+  #beneficios .borde-bloque p
+  {
+    width: 100%;
+    padding: 0;
+  }
+
+  #beneficios .borde-bloque img
+  {
+    width: 25%;
+    margin-bottom: 30px;
+  }
+
+  
+
+
+  #conocelo .borde-boque-rojo
+  {
+    padding: 30px 0px;
+  }
+
+  #conocelo .collumna-texto-rojo
+  {
+    width: 58.33%;
+    padding: 0 25px;
+  }
+
+  #conocelo .collumna-imagen-rojo
+  {
+    width: 41.66%;
+    padding: 0 15px;
+  }
+
+  #conocelo .borde-boque-rojo:before
+  {
+    left: 58.33%;
+  }
+
+
+
+  #preguntas .fondo-seccion, 
+  #contactanos .fondo-seccion
+  {
+    position: relative;
+    top: auto;
+    left: auto;
+  }
+
+  #preguntas .titulo
+  {
+    text-align: left;
+  }
+
+  #preguntas .preguntas-rojo
+  {
+    margin-top: 0;
+    padding: 70px 60px;
+  }
+
+  #contactanos .titulo
+  {
+    font-size: 26px;
+  }
+
+  #contactanos .titulo span
+  {
+    font-size: 52px;
+  }
+
+  #contactanos .pregunta-gris
+  {
+    margin-bottom: 0;
+    padding: 70px 30px;
+  }
+
+  #contactanos .boton-gris, #contactanos .boton-rojo
+  {
+    width: 66.66%;
+  }
+
+}

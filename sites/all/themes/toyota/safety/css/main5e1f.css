@@ -1,0 +1,1999 @@
+/*! HTML5 Boilerplate v7.0.1 | MIT License | https://html5boilerplate.com/ */
+
+/* main.css 1.0.0 | MIT License | https://github.com/h5bp/main.css#readme */
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+ 
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+@font-face{
+    font-family:"toyota_textregular";
+    src:url("../fonts/toyotatext_rg_0-webfont.html") format("woff2"),url("../fonts/toyotatext_rg_0-webfont.woff") format("woff");
+    font-weight:400;
+    font-style:normal
+}
+@font-face{
+    font-family:"toyota_textbold";
+    src:url("../fonts/toyotatext-webfont.html") format("woff2"),url("../fonts/toyotatext-webfont.woff") format("woff");
+    font-weight:400;
+    font-style:normal
+}
+@font-face{
+    font-family:"toyota_displaybold";
+    src:url("../fonts/toyotadisplay_bd-webfont.html") format("woff2"),url("../fonts/toyotadisplay_bd-webfont.woff") format("woff");
+    font-weight:400;
+    font-style:normal
+}
+@font-face {
+    font-family: 'ToyotaDisplay-Heavy';
+    src: url('../fonts/ToyotaDisplay-Heavyd41d.eot?#iefix') format('embedded-opentype'),  url('../fonts/ToyotaDisplay-Heavy.woff') format('woff'), url('../fonts/ToyotaDisplay-Heavy.ttf')  format('truetype'), url('../fonts/ToyotaDisplay-Heavy.svg#ToyotaDisplay-Heavy') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family:"toyota_displayregular";
+    src:url("../fonts/toyotadisplay_rg-webfont.html") format("woff2"),url("../fonts/toyotadisplay_rg-webfont.woff") format("woff");
+    font-weight:400;
+    font-style:normal
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+.safety{
+    font-size: 1rem;  
+}
+
+.safety h1, .safety h2, .safety h3, .safety h4, .safety h5, .safety h6 {
+    margin-top: 0;
+    margin-bottom: .5rem;
+}
+
+.safety .h1, .safety .h2, .safety .h3, .safety .h4, .safety .h5, .safety .h6, 
+.safety h1, .safety h2, .safety h3, .safety h4, .safety h5, .safety h6 {
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: initial;
+}
+
+.safety .btn {
+    display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+ /* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+.safety p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+
+
+.navbar-light .navbar-nav .nav-link{
+    text-transform: uppercase;
+    font-size: .7rem;
+    font-family: "toyota_displayregular";
+    font-weight: 500;
+    color: #666;
+    padding: 14px 13px;
+    text-decoration: none;
+    letter-spacing: 0;
+}
+.top-navbar{
+    border-bottom: 1px solid #9f9f9f;
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu{
+
+}
+.navbar-expand-lg .navbar-nav .compra-tu-toyota .dropdown-menu{
+    width: 16rem!important;
+}
+.navbar-expand-lg .navbar-nav .novedades .dropdown-menu{
+    width: 10rem!important;
+}
+.navbar-expand-lg .navbar-nav .quienes-somos .dropdown-menu{
+    width: 10rem!important;
+}
+.navbar-expand-lg .navbar-nav .contactanos .dropdown-menu{
+    width: 16rem!important;
+}
+.navbar-expand-lg .navbar-nav .innovacion .dropdown-menu{
+    width: 12rem!important;
+}
+
+.footer{
+    margin-top:45px;
+    padding-top:35px;
+    padding-bottom:36px;
+    border-top:1px solid #E5E5E5
+}
+
+
+#home{
+    position: relative;
+    z-index: 2;
+}
+#home .swiper-container {
+    width: 100%;
+    height: 524px;
+}
+#home .slide1{
+    background: url("../img/slide1.jpg") no-repeat center top;
+    background-size: cover;
+}
+#home .slide1 .title{
+    width: 535px;
+    position: absolute;
+    left: 43.58%;
+    top: 36.54%;
+}
+#home .slide1 .title img{
+    width: 100%;
+    height: auto;;
+}
+.slide1 .btn-line{
+    position: absolute;
+    left: 43.58%;
+    top: 51.72%;
+    width: 241px;
+    height: auto;
+    max-height: 41px;
+    display: none;
+}
+.slide1 .btn{
+    position: relative;
+    width: 64.85%;
+    height: auto;
+    left: 0;
+    top: 0;
+    background-color: #cf2f39;
+    padding: 0;
+    margin: 0;
+    font-family: "toyota_displayheavy";
+    color: #FFF;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: lighter;
+    line-height: 42px;
+    display: block;
+    text-shadow: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 0;
+}
+.slide1 .btn img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.slide1 .btn-line .line{
+    position: absolute;
+    width: 32.63%;
+    height: 7.31%;
+    top: 50%;
+    left: 67.36%;
+    transform: translateY(-50%)
+}
+.slide1 .btn-line .line img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.slide1 .btn:hover{
+    background-color: #000;
+}
+.slide1 .conoce-mas{
+    display: block;
+    position: absolute;
+    width: 239px;
+    left: 43.58%;
+    top: 51.72%;
+    padding: 0 0 0 0;
+    margin: 0;
+}
+.slide1 .conoce-mas img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.slide1 .aqui{
+    display: block;
+    position: absolute;
+    width: 32.21%;
+    left: 59.41%;
+    top: 24.19%;
+    background-color: #FFF;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+.slide1 .aqui a{
+    display: block;
+}
+.slide1 .aqui img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.slide1 .border-right{
+    margin: 7px 0 0 0;
+}
+.slide1 .aqui:hover{
+    text-decoration: none;
+    background-color: #000;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+.slide1 .aqui .svg{
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+.slide1 .aqui:hover .svg{
+    filter: invert(1);
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+.swiper-pagination-bullet{
+    background-color: #ffffff;
+    width: 19px;
+    height: 19px;
+    opacity: 1;
+}
+.swiper-pagination-bullet-active {
+    opacity: 1;
+    background: #cf2f39;
+    width: 19px;
+    height: 19px;
+    border: solid 4px #FFF;
+}
+.swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
+    bottom: 100px;
+    left: 0;
+    width: 100%;
+}
+.swiper-slide{
+    background-color: gray;
+}
+.arrow-down{
+    display: block;
+    width: 45px;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    bottom: 2.103%;
+    z-index: 7;
+    cursor: pointer;
+    opacity: 1;
+}
+.arrow-down:hover ~ .line-vert{
+    opacity: .5;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+.arrow-down:hover{
+    opacity: .5;
+}
+.arrow-down img{
+    width: 100%;
+    height: auto; 
+    display: block;  
+}
+.line-vert{
+    position: absolute;
+    width: 1px;
+    height: 10.3%;
+    left: 50%;
+    bottom: -6.1%;
+    transform: translateX(-50%);
+    z-index: 6;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+.base{
+    position: absolute;
+    bottom: 0;
+    width: 116px;
+    height: 67px;
+    left: 50%;
+    transform: translateX(-50%);
+    overflow: hidden;
+    z-index: 5;
+}
+.relative{
+    position: relative;
+}
+.base .circle{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 116px;
+    height: 116px;
+    border-radius: 50%;
+    background-color: #000;
+    opacity: .75;
+}
+#safetysense{
+    background: url("../img/bg-section-2.jpg") no-repeat center top;
+    background-size: cover;
+}
+#safetysense h2{
+    font-family:"toyota_displayregular";
+    font-size: 21px;
+    color: #FFF;
+}
+#safetysense h3{
+    font-family:"toyota_displayregular";
+    font-size: 77px;
+    color: #cf2f39;
+}
+section{
+    color: #FFF;
+}
+#safetysense p{
+    font-family:"toyota_displayregular";
+    color: #c1bfbf;
+    font-size: 15px;
+}
+.box{
+    color: #FFF;
+    border: solid 2px #FFF;
+    margin-top: 30px;
+    padding: 30px;
+}
+.box h2{
+    text-align: center;
+    font-family: 'ToyotaDisplay-Heavy'!important;
+    font-size: 15px;
+    font-weight: 700;
+    width: 100%;
+    text-transform: uppercase;
+}
+.box ul{
+    margin: 10px 0 0 0;
+    padding: 0;
+}
+.box ul li{
+    margin: 0;
+    padding: 0;
+    display: block;
+    font-family:"toyota_displayregular";
+    font-size: 15px;
+    color: #FFF!important;
+}
+#safetysense .right h2{
+    font-family:"toyota_displaybold";
+    font-size: 23px;
+    color: #FFF;
+}
+.parent{
+    display: table;
+    position: relative;
+    height: 100%;;
+    width: 100%;
+}
+.child{
+    width: 100%;
+    display: table-cell;
+    vertical-align: middle;
+}
+#safetysense ul{
+    margin: 10px 0;
+    padding: 0;
+}
+#safetysense ul li{
+    margin: 0;
+    padding: 0;
+    display: block;
+    font-family:"toyota_displayregular";
+    color: #c1bfbf;
+    font-size: 15px;
+}
+#safetysense .block{
+    border: solid 4px #fff200;
+    color: #c1bfbf;
+    text-transform: uppercase;
+    font-family:"toyota_displaybold";
+}
+#safetysense .last{
+    margin: 65px 0 0 0!important;
+    font-weight: 500;
+    font-family: 'ToyotaDisplay-Heavy';
+}
+#safetysense .container{
+    padding-bottom: 145px!important;
+}
+#safetysense .adv{
+    margin-top: 35px;
+}
+.main-nav{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 48px;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 20;
+}
+.main-nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    display: block;
+}
+.main-nav ul li{
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 13px;
+    line-height: 13px;
+}
+.main-nav a.home{
+    width: 100%;
+    top: -15px;
+    position: relative;
+}
+.main-nav a.home span{
+    display: block;
+    width: 10px;
+    height: 10px;
+    margin: 0 13px!important;
+    transition: all ease-in-out .5s;
+    background: none!important;
+}
+.main-nav a.home span img{
+    width: 100%;
+    height: auto;
+}
+.main-nav ul li a{
+    display: block;
+    width: 100%;
+    height: 13px;
+    line-height: 13px;
+    text-align: left;
+    float: left;
+}
+.main-nav ul li a span{
+    display: block;
+    width: 10px;
+    height: 1px;
+    background-color: #FFF;
+    margin: 6px 13px;
+    transition: all ease-in-out .5s;
+}
+.main-nav ul li a.active span{
+    width: 22px;
+    transition: all ease-in-out .7s;
+    background-color: #ed1a3b;
+}
+
+
+#system1{
+    background: url("../img/bg-section-3.jpg") no-repeat center top;
+    background-size: cover;
+    z-index: 10;
+}
+#system1 .container{
+    color: #000;
+    position: relative;
+    margin: -66px auto;
+    padding: 0;
+    max-width: 1110px!important;
+    top: -33px;
+}
+#system1 h2{
+    font-family: 'ToyotaDisplay-Heavy';
+    font-size: 42px;
+    font-weight: 700;
+    color: #cf2f39;
+}
+#system1 h3{
+    font-family:"toyota_displaybold";
+    font-size: 23px;
+    font-weight: 700;
+    color: #cf2f39;
+    margin: 25px 0 30px 0;
+}
+#system1 .content:first-child{
+    margin-top: 0;
+}
+#system1 .content{
+    background-color: #FFF;
+    padding: 80px;
+    font-family:"toyota_displaybold";
+    margin-top: 16px;
+}
+#system1 p{
+    font-family:"toyota_displayregular";
+    color: #424242;
+    line-height: 20px;
+}
+#system1 p strong{
+    font-family:"toyota_displaybold";
+}
+#system1 .title-video img{
+    display: block;
+}
+#system1 .title-video span{
+    display: block;
+    margin: 0;
+    padding: 0;
+    height: 23px;
+    line-height: 23px;
+    font-family:"toyota_displayregular";
+    font-size: 12px;
+    color: #FFF;
+    text-align: center;
+    width: 100%;
+    background-color: #000;
+    max-width: 342px;
+    text-transform: uppercase;
+}
+#system1 .video{
+    position: relative;
+}
+#system1 .video .bg{
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #000;
+    opacity: .4;
+    z-index: 2;
+}
+#system1 .video .play{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 5;
+    opacity: 1;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+#system1 .full{
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+    z-index: 3;
+    opacity: 0;
+    display: none;
+}
+#system1 .img{
+    max-width: 342px;
+    position: relative;
+    cursor: pointer;
+}
+#system1 .img:hover .full{
+    opacity: 1;
+}
+#system1 .video:hover .play{
+    opacity: .5;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+#system1 .share{
+    max-width: 342px;
+    width: 100%;
+    display: block;
+    position: relative;
+    height: 31px;
+    margin: 10px 0 0 0;
+}
+#system1 .share ul{
+    margin: 0;
+    padding: 0;
+    float: right;
+    list-style: none;
+}
+#system1 .share ul li{
+    margin: 0;
+    padding: 0 3px;
+    font-size: 10px;
+    line-height: 31px;
+    float: left;
+}
+#system1 .share ul li a{
+    display: block;
+}
+.ver-restricciones{
+    display: block;
+    background-color: #cf2f39;
+    color: #FFF;
+    text-decoration: none;
+    max-width: 210px;
+    font-family:"toyota_displaybold";
+    font-size: 15px;
+    line-height: 41px;
+    text-align: center;
+    -webkit-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.25);
+    -moz-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.25);
+    box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.25);
+    margin: 30px 0 0 0;
+}
+.ver-restricciones span{
+    display: inline-block;
+    width: 31px;
+    height: 31px;
+    border-radius: 50%;
+    border: solid 2px #FFF;
+    text-align: center;
+    font-family:"toyota_displaybold";
+    line-height: 24px;
+    margin-right: 5px;
+    top: -2px;
+    position: relative;
+}
+.ver-restricciones:hover{
+    color: #FFF;
+    text-decoration: none;
+    background-color: #000;
+}
+section#postventa{
+    background: url("../img/bgposventa.jpg") no-repeat center top;
+    background-size: cover;
+}
+section#postventa .content{
+    min-height: 521px;
+    width: 100%;
+    max-width: 818px;
+}
+section#postventa .content .left, section#postventa .content .right{
+    position: relative;
+    height: 100%;
+}
+section#postventa .content .btn{
+    background-color: #101010;
+    display: block;
+    max-width: 98px;
+    margin: 0;
+    padding: 0;
+    height: 28px;
+    border-radius: 0;
+}
+section#postventa .content .btn:hover{
+    background-color: #cf2f39;
+}
+.postventa{
+    background-color: #FFF;
+    padding: 47px 25px;
+    max-width: 256px;
+    border: solid 20px rgba(0, 0, 0, .2);
+    -webkit-background-clip: padding-box; /* for Safari */
+    background-clip: padding-box;
+    margin: 0 50px 0 0;
+    position: relative;
+    float: right;
+    text-align: left;
+}
+.postventa h4, .garantia h4{
+    text-transform: uppercase;
+    color: #2d2d2d;
+    font-family: "toyota_displaybold";
+    font-size: 20px;
+}
+.postventa h4:after, .garantia h4:after{
+    content: "";
+    clear: both;
+    display: block;
+    width: 33px;
+    height: 5px;
+    background-color: #cf2f39;
+    margin: 14px 0;
+}
+.diagonal{
+    position: absolute;
+    right: 21px;
+    top: 47px;
+}
+.garantia{
+    background-color: #FFF;
+    padding: 47px 25px;
+    max-width: 256px;
+    border: solid 20px rgba(0, 0, 0, .2);
+    -webkit-background-clip: padding-box; /* for Safari */
+    background-clip: padding-box;
+    margin: 0 0 0 50px;
+    position: relative;
+    text-align: left;
+}
+section#postventa .content p{
+    color: #101010;
+    font-family: "toyota_displayregular";
+    font-size: 12px;
+}
+section#postventa .content .info{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+}
+.popup{
+    width: 100%;
+    position: fixed;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    display: none;
+}
+.popup .bg{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    background-color: #000;
+    opacity: .75;
+}
+.popup .content{
+    position: relative;
+    width: 80%;
+    height: 500px;
+    margin: 0 auto;
+    z-index: 5;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.popup .content iframe{
+    width: 100%;
+    height: 100%;
+}
+.popup .close{
+    position: absolute;
+    right: -16px;
+    top: -16px;
+    width: 32px;
+    height: 32px;
+    opacity: 1;
+}
+.popup .close:hover{
+    opacity: .75;
+}
+.popup .close img{
+    width: 100%;
+    height: auto;
+}
+.safety  #devices{
+    background: url("../img/bg-devices.jpg") no-repeat center top;
+    background-size: cover;
+    color: #000;
+    padding-bottom: 235px;
+}
+.safety  #devices h2{
+    font-family: 'ToyotaDisplay-Heavy';
+    font-size: 36px;
+    color: #cf2f39;
+    margin: 80px 0 0 0;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+}
+.safety  #devices h3{
+    font-family: "toyota_displaybold";
+    font-size: 16px;
+    color: #424242;
+    margin: 10px 0 34px 0;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+}
+.safety  #devices .left{
+    color: #cf2f39;
+    font-family: "toyota_displaybold";
+    font-size: 16px;
+    text-transform: uppercase;
+    line-height: 19px;
+}
+.safety  #devices .left span{
+    display: block;
+    max-width: 142px;
+    float: right;
+    text-align: right;
+}
+.safety  #devices .right{
+    color: #424242;
+    font-family: "toyota_displayregular";
+    font-size: 12px;
+    text-transform: uppercase;
+    border-left: solid 1px #FFF;
+}
+
+.safety  #devices .right p, .safety  #devices .right li{
+    font-size: 12px;
+}
+
+.safety  #devices .right h4{
+    font-weight: 700;
+    color: #424242;
+    font-family: "toyota_displaybold";
+    font-size: 12px;
+    text-transform: uppercase;
+    margin: 0 0 4px 0;
+    padding: 0;
+}
+.safety  #devices .right ul{
+    list-style: none;
+    margin: 10px 0 0 0;
+    display: block;
+}
+.safety  #devices .right ul li{
+    position: relative;
+}
+.safety  #devices .right ul li:before{
+    content: "";
+    display: inline-block;
+    position: absolute;
+    left: -12px;
+    top: 8px;
+    width: 5px;
+    height: 1px;
+    background-color: #000;
+}
+
+.safety .row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.safety [class*="col-"], .safety .col{
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: none;
+}
+.safety .col{
+    flex-basis:0;
+    -webkit-box-flex:1;
+    flex-grow:1;
+    max-width:100%;
+    width: 100%;
+}
+
+.safety .col-3 {
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+
+.safety .col-5 {
+    -ms-flex: 0 0 41.666667%;
+    flex: 0 0 41.666667%;
+    max-width: 41.666667%;
+}
+
+.safety .col-7 {
+    -ms-flex: 0 0 58.333333%;
+    flex: 0 0 58.333333%;
+    max-width: 58.333333%;
+}
+
+.safety .col-9 {
+    -ms-flex: 0 0 75%;
+    flex: 0 0 75%;
+    max-width: 75%;
+}
+
+.safety .container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.safety .d-none {
+    display: none!important;
+}
+
+@media (min-width: 576px)
+{
+    .safety .container {
+        max-width: 540px;
+    } 
+
+    .safety .col-sm-12 {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    } 
+}
+
+@media (min-width: 768px)
+{
+    .safety .container {
+        max-width: 720px;
+    }
+
+    .safety .d-md-none {
+        display: none!important;
+    }
+    .safety .d-md-block {
+        display: block!important;
+    }
+
+    .safety .mb-md-4, .safety .my-md-4 {
+        margin-bottom: 1.5rem!important;
+    } 
+
+    .safety .mt-md-4, .safety .my-md-4 {
+        margin-top: 1.5rem!important;
+    }
+
+    .safety .pb-md-4, .safety .py-md-4 {
+        padding-bottom: 1.5rem!important;
+    }
+
+    .safety .col-md-1 {
+        -ms-flex: 0 0 8.333333%;
+        flex: 0 0 8.333333%;
+        max-width: 8.333333%;
+    }
+
+    .safety .col-md-6 {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    } 
+
+    .safety .col-md-5 {
+        -ms-flex: 0 0 41.666667%;
+        flex: 0 0 41.666667%;
+        max-width: 41.666667%;
+    }
+
+    .safety .col-md-7 {
+        -ms-flex: 0 0 58.333333%;
+        flex: 0 0 58.333333%;
+        max-width: 58.333333%;
+    }
+
+    .safety .col-md-11 {
+        -ms-flex: 0 0 91.666667%;
+        flex: 0 0 91.666667%;
+        max-width: 91.666667%;
+    }
+}
+
+@media (min-width: 992px)
+{
+    .safety .container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px)
+{
+    .safety .container {
+        max-width: 1140px;
+    }  
+}
+
+
+
+
+.safety .m-0 {
+    margin: 0!important;
+}
+
+.safety .p-0 {
+    padding: 0!important;
+}
+
+
+.safety .mr-auto, .safety .mx-auto {
+    margin-right: auto!important;
+}
+
+.safety .ml-auto, .safety .mx-auto {
+    margin-left: auto!important;
+}
+
+.relative {
+    position: relative;
+}
+
+
+.safety .pt-4, .safety .py-4 {
+    padding-top: 1.5rem!important;
+}
+
+.safety .p-4 {
+    padding: 1.5rem!important;
+}
+
+.safety .ml-0, .safety .mx-0 {
+    margin-left: 0!important;
+}
+
+.safety .mr-0, .safety .mx-0 {
+    margin-right: 0!important;
+}
+
+.safety .mb-2, .safety .my-2 {
+    margin-bottom: .5rem!important;
+}
+
+.safety .text-center {
+    text-align: center!important;
+}
+
+@media only screen and (max-width: 767px){
+    .header .logo{
+        margin: 0 0 0 0;
+    }
+    .top-header{
+        background-color: #5c5c5c;
+    }
+    .top-header p{
+        display: inline-block;
+        margin: 0 10px 0 0;
+        line-height: 40px;
+        padding: 0;
+    }
+    .top-header p a{
+        color: #FFF;
+        font-size: 12px;
+        letter-spacing: 0;
+    }
+    .top-header ul{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: inline-block;
+        line-height: 40px;
+    }
+    .top-header ul li{
+        margin: 0;
+        padding: 0;
+        display: inline-block;
+        width: 18px;
+    }
+    .top-header ul li.lexus{
+        width: 28px;
+        margin: 0;
+    }
+    .top-header ul li a{
+        display: block;
+        width: 100%;
+    }
+    .top-header ul li a img{
+        width: 100%;
+        height: auto;
+    }
+    .bloque_footer .linea-gratuita{
+        margin-top:0;
+        font-size:1rem
+    }
+    .bloque_footer .footer-links .container-social-media{
+        margin-top:2rem
+    }
+    .bloque_footer .footer-links ul.inline{
+        float:none;
+        display:inline-block
+    }
+    .bloque_footer .footer-links{
+        padding-bottom:2rem
+    }
+    .bloque_footer .footer-links .row-xs{
+        width:100%;
+        float:left
+    }
+    .bloque_footer .footer-bottom{
+        text-align:center
+    }
+    .bloque_footer .footer-bottom .icons{
+        text-align:center;
+        float:none!important;
+        margin-bottom:2rem
+    }
+    .bloque_footer .footer-bottom .terms li{
+        padding:0;
+        margin:0 .5rem
+    }
+    .bloque_footer .footer-bottom .terms li::after{
+        display:none
+    }
+    .top-header ul{
+        float: right;
+    }
+    .top-header li.left{
+        width: 17px!important;
+    }
+    .top-header li.central{
+        width: 33px!important;
+    }
+    .top-header li.right{
+        width: 22px!important;
+    }
+    .fa-pull-right, .pull-right {
+        float: none;
+    }
+    .navbar {
+        position: relative;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -ms-flex-align: center;
+        align-items: center;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        padding: .5rem 0;
+    }
+
+    #home .slide1 .title{
+        width: 36.875%;
+        position: absolute;
+        left: 43.58%;
+        top: 42.02%;
+        font-family: "toyota_displaybold";
+        font-size: 30px;
+        line-height: 30px;
+        text-transform: uppercase;
+    }
+    #home .slide1 .title img{
+        width: 100%;
+        height: auto;
+    }
+    .slide1 .btn-line{
+        display: none;
+    }
+    .slide1 .btn{
+        position: relative;
+        width: 64.85%;
+        height: auto;
+        left: 0;
+        top: 0;
+        background-color: #cf2f39;
+        padding: 0;
+        margin: 0;
+        font-family: "toyota_displayheavy";
+        color: #FFF;
+        font-size: 12px;
+        text-transform: uppercase;
+        font-weight: lighter;
+        line-height: 42px;
+        display: block;
+        text-shadow: none;
+        cursor: pointer;
+        border: none;
+        border-radius: 0;
+    }
+    .slide1 .btn img{
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    .slide1 .btn-line .line{
+        position: absolute;
+        width: 32.63%;
+        height: 7.31%;
+        top: 50%;
+        left: 67.36%;
+        transform: translateY(-50%)
+    }
+    .slide1 .btn-line .line img{
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+    .slide1 .btn:hover{
+        background-color: #000;
+    }
+    .slide1 .conoce-mas{
+        display: block;
+        position: absolute;
+        width: 59.375%;
+        left: 20.625%;
+        top: 66.87%;
+        padding: 0 0 0 0;
+        margin: 0;
+    }
+    .slide1 .conoce-mas img{
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    .slide1 .aqui{
+        display: block;
+        position: absolute;
+        width: 32.21%;
+        left: 59.41%;
+        top: 24.19%;
+        background-color: #FFF;
+        -webkit-transition: all .5s ease-in-out;
+        -moz-transition: all .5s ease-in-out;
+        -o-transition: all .5s ease-in-out;
+        transition: all .5s ease-in-out;
+    }
+    .slide1 .aqui a{
+        display: block;
+    }
+    .slide1 .aqui img{
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    
+    .slide1 .border-right{
+        margin: 7px 0 0 0;
+    }
+    .slide1 .aqui:hover{
+        text-decoration: none;
+        background-color: #000;
+        -webkit-transition: all .5s ease-in-out;
+        -moz-transition: all .5s ease-in-out;
+        -o-transition: all .5s ease-in-out;
+        transition: all .5s ease-in-out;
+    }
+    .slide1 .aqui .svg{
+        -webkit-transition: all .5s ease-in-out;
+        -moz-transition: all .5s ease-in-out;
+        -o-transition: all .5s ease-in-out;
+        transition: all .5s ease-in-out;
+    }
+    .slide1 .aqui:hover .svg{
+        filter: invert(1);
+        -webkit-transition: all .5s ease-in-out;
+        -moz-transition: all .5s ease-in-out;
+        -o-transition: all .5s ease-in-out;
+        transition: all .5s ease-in-out;
+    }
+    .swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
+        bottom: 80px;
+        left: 0;
+        width: 100%;
+    }
+    nav.main-nav{
+        display: none;
+    }
+    #safetysense .img img{
+        width: 100%;
+        height: auto;
+    }
+    #safetysense .txt h2 {
+        font-family: "toyota_displayregular";
+        font-size: 11px;
+        color: #FFF;
+    }
+    #safetysense .txt h3 {
+        font-family: "toyota_displayregular";
+        font-size: 21px;
+        color: #cf2f39;
+    }
+    #safetysense p {
+        font-family: "toyota_displayregular";
+        color: #c1bfbf;
+        font-size: 12px;
+    }
+    .box{
+        color: #FFF;
+        border: solid 2px #FFF;
+        margin-top: 20px;
+        padding: 20px;
+    }
+    .box h2{
+        font-family: "toyota_displayregular";
+        font-size: 12px!important;
+        color: #FFF;
+    }
+    #safetysense ul li {
+        margin: 0;
+        padding: 0;
+        display: block;
+        font-family: "toyota_displayregular";
+        color: #c1bfbf;
+        font-size: 12px;
+    }
+    #safetysense ul {
+        margin: 10px 0 0 0;
+        padding: 0;
+    }
+    #safetysense .right h2 {
+        font-family: "toyota_displaybold";
+        font-size: 16px;
+        color: #FFF;
+        margin: 30px 0 0 0!important;
+        padding: 0;
+    }
+    #safetysense p {
+        font-family: "toyota_displayregular";
+        color: #c1bfbf;
+        font-size: 12px;
+        margin: 5px 0;
+    }
+    #safetysense .last {
+        margin: 15px 0 0 0!important;
+        font-weight: 500;
+        font-family: 'ToyotaDisplay-Heavy';
+    }
+    #safetysense .block {
+        border: solid 4px #fff200;
+        color: #c1bfbf;
+        text-transform: uppercase;
+        font-family: "toyota_displaybold";
+        font-size: 12px;
+    }
+    #safetysense .block .txt{
+        margin-top: 20px;
+    }
+    #safetysense .container {
+        padding-bottom: 145px!important;
+    }
+    #system1 .container {
+        color: #000;
+        position: relative;
+        margin: -66px auto;
+        padding: 0;
+        max-width: 1110px!important;
+        top: -33px;
+    }
+    #system1 .content {
+        background-color: #FFF;
+        padding: 10px 10px 20px 10px;
+        font-family: "toyota_displaybold";
+        margin-top: 16px;
+    }
+    #system1 h2 {
+        font-family: 'ToyotaDisplay-Heavy';
+        font-size: 30px;
+        font-weight: 700;
+        color: #cf2f39;
+    }
+    #system1 h3 {
+        font-family: "toyota_displaybold";
+        font-size: 14px;
+        font-weight: 700;
+        color: #cf2f39;
+        margin: 10px 0 20px 0;
+    }
+    #system1 p {
+        font-family: "toyota_displayregular";
+        color: #424242;
+        line-height: 15px;
+        font-size: 11px;
+    }
+    #system1 .img{
+        width: 100%;
+        max-width: 100%;
+    }
+    #system1 .img video{
+        width: 100%;
+        height: auto;
+    }
+    #system1 .video .play img{
+        width: 100%;
+        height: auto;
+    }
+    #system1 .video img{
+        width: 100%;
+        height: auto;
+    }
+    #system1 .share ul {
+        position: absolute;
+        top: 2px;
+        right: 0;
+    }
+    #system1 .share ul li a {
+        display: block;
+        height: 24px;
+    }
+    #system1 .share ul li a img{
+        width: auto;
+        height: 100%;
+    }
+    #system1 .share ul li {
+        margin: 0;
+        padding: 0 1px;
+        font-size: 9px;
+        line-height: 24px;
+        float: left;
+    }
+    #system1 .container{
+        width: 90%;
+    }
+    #system1 .share {
+        max-width: 342px;
+        width: 100%;
+        display: block;
+        position: relative;
+        height: 24px;
+        margin: 0!important;
+    }
+    .ver-restricciones{
+        display: block;
+        background-color: #cf2f39;
+        color: #FFF;
+        text-decoration: none;
+        max-width: 90px;
+        font-family:"toyota_displaybold";
+        font-size: 9px;
+        line-height: 28px;
+        text-align: center;
+        -webkit-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.25);
+        -moz-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.25);
+        box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.25);
+        margin: 15px 0 0 0;
+    }
+    .ver-restricciones span{
+        border-radius: 50%;
+        border: solid 2px #FFF;
+        text-align: center;
+        font-family:"toyota_displaybold";
+        line-height: 19px!important;
+        margin-right: 5px;
+        top: auto;
+        position: relative;
+        max-width: 34px!important;
+        width: 24px!important;
+        height: 24px;
+        float: left;
+        margin: 2px 0 0 5px!important;
+        display: none!important;
+    }
+    .ver-restricciones:hover{
+        color: #FFF;
+        text-decoration: none;
+        background-color: #000;
+    }
+    .safety #devices h2 {
+        font-family: 'ToyotaDisplay-Heavy';
+        font-size: 22px;
+        color: #cf2f39;
+        margin: 60px 0 0 0;
+        width: 100%;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .safety #devices h3 {
+        font-family: "toyota_displaybold";
+        font-size: 12px;
+        color: #424242;
+        margin: 10px 0 34px 0;
+        width: 100%;
+        text-align: center;
+        text-transform: none;
+    }
+    .safety #devices{
+        background: url("../img/bg-devices-mobile.jpg") no-repeat center top;
+        background-size: cover;
+    }
+    .safety #devices .second .left {
+        color: #cf2f39;
+        font-family: "toyota_displaybold";
+        font-size: 16px;
+        text-transform: uppercase;
+        line-height: 19px;
+        padding-top: 20px;
+    }
+    .safety #devices .second .right{
+        padding-top: 20px;
+    }
+    section#postventa{
+        background: none;
+    }
+    section#postventa .content{
+        min-height: auto;
+        width: 100%;
+        max-width: 100%;
+    }
+    section#postventa .content .left{
+        background: url("../img/bgpostventa.jpg") no-repeat center top;
+        background-size: cover;
+        min-height: 430px;
+        display: table;
+    }
+    section#postventa .content .right{
+        background: url("../img/bggarantia.jpg") no-repeat center top;
+        background-size: cover;
+        min-height: 430px;
+        display: table;
+    }
+    section#postventa .content .container{
+        display: table-cell;
+        vertical-align: middle;
+    }
+    section#postventa .content .info{
+        position: relative;
+        top: auto;
+        transform: none;
+        width: 100%;
+    }
+    .postventa{
+        background-color: #FFF;
+        padding: 47px 25px;
+        max-width: 256px;
+        border: solid 20px rgba(0, 0, 0, .2);
+        -webkit-background-clip: padding-box; /* for Safari */
+        background-clip: padding-box;
+        margin: 120px auto 60px auto;
+        position: relative;
+        float: none;
+    }
+    .postventa h4, .garantia h4{
+        text-transform: uppercase;
+        color: #2d2d2d;
+        font-family: "toyota_displaybold";
+        font-size: 20px;
+    }
+    .postventa h4:after, .garantia h4:after{
+        content: "";
+        clear: both;
+        display: block;
+        width: 33px;
+        height: 5px;
+        background-color: #cf2f39;
+        margin: 14px 0;
+    }
+    section#postventa .content p{
+        text-align: left;
+    }
+    .diagonal{
+        position: absolute;
+        right: 21px;
+        top: 47px;
+    }
+    .garantia{
+        background-color: #FFF;
+        padding: 47px 25px;
+        max-width: 256px;
+        border: solid 20px rgba(0, 0, 0, .2);
+        -webkit-background-clip: padding-box; /* for Safari */
+        background-clip: padding-box;
+        margin: 120px auto 60px auto;
+        position: relative;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    /* #home .slide1 .title{
+        width: 44.58%;
+        position: absolute;
+        left: 43.58%;
+        top: 38.54%;
+    }
+    #home .slide1 .title img{
+        width: 100%;
+        height: auto;;
+    } 
+    .slide1 .btn-line{
+        position: absolute;
+        left: 43.58%;
+        top: 55.72%;
+        width: 20.08%;
+        height: auto;
+        max-height: 41px;
+    }*/
+    #home .slide1{
+        background: url("../img/slide1-mobile.jpg") no-repeat center top;
+        background-size: cover;
+    }
+    .slide1 .btn{
+        position: relative;
+        width: 64.85%;
+        height: auto;
+        left: 0;
+        top: 0;
+        background-color: #cf2f39;
+        padding: 0;
+        margin: 0;
+        font-family: "toyota_displayheavy";
+        color: #FFF;
+        font-size: 12px;
+        text-transform: uppercase;
+        font-weight: lighter;
+        line-height: 42px;
+        display: block;
+        text-shadow: none;
+        cursor: pointer;
+        border: none;
+        border-radius: 0;
+    }
+    .slide1 .btn img{
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    .slide1 .btn-line .line{
+        position: absolute;
+        width: 32.63%;
+        height: 7.31%;
+        top: 50%;
+        left: 67.36%;
+        transform: translateY(-50%)
+    }
+    .slide1 .btn-line .line img{
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+    .slide1 .btn:hover{
+        background-color: #000;
+    }
+    /* .slide1 .conoce-mas{
+        display: block;
+        position: absolute;
+        width: 19.91%;
+        left: 43.58%;
+        top: 67.17%;
+        padding: 0 0 0 0;
+        margin: 0;
+    }
+    .slide1 .conoce-mas img{
+        display: block;
+        width: 100%;
+        height: auto;
+    } */
+    .slide1 .aqui{
+        display: block;
+        position: absolute;
+        width: 32.21%;
+        left: 59.41%;
+        top: 24.19%;
+        background-color: #FFF;
+        -webkit-transition: all .5s ease-in-out;
+        -moz-transition: all .5s ease-in-out;
+        -o-transition: all .5s ease-in-out;
+        transition: all .5s ease-in-out;
+    }
+    .slide1 .aqui a{
+        display: block;
+    }
+    .slide1 .aqui img{
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    
+    .slide1 .border-right{
+        margin: 7px 0 0 0;
+    }
+    .slide1 .aqui:hover{
+        text-decoration: none;
+        background-color: #000;
+        -webkit-transition: all .5s ease-in-out;
+        -moz-transition: all .5s ease-in-out;
+        -o-transition: all .5s ease-in-out;
+        transition: all .5s ease-in-out;
+    }
+    .slide1 .aqui .svg{
+        -webkit-transition: all .5s ease-in-out;
+        -moz-transition: all .5s ease-in-out;
+        -o-transition: all .5s ease-in-out;
+        transition: all .5s ease-in-out;
+    }
+    .slide1 .aqui:hover .svg{
+        filter: invert(1);
+        -webkit-transition: all .5s ease-in-out;
+        -moz-transition: all .5s ease-in-out;
+        -o-transition: all .5s ease-in-out;
+        transition: all .5s ease-in-out;
+    }
+    #system1 .share {
+        max-width: 342px;
+        width: 100%;
+        display: block;
+        position: relative;
+        height: 24px;
+        margin: 10px 0 0 0!important;
+    }
+}
+
+ /* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Hide visually and from screen readers
+ */
+
+ .hidden {
+  display: none !important;
+}
+
+/*
+* Hide only visually, but have it available for screen readers:
+* https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+*
+* 1. For long content, line feeds are not interpreted as spaces and small width
+*    causes content to wrap 1 word per line:
+*    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
+*/
+
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  white-space: nowrap; /* 1 */
+}
+
+/*
+* Extends the .visuallyhidden class to allow the element
+* to be focusable when navigated to via the keyboard:
+* https://www.drupal.org/node/897638
+*/
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+  white-space: inherit;
+}
+
+/*
+* Hide visually and from screen readers, but maintain layout
+*/
+
+.invisible {
+  visibility: hidden;
+}
+
+/*
+* Clearfix: contain floats
+*
+* For modern browsers
+* 1. The space content is one way to avoid an Opera bug when the
+*    `contenteditable` attribute is included anywhere else in the document.
+*    Otherwise it causes space to appear at the top and bottom of elements
+*    that receive the `clearfix` class.
+* 2. The use of `table` rather than `block` is only necessary if using
+*    `:before` to contain the top-margins of child elements.
+*/
+
+.clearfix:before,
+.clearfix:after {
+  content: " "; /* 1 */
+  display: table; /* 2 */
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+ 
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+   @media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 1.25dppx),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+ 
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   https://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+   @media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster */
+        -webkit-box-shadow: none !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre {
+        white-space: pre-wrap !important;
+    }
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    /*
+     * Printing Tables:
+     * http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
+
+#toyota-safety-sense 
+{
+    position: relative;
+}
+
+#toyota-safety-sense img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-position: center;
+    object-fit: cover;
+}
+
+#toyota-safety-sense ul
+{
+    list-style: none;
+}
+
+#toyota-safety-sense li,
+#toyota-safety-sense p
+{
+    color: #fff;
+}
+
+#toyota-safety-sense li i
+{
+    margin-right: 0.5rem;
+    color: #cf2f39;
+}
+
+#toyota-safety-sense p
+{
+    text-align: justify;
+}
+
+#toyota-safety-sense p span
+{
+    color: #cf2f39;
+}
+
+#toyota-safety-sense h2
+{
+    margin-bottom: 2rem;
+}
+
+#toyota-safety-sense .cuadro-columna
+{
+    padding: 1rem;
+    color: #cf2f39;
+    border: 3px solid #cf2f39;
+    margin-bottom: 1rem;
+}
+
+@media (max-width: 767px)
+{
+    #toyota-safety-sense
+    {
+        padding-top: 40px !important;
+        padding-bottom: 40px !important,
+    }
+
+    #toyota-safety-sense ul
+    {
+        list-style: none;
+
+    }
+
+    #toyota-safety-sense .cuadro-columna
+    {
+        font-size: 0.8rem;
+    }
+
+    #toyota-safety-sense li, #toyota-safety-sense p {
+        font-size: 0.8rem;
+    }
+}

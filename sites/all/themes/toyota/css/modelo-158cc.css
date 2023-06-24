@@ -1,0 +1,7203 @@
+/* line 19, ../scss/modelo.scss */
+#detalle-modelo-renovado a,
+#detalle-modelo-renovado li, 
+#detalle-modelo-renovado p {
+  font-family: 'Toyota Display', sans-serif;
+  font-size: 13px;
+  letter-spacing: initial;
+}
+
+
+#detalle-modelo-renovado #conocelo p
+{
+  text-transform: uppercase;
+}
+
+#detalle-modelo-renovado p.mini-termino
+{
+  font-size: 10px;
+  line-height: 1;
+  margin-bottom: 0.5rem;
+}
+
+#detalle-modelo-renovado a{
+  text-decoration: none;
+}
+
+#detalle-modelo-renovado .bloque-caracteristicas
+{
+  background-color: transparent;;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+#detalle-modelo-renovado  #galeria
+{
+  padding-top: 20px;
+  padding-right: 15px;
+  padding-left: 15px;
+
+}
+
+#detalle-modelo-renovado .bloque-caracteristicas,
+#detalle-modelo-renovado .bloque-color
+{
+  background: transparent;;
+}
+
+.node-type-modelos-prueba .bloque-comparador .buttons button, .node-type-modelos-prueba .buttons button
+{
+  font-weight: 400;
+  padding: 8px 15px;
+  text-align: center;
+  border-radius: 20px;
+  line-height: 1em;
+}
+
+.btn-black {
+    display: inline-block;
+    background-color: #000;
+    border: none;
+    color: #fff;
+    font-size: 13px;
+    line-height: 1em;
+    font-weight: 400;
+    padding: 7px  20px;
+    text-align: center;
+    border-radius: 17px;
+    margin: 10px 24px;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+/*.btn-black:after {
+  content: '';
+  display: block;
+  width: 6px;
+  height: 11px;
+  background-image: url("../img/arrow-btn.png");
+  position: absolute;
+  right: 16px;
+  top: 50%;
+  margin-top: -5px;
+  z-index: 2;
+}*/
+
+/* line 33, ../scss/modelo.scss */
+.btn-black:hover {
+  color: #fff;
+  background-color: #e32c40;
+}
+
+
+/* line 39, ../scss/modelo.scss */
+.btn-m {
+  display: inline-block;
+  line-height: 1em;
+  font-size: 13px;
+  font-weight: 400;
+  padding: 10px 25px;
+  text-align: center;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+/* line 51, ../scss/modelo.scss */
+.btn-white {
+  background-color: #ffffff;
+  color: #494949;
+}
+/* line 55, ../scss/modelo.scss */
+.btn-white:hover {
+  color: #fff;
+  background-color: #bbbbbb;
+}
+
+/* line 61, ../scss/modelo.scss */
+.btn-grey {
+  color: #555555;
+  border: 1px solid #555555;
+  background-color: #fff;
+}
+/* line 66, ../scss/modelo.scss */
+.btn-grey:hover {
+  background-color: #bbbbbb;
+  border: 1px solid #bbbbbb;
+  color: #fff;
+}
+
+/* line 73, ../scss/modelo.scss */
+.btn-red {
+  display: inline-block;
+  color: #fff;
+  background-color: #e32c40;
+  border: none;
+  font-size: 13px;
+  line-height: 1em;
+  font-weight: 400;
+padding: 7px 29px 7px 29px;
+  text-align: center;
+  border-radius: 17px;
+  margin: 10px 24px;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+/* line 77, ../scss/modelo.scss */
+.btn-red:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+/* line 83, ../scss/modelo.scss */
+.d-desk {
+  display: none;
+}
+
+/* line 87, ../scss/modelo.scss */
+.d-mob {
+  display: block;
+}
+
+/* line 91, ../scss/modelo.scss */
+.t-center {
+  text-align: center;
+}
+
+/* line 95, ../scss/modelo.scss */
+.t-left {
+  text-align: left;
+}
+
+/* line 99, ../scss/modelo.scss */
+.t-right {
+  text-align: right;
+}
+
+/* line 103, ../scss/modelo.scss */
+.p-0 {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+}
+
+/* line 108, ../scss/modelo.scss */
+#home {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+  z-index: 5;
+}
+/* line 116, ../scss/modelo.scss */
+#home .container-video-header {
+  position: relative;
+  width: 100%;
+}
+/* line 120, ../scss/modelo.scss */
+#home .container-video-header:before {
+  content: '';
+  display: block;
+  padding-top: 45%;
+}
+/* line 126, ../scss/modelo.scss */
+#home .container-video-header .video-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: #000;
+}
+/* line 135, ../scss/modelo.scss */
+#home .container-video-header .video-bg .fullscreen-bg {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+}
+/* line 142, ../scss/modelo.scss */
+#home .container-video-header .video-bg .fullscreen-bg .fullscreen-bg__video {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+/* line 156, ../scss/modelo.scss */
+#home .container-info {
+  background-color: #f2f2f2;
+  color: #555555;
+  padding: 30px;
+  font-size: 13px;
+}
+/* line 162, ../scss/modelo.scss */
+#home .container-info .nombre-modelo {
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 1.2em;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+/* line 172, ../scss/modelo.scss */
+#home .container-info .precio {
+  padding: 5px 10px 10px;
+}
+
+#home .container-info .precio .mini-termino {
+  margin-top: 5px;
+}
+
+/* line 175, ../scss/modelo.scss */
+#home .container-info .precio p {
+  margin-bottom: 0;
+}
+/* line 181, ../scss/modelo.scss */
+#home .container-info .precio .dolares {
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 1.1em;
+}
+/* line 187, ../scss/modelo.scss */
+#home .container-info .precio .soles {
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 1.1em;
+}
+/* line 194, ../scss/modelo.scss */
+#home .container-info .mantenimiento {
+  border-top: 1px solid #acacac;
+  padding: 10px;
+  max-width: 300px;
+  margin: 0 auto;
+}
+/* line 200, ../scss/modelo.scss */
+#home .container-info .mantenimiento .valor {
+  font-size: 1.2em;
+  padding-left: 4px;
+}
+/* line 204, ../scss/modelo.scss */
+#home .container-info .mantenimiento .valor strong {
+  font-weight: 600;
+}
+/* line 210, ../scss/modelo.scss */
+#home .container-info .btn-m {
+  width: 100%;
+  max-width: 220px;
+  font-size: 14px;
+  margin: 0 0 10px 0;
+}
+/* line 217, ../scss/modelo.scss */
+#home .toyota-life {
+  /*position: absolute;
+  left: 10%;
+  top: -32px;
+  z-index: 2;*/
+}
+/* line 224, ../scss/modelo.scss */
+#home .box-auto {
+  width: 70%;
+  margin: 50px auto 0;
+  text-align: center;
+}
+/* line 230, ../scss/modelo.scss */
+#home .bottom-auto {
+  text-align: center;
+}
+/* line 233, ../scss/modelo.scss */
+#home .bottom-auto .modelo-nombre {
+  display: block;
+  font-size: 13px;
+  border-right: 1px solid #8d8d8d;
+  color: #8d8d8d;
+  padding-right: 15px;
+  display: inline-block;
+  text-align: right;
+  vertical-align: middle;
+  line-height: 1.3em;
+  margin-right: 10px;
+}
+/* line 245, ../scss/modelo.scss */
+#home .bottom-auto .modelo-nombre .version {
+  display: block;
+  font-size: 16px;
+}
+/* line 251, ../scss/modelo.scss */
+#home .bottom-auto .btn-m {
+  display: inline-block;
+  vertical-align: middle;
+  margin-bottom: 0;
+}
+/* line 258, ../scss/modelo.scss */
+#home .container-version-info {
+  width: 100%;
+  border: 2px solid #a9a9a9;
+  border-radius: 6px;
+  color: #555555;
+  max-width: 280px;
+  padding: 35px;
+  font-size: 13px;
+  margin: 30px auto;
+  text-align: left;
+}
+/* line 269, ../scss/modelo.scss */
+#home .container-version-info p {
+  margin-bottom: 0;
+}
+/* line 275, ../scss/modelo.scss */
+#home .container-version-info .dolares {
+  font-size: 34px;
+  font-weight: bold;
+  line-height: 1.3em;
+}
+/* line 281, ../scss/modelo.scss */
+#home .container-version-info .soles {
+  font-size: 34px;
+  font-weight: bold;
+  line-height: 1.3em;
+}
+/* line 287, ../scss/modelo.scss */
+#home .container-version-info .cuotas {
+  border-top: 2px solid #a9a9a9;
+  padding: 10px 0 0;
+  margin: 12px auto 0;
+  line-height: 1.2em;
+  font-size: 12px;
+}
+/* line 294, ../scss/modelo.scss */
+#home .container-version-info .cuotas p {
+  display: inline-block;
+  vertical-align: middle;
+}
+/* line 299, ../scss/modelo.scss */
+#home .container-version-info .cuotas .plazo {
+  text-align: right;
+  padding-right: 5px;
+}
+/* line 304, ../scss/modelo.scss */
+#home .container-version-info .cuotas .meses {
+  font-size: 30px;
+  font-weight: 600;
+
+}
+/* line 310, ../scss/modelo.scss */
+#home .container-version-info .cuotas .mas {
+  font-size: 14px;
+  font-weight: bold;
+
+}
+/* line 316, ../scss/modelo.scss */
+#home .container-version-info .cuotas .cuota {
+  font-size: 14px;
+}
+/* line 319, ../scss/modelo.scss */
+#home .container-version-info .cuotas .cuota strong {
+  font-weight: 600;
+}
+/* line 326, ../scss/modelo.scss */
+#home .container-financiamiento {
+  padding-bottom: 20px;
+}
+/* line 329, ../scss/modelo.scss */
+#home .container-financiamiento .btn-financiamiento {
+  width: 100%;
+  display: block;
+  max-width: 272px;
+  margin: 0 auto 10px;
+  border: 1px solid #e32c40;
+  color: #e32c40;
+  position: relative;
+}
+
+#home .container-financiamiento .btn-financiamiento:after {
+  content: '';
+  display: block;
+  width: 16px;
+  height: 18px;
+  background-image: url("../img/ico-calendario.png");
+  position: absolute;
+  right: 16px;
+  top: 50%;
+  margin-top: -9px;
+  z-index: 2;
+}
+  /*
+/* line 336, ../scss/modelo.scss */
+#home .container-financiamiento .btn-como,
+#home .container-financiamiento .maf {
+  display: inline-block;
+}
+
+#home .container-financiamiento .btn-como
+{
+  width: 100%;
+  display: block;
+  margin: 0 auto 10px;
+  max-width: 272px;
+}
+/* line 341, ../scss/modelo.scss */
+#home .container-financiamiento .toyota-life {
+  display: inline-block;
+}
+/* line 345, ../scss/modelo.scss */
+#home .container-financiamiento .maf {
+  padding-left: 10px;
+}
+/* line 350, ../scss/modelo.scss */
+#home .versiones {
+  border-top: 1px solid #ececec;
+  padding-top: 30px;
+  color: #8d8d8d;
+  padding-bottom: 30px;
+}
+/* line 356, ../scss/modelo.scss */
+#home .versiones .slide-versiones {
+  width: 90%;
+  margin: 0 auto;
+}
+/* line 365, ../scss/modelo.scss */
+#home .versiones .nombre {
+  font-weight: 600;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+/* line 370, ../scss/modelo.scss */
+#home .versiones .nombre .version {
+  font-weight: normal;
+}
+/* line 375, ../scss/modelo.scss */
+#home .versiones .linea {
+  padding: 0 5px;
+  display: inline-block;
+}
+/* line 380, ../scss/modelo.scss */
+#home .versiones .btn-m {
+  font-size: 12px;
+  padding: 6px 20px;
+}
+/* line 385, ../scss/modelo.scss */
+#home .versiones .slick-next,
+#home .versiones .slick-prev {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  font-size: 0;
+  top: 50%;
+  margin-top: -13px;
+  border: 0;
+  z-index: 10;
+  opacity: 0.7;
+  background-color: transparent;
+}
+/* line 399, ../scss/modelo.scss */
+#home .versiones .slick-prev {
+  left: -12.50px;
+  background-image: url("../img/prev.png");
+}
+/* line 404, ../scss/modelo.scss */
+#home .versiones .slick-next {
+  right: -12.50px;
+  background-image: url("../img/next.png");
+}
+
+.envoltura-inicio
+{
+  position: relative;
+}
+
+.envoltura-inicio .container
+{
+  position: relative;
+  left: auto;
+  right: auto;
+  bottom: auto;
+}
+
+@media screen and (min-width: 992px) {
+  /*  borrar esto alonso */
+  /* line 414, ../scss/modelo.scss */
+  #detalle-modelo-renovado {
+
+  }
+
+  /* line 418, ../scss/modelo.scss */
+  .d-desk {
+    display: block;
+  }
+
+  /* line 422, ../scss/modelo.scss */
+  .d-mob {
+    display: none;
+  }
+
+
+
+  .envoltura-inicio .container
+  {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+}
+@media screen and (min-width: 992px) {
+  /* line 432, ../scss/modelo.scss */
+  #home .container-video-header:before {
+    padding-top: 30%;
+  }
+  /* line 437, ../scss/modelo.scss */
+  #home .menu-modelo {
+    width: 100%;
+    border-bottom: 1px solid #ebebeb;
+    text-align: center;
+    position: relative;
+    z-index: 3;
+    margin: 0;
+  }
+  /* line 442, ../scss/modelo.scss */
+  #home .menu-modelo li {
+    display: inline-block;
+    padding: 0 15px;
+  }
+  /* line 446, ../scss/modelo.scss */
+  #home .menu-modelo li a {
+    padding: 22px 5px;
+    display: inline-block;
+    color: #000;
+    font-size: 12px;
+    font-weight: 400;
+    position: relative;
+  }
+  /* line 454, ../scss/modelo.scss */
+  #home .menu-modelo li a:after {
+    content: '';
+    display: block;
+    height: 0;
+    background-color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+  /* line 466, ../scss/modelo.scss */
+  #home .menu-modelo li a:hover:after {
+    height: 3px;
+    background-color: #e32c40;
+  }
+  /* line 477, ../scss/modelo.scss */
+  #home .container-info {
+    padding: 30px 30px;
+    font-size: 13px;
+    width: 270px;
+    border-radius: 8px;
+    text-align: left;
+/*    margin-top: -280px;
+*/    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+  }
+  /* line 489, ../scss/modelo.scss */
+  #home .container-info .nombre-modelo {
+    text-align: left;
+  }
+  /* line 493, ../scss/modelo.scss */
+  #home .container-info .btn-white {
+    display: none;
+  }
+  /* line 497, ../scss/modelo.scss */
+  #home .container-info .precio {
+    padding: 0 0 10px;
+  }
+
+
+
+  /* line 501, ../scss/modelo.scss */
+  #home .container-info .mantenimiento {
+    order: 4;
+    margin-top: 0;
+    padding: 0;
+    padding-top: 10px;
+  }
+  /* line 505, ../scss/modelo.scss */
+  #home .container-info .mantenimiento .valor strong {
+    display: block;
+  }
+  /* line 512, ../scss/modelo.scss */
+  #home .toyota-life {
+    display: none;
+  }
+  /* line 516, ../scss/modelo.scss */
+  #home .box-auto {
+    width: 100%;
+    margin: 50px auto 0;
+  }
+  /* line 521, ../scss/modelo.scss */
+  #home .container-version-info {
+    padding: 35px;
+    font-size: 12px;
+    margin: 30px 0;
+    width: 260px;
+  }
+  /* line 527, ../scss/modelo.scss */
+  #home .container-version-info .dolares {
+    font-size: 25px;
+  }
+  /* line 531, ../scss/modelo.scss */
+  #home .container-version-info .soles {
+    font-size: 25px;
+  }
+  /* line 535, ../scss/modelo.scss */
+  #home .container-version-info .cuotas {
+    padding: 10px 0 0;
+    margin: 12px auto 0;
+  }
+  /* line 540, ../scss/modelo.scss */
+  #home .container-version-info .cuotas .meses {
+    font-size: 27px;
+  }
+  /* line 544, ../scss/modelo.scss */
+  #home .container-version-info .cuotas .mas {
+    font-size: 30px;
+  }
+  /* line 548, ../scss/modelo.scss */
+  #home .container-version-info .cuotas .cuota {
+    font-size: 13px;
+  }
+  /* line 554, ../scss/modelo.scss */
+  #home .container-financiamiento {
+    margin: 0 0;
+    text-align: left;
+    position: relative;
+  }
+  /* line 559, ../scss/modelo.scss */
+  #home .container-financiamiento .btn-m {
+    font-size: 14px;
+  }
+  /* line 563, ../scss/modelo.scss */
+  #home .container-financiamiento .btn-financiamiento {
+    width: 260px;
+    margin: 0 0 10px;
+    border: 1px solid #e32c40;
+    color: #e32c40;
+    position: relative;
+    padding-right: 25px;
+  }
+  /* line 571, ../scss/modelo.scss */
+  #home .container-financiamiento .btn-financiamiento:after {
+    content: '';
+    display: block;
+    width: 16px;
+    height: 18px;
+    background-image: url("../img/ico-calendario.png");
+    position: absolute;
+    right: 16px;
+    top: 50%;
+    margin-top: -9px;
+    z-index: 2;
+  }
+  /* line 585, ../scss/modelo.scss */
+  #home .container-financiamiento .btn-financiamiento:hover {
+    border: 1px solid #bbbbbb;
+    color: #fff;
+  }
+
+
+  /* line 591, ../scss/modelo.scss */
+
+  /* line 596, ../scss/modelo.scss */
+  #home .container-financiamiento .btn-como,
+  #home .container-financiamiento .maf {
+    width: 260px;
+    margin: 0 0 10px;
+  }
+
+  #home .container-financiamiento .btn-como
+  {
+    display: block;
+  }
+  /* line 601, ../scss/modelo.scss */
+  #home .container-financiamiento .toyota-life {
+    display: block;
+    position: absolute;
+    left: 277px;
+    top: -8px;
+    width: 80px;
+  }
+  /* line 609, ../scss/modelo.scss */
+  #home .container-financiamiento .maf {
+    padding-left: 0;
+    position: absolute;
+    left: 268px;
+    top: 50px;
+    width: 100px;
+  }
+  /* line 618, ../scss/modelo.scss */
+  #home .versiones {
+    text-align: center;
+  }
+  /* line 621, ../scss/modelo.scss */
+  #home .versiones .descubre {
+    display: inline-block;
+    font-weight: 600;
+    text-align: left;
+    padding-top: 10px;
+    font-size: 14px;
+    color: #555555;
+  }
+  /* line 630, ../scss/modelo.scss */
+  #home .versiones .slide-versiones {
+    width: 90%;
+  }
+  /* line 633, ../scss/modelo.scss */
+  #home .versiones .slide-versiones .item-version {
+    border-right: 1px solid #bbbbbb;
+  }
+
+  /* line 640, ../scss/modelo.scss */
+  .btn-m {
+    display: inline-block;
+    line-height: 1em;
+    font-size: 13px;
+    font-weight: 400;
+    padding: 8px 15px;
+    text-align: center;
+    border-radius: 20px;
+  }
+
+  /* line 650, ../scss/modelo.scss */
+  .btn-black {
+    /*font-size: 14px;
+    padding: 10px 42px 10px 28px;*/
+  }
+
+  /* line 656, ../scss/modelo.scss */
+  .col-12 {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+/* line 12, ../scss/_variables.scss */
+.d-flex-midle {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center !important;
+}
+
+/* line 18, ../scss/_variables.scss */
+.flex {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 992px) {
+  /* line 24, ../scss/_variables.scss */
+  .order-md-1 {
+    order: 2;
+  }
+
+  /* line 28, ../scss/_variables.scss */
+  .order-md-2 {
+    order: 1;
+  }
+
+  /* line 32, ../scss/_variables.scss */
+  .order-md-3 {
+    order: 3;
+  }
+}
+@media screen and (min-width: 1200px) {
+  /* line 38, ../scss/_variables.scss */
+  .order-lg-1 {
+    order: 2;
+  }
+
+  /* line 42, ../scss/_variables.scss */
+  .order-lg-2 {
+    order: 1;
+  }
+
+  /* line 46, ../scss/_variables.scss */
+  .order-lg-3 {
+    order: 3;
+  }
+}
+/*# sourceMappingURL=bootstrap.min.css.map */
+@font-face {
+  font-family: 'Toyota Display';
+  src: url("../fonts/toyota/display_regular/toyotadisplay_rg-webfont.eot");
+  src: url("../fonts/toyota/display_regular/toyotadisplay_rg-webfontd41d.eot?#iefix") format("embedded-opentype"), url("../fonts/toyota/display_regular/toyotadisplay_rg-webfont.html") format("woff2"), url("../fonts/toyota/display_regular/toyotadisplay_rg-webfont.woff") format("woff"), url("../fonts/toyota/display_regular/toyotadisplay_rg-webfont.ttf") format("truetype"), url("../fonts/toyota/display_regular/toyotadisplay_rg-webfont.svg#toyota_displayregular") format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Toyota Display';
+  src: url("../fonts/toyota/display_bold/toyotadisplay_bd-webfont.eot");
+  src: url("../fonts/toyota/display_bold/toyotadisplay_bd-webfontd41d.eot?#iefix") format("embedded-opentype"), url("../fonts/toyota/display_bold/toyotadisplay_bd-webfont.html") format("woff2"), url("../fonts/toyota/display_bold/toyotadisplay_bd-webfont.woff") format("woff"), url("../fonts/toyota/display_bold/toyotadisplay_bd-webfont.ttf") format("truetype"), url("../fonts/toyota/display_bold/toyotadisplay_bd-webfont.svg#toyota_displaybold") format("svg");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Toyota Display';
+  src: url("../fonts/toyota/display_heavy/toyotadisplay_he-webfont.eot");
+  src: url("../fonts/toyota/display_heavy/toyotadisplay_he-webfontd41d.eot?#iefix") format("embedded-opentype"), url("../fonts/toyota/display_heavy/toyotadisplay_he-webfont.html") format("woff2"), url("../fonts/toyota/display_heavy/toyotadisplay_he-webfont.woff") format("woff"), url("../fonts/toyota/display_heavy/toyotadisplay_he-webfont.ttf") format("truetype"), url("../fonts/toyota/display_heavy/toyotadisplay_he-webfont.svg#toyota_displayheavy") format("svg");
+  font-weight: 800;
+  font-style: normal;
+}
+/* line 6, ../scss/_main.scss */
+* {
+  outline: none !important;
+}
+
+/* line 10, ../scss/_main.scss */
+html {
+  font-size: 62.5%;
+}
+
+/* line 14, ../scss/_main.scss */
+body,
+html {
+  height: 100%;
+}
+
+/* line 19, ../scss/_main.scss */
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  font-size: 15px;
+  image-rendering: optimize-contrast;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+}
+
+/* line 29, ../scss/_main.scss */
+input,
+textarea,
+select,
+button {
+  resize: none;
+}
+
+/* line 36, ../scss/_main.scss */
+a,
+a:link,
+a:visited,
+a:active,
+a:hover {
+  text-decoration: none;
+}
+
+/* line 44, ../scss/_main.scss */
+a[href],
+input[type='submit'],
+input[type='image'],
+label[for],
+select,
+button,
+.pointer {
+  cursor: pointer;
+}
+
+/* line 54, ../scss/_main.scss */
+body {
+  font-family: 'Toyota Display', sans-serif;
+  font-size: 1.2rem;
+  color: #2a2a2a;
+  background-color: #fff;
+  /*text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;*/
+}
+
+/* line 65, ../scss/_main.scss */
+#block {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(241, 241, 241, 0.6);
+  z-index: 999;
+}
+/* line 75, ../scss/_main.scss */
+#block .loader,
+#block .loader:after {
+  border-radius: 50%;
+  width: 10em;
+  height: 10em;
+}
+/* line 82, ../scss/_main.scss */
+#block .loader {
+  font-size: 1rem;
+  text-indent: -9999em;
+  border-top: 1.1em solid #717173;
+  border-right: 1.1em solid #717173;
+  border-bottom: 1.1em solid #717173;
+  border-left: 1.1em solid #FF142B;
+  animation: load8 1.1s infinite linear;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -5rem;
+  margin-left: -5rem;
+}
+@-webkit-keyframes load8 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes load8 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+/* line 124, ../scss/_main.scss */
+#wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  overflow-x: hidden;
+  position: relative;
+  position: relative;
+}
+/* line 132, ../scss/_main.scss */
+#wrapper #content {
+  flex: 1;
+}
+
+/* Slider */
+/* line 3, ../scss/_slick.scss */
+.slick-slider {
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -ms-touch-action: pan-y;
+  touch-action: pan-y;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* line 18, ../scss/_slick.scss */
+.slick-list {
+  max-height: 700px;
+  position: relative;
+  overflow: hidden;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+/* line 26, ../scss/_slick.scss */
+.slick-list:focus {
+  outline: none;
+}
+/* line 30, ../scss/_slick.scss */
+.slick-list.dragging {
+  cursor: pointer;
+  cursor: hand;
+}
+
+/* line 36, ../scss/_slick.scss */
+.slick-slider .slick-track,
+.slick-slider .slick-list {
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+/* line 45, ../scss/_slick.scss */
+.slick-track {
+  position: relative;
+  left: 0;
+  top: 0;
+  display: block;
+}
+/* line 51, ../scss/_slick.scss */
+.slick-track:before, .slick-track:after {
+  content: "";
+  display: table;
+}
+/* line 57, ../scss/_slick.scss */
+.slick-track:after {
+  clear: both;
+}
+/* line 61, ../scss/_slick.scss */
+.slick-loading .slick-track {
+  visibility: hidden;
+}
+
+/* line 66, ../scss/_slick.scss */
+.slick-slide {
+  float: left;
+  height: 100%;
+  min-height: 1px;
+  display: none;
+}
+/* line 71, ../scss/_slick.scss */
+[dir="rtl"] .slick-slide {
+  float: right;
+}
+/* line 75, ../scss/_slick.scss */
+.slick-slide img {
+  display: block;
+}
+/* line 79, ../scss/_slick.scss */
+.slick-slide.slick-loading img {
+  display: none;
+}
+/* line 85, ../scss/_slick.scss */
+.slick-slide.dragging img {
+  pointer-events: none;
+}
+/* line 89, ../scss/_slick.scss */
+.slick-initialized .slick-slide {
+  display: block;
+}
+/* line 93, ../scss/_slick.scss */
+.slick-loading .slick-slide {
+  visibility: hidden;
+}
+/* line 97, ../scss/_slick.scss */
+.slick-vertical .slick-slide {
+  display: block;
+  height: auto;
+  border: 1px solid transparent;
+}
+
+/* line 104, ../scss/_slick.scss */
+.slick-arrow.slick-hidden {
+  display: none;
+}
+
+/* line 108, ../scss/_slick.scss */
+.slick-dots {
+  width: 100%;
+  text-align: center;
+  padding: 15px 0 0;
+  position: relative;
+  z-index: 5;
+  width: 100%;
+}
+/* line 116, ../scss/_slick.scss */
+.slick-dots li {
+  padding: 4px;
+  display: inline-block;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+/* line 121, ../scss/_slick.scss */
+.slick-dots li.slick-active button, .slick-dots li:hover button {
+  border: 2px solid #fff;
+  width: 7px;
+  height: 7px;
+  background-color: #fff;
+}
+/* line 129, ../scss/_slick.scss */
+.slick-dots li button {
+  background-color: transparent;
+  display: inline-block;
+  border-radius: 10px;
+  border: 2px solid #fff;
+  width: 7px;
+  height: 7px;
+  border-radius: 15px;
+  font-size: 0;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  padding: 0;
+  display: block;
+}
+/* line 142, ../scss/_slick.scss */
+.slick-dots li button:before, .slick-dots li button:after {
+  display: block;
+}
+
+/* line 150, ../scss/_slick.scss */
+.slick-next,
+.slick-prev {
+  width: 17px;
+  height: 33px;
+  position: absolute;
+  font-size: 0;
+  top: 50%;
+  margin-top: -16px;
+  border: 0;
+  z-index: 10;
+  opacity: 0.7;
+  background-color: transparent;
+}
+/* line 163, ../scss/_slick.scss */
+.slick-next:before,
+.slick-prev:before {
+  content: '';
+  display: block;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  top: 0;
+  z-index: 2;
+  background-color: transparent;
+  background-position: center center;
+}
+/* line 178, ../scss/_slick.scss */
+.slick-next:hover,
+.slick-prev:hover {
+  opacity: 1;
+}
+
+/* line 183, ../scss/_slick.scss */
+.slick-next {
+  right: -5px;
+}
+
+/* line 192, ../scss/_slick.scss */
+.slick-prev {
+  left: -5px;
+}
+
+/*@media screen and (max-width: 560px) {
+    .slick-next {
+        right: 16px;
+    }
+
+    .slick-prev {
+        left: 16px;
+    }
+}*/
+@media screen and (min-width: 1200px) {
+  /* line 212, ../scss/_slick.scss */
+  .slick-dots {
+    position: absolute;
+  }
+
+  /* line 216, ../scss/_slick.scss */
+  .slick-next,
+  .slick-prev {
+    width: 16px;
+    height: 33px;
+  }
+
+  /* line 222, ../scss/_slick.scss */
+  .slick-next {
+    right: -30px;
+  }
+
+  /* line 226, ../scss/_slick.scss */
+  .slick-prev {
+    left: -30px;
+  }
+}
+/* Magnific Popup CSS */
+/* line 2, ../scss/_layer.scss */
+.mfp-bg {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1042;
+  overflow: hidden;
+  position: fixed;
+  background: #0b0b0b;
+  opacity: 0.8;
+}
+
+/* line 14, ../scss/_layer.scss */
+.mfp-wrap {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1043;
+  position: fixed;
+  outline: none !important;
+  -webkit-backface-visibility: hidden;
+}
+
+/* line 25, ../scss/_layer.scss */
+.mfp-container {
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  padding: 0 8px;
+  box-sizing: border-box;
+}
+
+/* line 36, ../scss/_layer.scss */
+.mfp-container:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+/* line 43, ../scss/_layer.scss */
+.mfp-align-top .mfp-container:before {
+  display: none;
+}
+
+/* line 47, ../scss/_layer.scss */
+.mfp-content {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 auto;
+  text-align: left;
+  z-index: 1045;
+}
+
+/* line 56, ../scss/_layer.scss */
+.mfp-inline-holder .mfp-content,
+.mfp-ajax-holder .mfp-content {
+  width: 100%;
+  cursor: auto;
+}
+
+/* line 62, ../scss/_layer.scss */
+.mfp-ajax-cur {
+  cursor: progress;
+}
+
+/* line 66, ../scss/_layer.scss */
+.mfp-zoom-out-cur,
+.mfp-zoom-out-cur .mfp-image-holder .mfp-close {
+  cursor: -moz-zoom-out;
+  cursor: -webkit-zoom-out;
+  cursor: zoom-out;
+}
+
+/* line 73, ../scss/_layer.scss */
+.mfp-zoom {
+  cursor: pointer;
+  cursor: -webkit-zoom-in;
+  cursor: -moz-zoom-in;
+  cursor: zoom-in;
+}
+
+/* line 80, ../scss/_layer.scss */
+.mfp-auto-cursor .mfp-content {
+  cursor: auto;
+}
+
+/* line 84, ../scss/_layer.scss */
+.mfp-close,
+.mfp-arrow,
+.mfp-preloader,
+.mfp-counter {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+/* line 93, ../scss/_layer.scss */
+.mfp-loading.mfp-figure {
+  display: none;
+}
+
+/* line 97, ../scss/_layer.scss */
+.mfp-hide {
+  display: none !important;
+}
+
+/* line 101, ../scss/_layer.scss */
+.mfp-preloader {
+  color: #CCC;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  text-align: center;
+  margin-top: -0.8em;
+  left: 8px;
+  right: 8px;
+  z-index: 1044;
+}
+
+/* line 113, ../scss/_layer.scss */
+.mfp-preloader a {
+  color: #CCC;
+}
+
+/* line 117, ../scss/_layer.scss */
+.mfp-preloader a:hover {
+  color: #FFF;
+}
+
+/* line 121, ../scss/_layer.scss */
+.mfp-s-ready .mfp-preloader {
+  display: none;
+}
+
+/* line 125, ../scss/_layer.scss */
+.mfp-s-error .mfp-content {
+  display: none;
+}
+
+/* line 129, ../scss/_layer.scss */
+button.mfp-close,
+button.mfp-arrow {
+  overflow: visible;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  -webkit-appearance: none;
+  display: block;
+  outline: none;
+  padding: 0;
+  z-index: 1046;
+  box-shadow: none;
+  touch-action: manipulation;
+}
+
+/* line 144, ../scss/_layer.scss */
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+/* line 149, ../scss/_layer.scss */
+.mfp-close {
+  width: 44px;
+  height: 44px;
+  line-height: 44px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  text-decoration: none;
+  text-align: center;
+  opacity: 0.65;
+  padding: 0 0 18px 10px;
+  color: #FFF;
+  font-style: normal;
+  font-size: 28px;
+  font-family: Arial, Baskerville, monospace;
+}
+
+/* line 166, ../scss/_layer.scss */
+.mfp-close:hover,
+.mfp-close:focus {
+  opacity: 1;
+}
+
+/* line 171, ../scss/_layer.scss */
+.mfp-close:active {
+  top: 1px;
+}
+
+/* line 175, ../scss/_layer.scss */
+.mfp-close-btn-in .mfp-close {
+  color: #333;
+}
+
+/* line 179, ../scss/_layer.scss */
+.mfp-image-holder .mfp-close,
+.mfp-iframe-holder .mfp-close {
+  color: #FFF;
+  right: -6px;
+  text-align: right;
+  padding-right: 6px;
+  width: 100%;
+}
+
+/* line 188, ../scss/_layer.scss */
+.mfp-counter {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: #CCC;
+  font-size: 12px;
+  line-height: 18px;
+  white-space: nowrap;
+}
+
+/* line 198, ../scss/_layer.scss */
+.mfp-arrow {
+  position: absolute;
+  opacity: 0.65;
+  margin: 0;
+  top: 50%;
+  margin-top: -55px;
+  padding: 0;
+  width: 90px;
+  height: 110px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* line 210, ../scss/_layer.scss */
+.mfp-arrow:active {
+  margin-top: -54px;
+}
+
+/* line 214, ../scss/_layer.scss */
+.mfp-arrow:hover,
+.mfp-arrow:focus {
+  opacity: 1;
+}
+
+/* line 219, ../scss/_layer.scss */
+.mfp-arrow:before,
+.mfp-arrow:after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin-top: 35px;
+  margin-left: 35px;
+  border: medium inset transparent;
+}
+
+/* line 233, ../scss/_layer.scss */
+.mfp-arrow:after {
+  border-top-width: 13px;
+  border-bottom-width: 13px;
+  top: 8px;
+}
+
+/* line 239, ../scss/_layer.scss */
+.mfp-arrow:before {
+  border-top-width: 21px;
+  border-bottom-width: 21px;
+  opacity: 0.7;
+}
+
+/* line 245, ../scss/_layer.scss */
+.mfp-arrow-left {
+  left: 0;
+}
+
+/* line 249, ../scss/_layer.scss */
+.mfp-arrow-left:after {
+  border-right: 17px solid #FFF;
+  margin-left: 31px;
+}
+
+/* line 254, ../scss/_layer.scss */
+.mfp-arrow-left:before {
+  margin-left: 25px;
+  border-right: 27px solid #3F3F3F;
+}
+
+/* line 259, ../scss/_layer.scss */
+.mfp-arrow-right {
+  right: 0;
+}
+
+/* line 263, ../scss/_layer.scss */
+.mfp-arrow-right:after {
+  border-left: 17px solid #FFF;
+  margin-left: 39px;
+}
+
+/* line 268, ../scss/_layer.scss */
+.mfp-arrow-right:before {
+  border-left: 27px solid #3F3F3F;
+}
+
+/* line 272, ../scss/_layer.scss */
+.mfp-iframe-holder {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+/* line 277, ../scss/_layer.scss */
+.mfp-iframe-holder .mfp-content {
+  line-height: 0;
+  width: 100%;
+  max-width: 900px;
+}
+
+/* line 283, ../scss/_layer.scss */
+.mfp-iframe-holder .mfp-close {
+  top: -40px;
+}
+
+/* line 287, ../scss/_layer.scss */
+.mfp-iframe-scaler {
+  width: 100%;
+  height: 0;
+  overflow: hidden;
+  padding-top: 56.25%;
+}
+
+/* line 294, ../scss/_layer.scss */
+.mfp-iframe-scaler iframe {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+  background: #000;
+}
+
+/* Main image in popup */
+/* line 306, ../scss/_layer.scss */
+img.mfp-img {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  line-height: 0;
+  box-sizing: border-box;
+  padding: 40px 0 40px;
+  margin: 0 auto;
+}
+
+/* The shadow behind the image */
+/* line 318, ../scss/_layer.scss */
+.mfp-figure {
+  line-height: 0;
+}
+
+/* line 322, ../scss/_layer.scss */
+.mfp-figure:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 40px;
+  bottom: 40px;
+  display: block;
+  right: 0;
+  width: auto;
+  height: auto;
+  z-index: -1;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+  background: #444;
+}
+
+/* line 337, ../scss/_layer.scss */
+.mfp-figure small {
+  color: #BDBDBD;
+  display: block;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+/* line 344, ../scss/_layer.scss */
+.mfp-figure figure {
+  margin: 0;
+}
+
+/* line 348, ../scss/_layer.scss */
+.mfp-bottom-bar {
+  margin-top: -36px;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  cursor: auto;
+}
+
+/* line 357, ../scss/_layer.scss */
+.mfp-title {
+  text-align: left;
+  line-height: 18px;
+  color: #F3F3F3;
+  word-wrap: break-word;
+  padding-right: 36px;
+}
+
+/* line 365, ../scss/_layer.scss */
+.mfp-image-holder .mfp-content {
+  max-width: 100%;
+}
+
+/* line 369, ../scss/_layer.scss */
+.mfp-gallery .mfp-image-holder .mfp-figure {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 800px) and (orientation: landscape), screen and (max-height: 300px) {
+  /**
+       * Remove all paddings around the image on small screen
+       */
+  /* line 379, ../scss/_layer.scss */
+  .mfp-img-mobile .mfp-image-holder {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  /* line 384, ../scss/_layer.scss */
+  .mfp-img-mobile img.mfp-img {
+    padding: 0;
+  }
+
+  /* line 388, ../scss/_layer.scss */
+  .mfp-img-mobile .mfp-figure:after {
+    top: 0;
+    bottom: 0;
+  }
+
+  /* line 393, ../scss/_layer.scss */
+  .mfp-img-mobile .mfp-figure small {
+    display: inline;
+    margin-left: 5px;
+  }
+
+  /* line 398, ../scss/_layer.scss */
+  .mfp-img-mobile .mfp-bottom-bar {
+    background: rgba(0, 0, 0, 0.6);
+    bottom: 0;
+    margin: 0;
+    top: auto;
+    padding: 3px 5px;
+    position: fixed;
+    box-sizing: border-box;
+  }
+
+  /* line 408, ../scss/_layer.scss */
+  .mfp-img-mobile .mfp-bottom-bar:empty {
+    padding: 0;
+  }
+
+  /* line 412, ../scss/_layer.scss */
+  .mfp-img-mobile .mfp-counter {
+    right: 5px;
+    top: 3px;
+  }
+
+  /* line 417, ../scss/_layer.scss */
+  .mfp-img-mobile .mfp-close {
+    top: 0;
+    right: 0;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    background: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    text-align: center;
+    padding: 0;
+  }
+}
+@media all and (max-width: 900px) {
+  /* line 431, ../scss/_layer.scss */
+  .mfp-arrow {
+    -webkit-transform: scale(0.75);
+    transform: scale(0.75);
+  }
+
+  /* line 436, ../scss/_layer.scss */
+  .mfp-arrow-left {
+    -webkit-transform-origin: 0;
+    transform-origin: 0;
+  }
+
+  /* line 441, ../scss/_layer.scss */
+  .mfp-arrow-right {
+    -webkit-transform-origin: 100%;
+    transform-origin: 100%;
+  }
+
+  /* line 446, ../scss/_layer.scss */
+  .mfp-container {
+    padding-left: 6px;
+    padding-right: 6px;
+  }
+}
+/* line 1, ../scss/_conocelo.scss */
+.fixed {
+  position: fixed;
+  top: 66px;
+  z-index: 1000;
+  width: 100%;
+}
+
+/* line 10, ../scss/_conocelo.scss */
+#conocelo .item-conocelo .imagen {
+  position: relative;
+  background-size: cover;
+  background-position: center center;
+}
+/* line 15, ../scss/_conocelo.scss */
+#conocelo .item-conocelo .imagen:after {
+  content: '';
+  position: relative;
+  display: block;
+  width: 100%;
+  padding-top: 40%;
+}
+
+#conocelo .item-conocelo .imagen.video-conocelo {
+   background: initial;
+}
+
+#conocelo .item-conocelo .imagen.video-conocelo video {
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+/* line 24, ../scss/_conocelo.scss */
+#conocelo .item-conocelo .content-texto {
+  font-size: 13px;
+  padding: 6% 12%;
+}
+/* line 29, ../scss/_conocelo.scss */
+#conocelo .item-conocelo .content-texto h2 {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  text-align: left;
+  text-transform: uppercase;
+}
+/* line 40, ../scss/_conocelo.scss */
+#conocelo .item-conocelo:nth-of-type(odd) .content-texto {
+  background-color: #fff;
+  color: #2a2a2a;
+}
+/* line 48, ../scss/_conocelo.scss */
+#conocelo .item-conocelo:nth-of-type(even) .content-texto {
+  background-color: #2a2a2a;
+  color: #fff;
+}
+
+.caracteristicas-dk
+{
+  display: none;
+}
+
+.caracteristicas-mb
+{
+  display: block;
+}
+
+@media screen and (min-width: 992px) {
+  /* line 58, ../scss/_conocelo.scss */
+  #menu-fixed {
+    border-bottom: 1px solid #ebebeb;
+    border-top: 1px solid #ebebeb;
+    text-align: center;
+    width: 100%;
+    background: #fff;
+    height: auto;
+  }
+  /* line 65, ../scss/_conocelo.scss */
+  #menu-fixed .filters {
+    margin-bottom: 0;
+    padding: 0;
+    height: auto;
+    top: auto;
+  }
+  /* line 69, ../scss/_conocelo.scss */
+  #menu-fixed .filters li {
+    display: inline-block;
+    padding: 22px 12px;
+    display: inline-block;
+    color: #000;
+    font-size: 12px;
+    font-weight: 400;
+    position: relative;
+    cursor: pointer;
+    background: none;
+    height: auto;
+    line-height: initial;
+  }
+  /* line 79, ../scss/_conocelo.scss */
+  #menu-fixed .filters li a {
+    color: inherit;
+  }
+  /* line 83, ../scss/_conocelo.scss */
+  #menu-fixed .filters li:after {
+    content: '';
+    display: block;
+    height: 0;
+    background-color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+  /* line 96, ../scss/_conocelo.scss */
+  #menu-fixed .filters li:hover:after, #menu-fixed .filters li.active:after {
+    height: 3px;
+    background-color: #e32c40;
+  }
+
+  /* line 106, ../scss/_conocelo.scss */
+  #conocelo {
+    padding-top: 0px;
+    position: relative;
+  }
+  /* line 110, ../scss/_conocelo.scss */
+  #conocelo .item-conocelo {
+    font-size: 0;
+    position: relative;
+  }
+  /* line 114, ../scss/_conocelo.scss */
+  #conocelo .item-conocelo .imagen {
+    background-size: cover;
+    background-position: bottom center;
+    width: 58%;
+    top: 0;
+    display: inline-block;
+    position: absolute;
+    height: 100%;
+  }
+
+  #conocelo .item-conocelo .imagen.video-conocelo {
+   background: initial;
+    
+  }
+
+  #conocelo .item-conocelo .imagen.video-conocelo video {
+    object-fit: cover;
+    object-position: center;
+    position: relative;
+    left: auto;
+    top: auto;
+  }
+  /* line 123, ../scss/_conocelo.scss */
+  #conocelo .item-conocelo .imagen:after {
+    display: none;
+  }
+  /* line 128, ../scss/_conocelo.scss */
+  #conocelo .item-conocelo .content-texto {
+    font-size: 14px;
+    padding: 2% 4%;
+    width: 42%;
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 256px;
+  }
+  /* line 138, ../scss/_conocelo.scss */
+  #conocelo .item-conocelo .content-texto h2 {
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: auto;
+  }
+  /* line 147, ../scss/_conocelo.scss */
+  #conocelo .item-conocelo:nth-of-type(1) .content-texto {
+    background-color: #e32c40 !important;
+  }
+  /* line 150, ../scss/_conocelo.scss */
+  #conocelo .item-conocelo:nth-of-type(1) .content-texto h2 {
+    color: #e32c40;
+    font-size: 28px;
+  }
+  /* line 156, ../scss/_conocelo.scss */
+  #conocelo .item-conocelo:nth-of-type(1) .box {
+    background-color: #fff;
+    transform: translate(-142px, 0);
+    width: 348px;
+    padding: 20px 40px;
+  }
+  /* line 166, ../scss/_conocelo.scss */
+  #conocelo .item-conocelo:nth-of-type(even) .imagen{
+    left: 42%;
+  }
+  /* line 177, ../scss/_conocelo.scss */
+  #conocelo .item-conocelo:nth-of-type(odd) .content-texto{
+    margin-left: 58%;
+  }
+}
+/* line 1, ../scss/_caracteristicas.scss */
+
+
+.tab-caracteristicas {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+  width: 100%;
+  border-bottom: 1px solid #ebebeb;
+  border-top: 1px solid #ebebeb;
+  background-color: #f0f0f0;
+  padding: 0 30px;
+}
+/* line 11, ../scss/_caracteristicas.scss */
+.tab-caracteristicas .slick-list {
+  width: 99%;
+}
+/* line 15, ../scss/_caracteristicas.scss */
+.tab-caracteristicas li {
+  display: inline-block;
+  padding: 0 5px;
+  text-align: center;
+  position: relative;
+}
+/* line 21, ../scss/_caracteristicas.scss */
+.tab-caracteristicas li:after {
+  content: '';
+  display: block;
+  border: 1px solid #2a2a2a;
+  position: absolute;
+  right: 0;
+  height: 60%;
+  top: 20%;
+}
+/* line 32, ../scss/_caracteristicas.scss */
+.tab-caracteristicas li .t-carac {
+  padding: 10px 5px;
+  display: inline-block;
+  color: #000;
+  font-size: 12px;
+  font-weight: 600;
+  position: relative;
+  cursor: pointer;
+}
+/* line 42, ../scss/_caracteristicas.scss */
+.tab-caracteristicas li .t-carac:hover:after {
+  height: 3px;
+  background-color: #e32c40;
+}
+/* line 51, ../scss/_caracteristicas.scss */
+.tab-caracteristicas .slick-next,
+.tab-caracteristicas .slick-prev {
+  width: 21px;
+  height: 22px;
+  position: absolute;
+  font-size: 0;
+  top: 50%;
+  margin-top: -11px;
+  border: 0;
+  z-index: 10;
+  opacity: 1;
+  background-color: transparent;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-color: #f0f0f0;
+}
+/* line 68, ../scss/_caracteristicas.scss */
+.tab-caracteristicas .slick-prev {
+  left: 15px;
+  background-image: url("../img/arrow-prev.png");
+}
+/* line 73, ../scss/_caracteristicas.scss */
+.tab-caracteristicas .slick-next {
+  right: 15px;
+  background-image: url("../img/arrow-next.png");
+}
+
+/* line 79, ../scss/_caracteristicas.scss */
+.content-caracteristicas {
+  display: none;
+}
+/* line 82, ../scss/_caracteristicas.scss */
+.content-caracteristicas.open {
+  display: block;
+}
+/* line 86, ../scss/_caracteristicas.scss */
+.content-caracteristicas ul,
+.content-caracteristicas li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+/* line 93, ../scss/_caracteristicas.scss */
+.content-caracteristicas .item-c {
+  width: 100%;
+  text-align: center;
+  margin: 0 auto 5px;
+  display: block;
+}
+/* line 101, ../scss/_caracteristicas.scss */
+.content-caracteristicas .item-c .nombre {
+  background-color: #3a3a3a;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10px;
+  margin-bottom: 0;
+  cursor: pointer;
+}
+/* line 111, ../scss/_caracteristicas.scss */
+.content-caracteristicas .item-c .box {
+  background-color: #9c9c9c;
+  color: #fff;
+  font-size: 14px;
+  display: none;
+}
+/* line 117, ../scss/_caracteristicas.scss */
+.content-caracteristicas .item-c .box img {
+  width: 100%;
+}
+/* line 121, ../scss/_caracteristicas.scss */
+.content-caracteristicas .item-c .box .nombre {
+  display: none;
+  font-weight: 600;
+}
+/* line 126, ../scss/_caracteristicas.scss */
+.content-caracteristicas .item-c .box .descripcion {
+  padding: 4% 8%;
+  margin-bottom: 0;
+}
+/* line 132, ../scss/_caracteristicas.scss */
+.content-caracteristicas .item-c .btn-white {
+  color: #9c9c9c;
+  padding: 6px 20px;
+  font-size: 14px;
+  margin-top: 5px;
+}
+/* line 138, ../scss/_caracteristicas.scss */
+.content-caracteristicas .item-c .btn-white:hover {
+  color: #fff;
+}
+
+@media screen and (min-width: 992px) {
+  /* line 151, ../scss/_caracteristicas.scss */
+  .caracteristicas-dk
+  {
+    display: block;
+  }
+
+  .caracteristicas-mb
+  {
+    display: none;
+  }
+  
+  .tab-caracteristicas {
+    list-style: none;
+    padding: 0 10%;
+    text-align: center;
+    width: 100%;
+    border-bottom: 1px solid #ebebeb;
+    border-top: 1px solid #ebebeb;
+    background-color: transparent;
+    text-align: center;
+  }
+  /* line 161, ../scss/_caracteristicas.scss */
+  .tab-caracteristicas li {
+    display: inline-block !important;
+    padding: 0 15px;
+    width: auto !important;
+    float: none;
+  }
+  /* line 167, ../scss/_caracteristicas.scss */
+  .tab-caracteristicas li:after {
+    display: none;
+  }
+  /* line 171, ../scss/_caracteristicas.scss */
+  .tab-caracteristicas li .t-carac {
+    padding: 22px 5px;
+    display: inline-block;
+    color: #000;
+    font-size: 12px;
+    font-weight: 400;
+    position: relative;
+    cursor: pointer;
+  }
+  /* line 180, ../scss/_caracteristicas.scss */
+  .tab-caracteristicas li .t-carac:after {
+    content: '';
+    display: block;
+    height: 0;
+    background-color: #fff;
+    position: absolute;
+    bottom: 0;
+    right: auto;
+    top: auto;
+    left: 0;
+    width: 100%;
+    border: 0;
+  }
+  /* line 195, ../scss/_caracteristicas.scss */
+  .tab-caracteristicas li .t-carac:hover:after {
+    height: 3px;
+    background-color: #e32c40;
+  }
+
+  /* line 205, ../scss/_caracteristicas.scss */
+  .content-caracteristicas {
+    font-size: 0;
+  }
+  /* line 208, ../scss/_caracteristicas.scss */
+  .content-caracteristicas .item-c {
+    width: 25%;
+    text-align: center;
+    overflow: hidden;
+    display: inline-block;
+    cursor: pointer;
+  }
+  /* line 216, ../scss/_caracteristicas.scss */
+  .content-caracteristicas .item-c h4.nombre {
+    display: none;
+  }
+  /* line 220, ../scss/_caracteristicas.scss */
+  .content-caracteristicas .item-c .box {
+    display: block !important;
+    background-color: transparent;
+    font-size: 12px;
+    position: relative;
+  }
+  /* line 226, ../scss/_caracteristicas.scss */
+  .content-caracteristicas .item-c .box .hover {
+    background-color: #e32c40;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+  }
+  /* line 240, ../scss/_caracteristicas.scss */
+  .content-caracteristicas .item-c .box .nombre {
+    display: block;
+    background-color: transparent;
+  }
+  /* line 245, ../scss/_caracteristicas.scss */
+  .content-caracteristicas .item-c .box .descripcion {
+    padding: 0 6% 4%;
+  }
+  /* line 250, ../scss/_caracteristicas.scss */
+  .content-caracteristicas .item-c .btn-white {
+    color: #e32c40;
+  }
+  /* line 253, ../scss/_caracteristicas.scss */
+  .content-caracteristicas .item-c .btn-white:hover {
+    background-color: #000;
+    color: #fff;
+  }
+  /* line 260, ../scss/_caracteristicas.scss */
+  .content-caracteristicas .item-c:hover .box .hover {
+    top: 0;
+  }
+}
+/* line 1, ../scss/_galeria.scss */
+.tab-galeria {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+  width: 100%;
+  border-bottom: 1px solid #ebebeb;
+  border-top: 1px solid #ebebeb;
+  background-color: #f0f0f0;
+  padding: 0 30px;
+  overflow: hidden;
+}
+/* line 12, ../scss/_galeria.scss */
+.tab-galeria li {
+  display: inline-block;
+  padding: 0 5px;
+  text-align: center;
+  position: relative;
+}
+/* line 18, ../scss/_galeria.scss */
+.tab-galeria li:after {
+  content: '';
+  display: block;
+  border: 1px solid #2a2a2a;
+  position: absolute;
+  right: 0;
+  height: 60%;
+  top: 20%;
+}
+/* line 29, ../scss/_galeria.scss */
+.tab-galeria li .t-gal {
+  padding: 10px 5px;
+  display: inline-block;
+  color: #000;
+  font-size: 12px;
+  font-weight: 600;
+  position: relative;
+  cursor: pointer;
+}
+/* line 39, ../scss/_galeria.scss */
+.tab-galeria li .t-gal:hover:after {
+  height: 3px;
+  background-color: #e32c40;
+}
+
+/* line 49, ../scss/_galeria.scss */
+.content-galeria {
+  margin-bottom: 10px;
+  display: block;
+}
+/* line 53, ../scss/_galeria.scss */
+.content-galeria ul,
+.content-galeria li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.content-galeria ul
+{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+/* line 60, ../scss/_galeria.scss */
+.content-galeria .t-360,
+.content-galeria .t-nombre {
+  background-color: #3a3a3a;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10px;
+  margin-bottom: 0;
+  cursor: pointer;
+  text-align: center;
+  line-height: 1em;
+}
+/* line 73, ../scss/_galeria.scss */
+.content-galeria .galeria-lista {
+  display: none;
+  background-color: #9c9c9c;
+  padding-bottom: 75%;
+  position: relative;
+  width: 100%;
+}
+
+.content-galeria .galeria-lista .slider-gal{
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 100%;
+}
+
+.content-galeria .galeria-lista .slider-gal .slick-track, 
+.content-galeria .galeria-lista .slider-gal .slick-list
+{
+  height: 100%;
+  width: 100%;
+}
+
+/* line 78, ../scss/_galeria.scss */
+.content-galeria .galeria-lista .slider-gal .item-g {
+
+}
+/* line 84, ../scss/_galeria.scss */
+.content-galeria .galeria-lista .slider-gal .item-g:first-child {
+  visibility: visible;
+  overflow: hidden;
+  height: auto;
+}
+
+.content-galeria .galeria-lista .slider-gal .item-g a{
+  width: 100%;
+  padding-bottom: 75%;
+  display: block;
+  position: relative;
+}
+
+.content-galeria .galeria-lista .slider-gal .item-g a img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* line 91, ../scss/_galeria.scss */
+.content-galeria .galeria-lista .slider-gal.slick-initialized .item-g {
+  visibility: visible !important;
+  height: auto !important;
+}
+/* line 97, ../scss/_galeria.scss */
+.content-galeria .item-g {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+/* line 102, ../scss/_galeria.scss */
+.content-galeria .item-g a:before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  opacity: 0;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  background-image: url("../img/flechas.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+/* line 118, ../scss/_galeria.scss */
+.content-galeria .item-g a {
+  display: block;
+}
+/* line 122, ../scss/_galeria.scss */
+.content-galeria .item-g img {
+  max-width: none;
+  width: 100%;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+/* line 129, ../scss/_galeria.scss */
+.content-galeria .item-g:hover a:before {
+  opacity: 1;
+}
+/* line 133, ../scss/_galeria.scss */
+.content-galeria .item-g:hover img {
+  transform: scale(1.1);
+  background: rgba(0, 0, 0, 0.5);
+}
+/* line 143, ../scss/_galeria.scss */
+.content-galeria#g-videos .item-g {
+  position: relative;
+  overflow: hidden;
+}
+/* line 147, ../scss/_galeria.scss */
+.content-galeria#g-videos .item-g a:before {
+  background-image: url("../img/play.png");
+  background-size: 45px;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+/* line 154, ../scss/_galeria.scss */
+.content-galeria#g-videos .item-g:hover a:before {
+  background-size: 57px;
+}
+/* line 162, ../scss/_galeria.scss */
+.content-galeria .slick-dots {
+  padding: 0px 10px 5px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+/* line 169, ../scss/_galeria.scss */
+.content-galeria .slick-dots li {
+  padding: 4px;
+  display: inline-block;
+}
+
+/* line 177, ../scss/_galeria.scss */
+#galeria {
+  padding-bottom: 15px;
+
+}
+
+@media screen and (max-width: 992px) {
+  /* line 184, ../scss/_galeria.scss */
+  .content-galeria {
+    display: block !important;
+  }
+}
+@media screen and (min-width: 992px) {
+  /* line 191, ../scss/_galeria.scss */
+  .tab-galeria {
+    list-style: none;
+    padding: 0 10%;
+    text-align: center;
+    width: 100%;
+    border-bottom: 1px solid #ebebeb;
+    border-top: 1px solid #ebebeb;
+    background-color: transparent;
+    text-align: center;
+  }
+  /* line 201, ../scss/_galeria.scss */
+  .tab-galeria li {
+    display: inline-block !important;
+    padding: 0 15px;
+    width: auto !important;
+    float: none;
+  }
+  /* line 207, ../scss/_galeria.scss */
+  .tab-galeria li:after {
+    display: none;
+  }
+  /* line 211, ../scss/_galeria.scss */
+  .tab-galeria li .t-gal {
+    padding: 22px 5px;
+    display: inline-block;
+    color: #000;
+    font-size: 12px;
+    font-weight: 400;
+    position: relative;
+    cursor: pointer;
+  }
+  /* line 220, ../scss/_galeria.scss */
+  .tab-galeria li .t-gal:after {
+    content: '';
+    display: block;
+    height: 0;
+    background-color: #fff;
+    position: absolute;
+    bottom: 0;
+    right: auto;
+    top: auto;
+    left: 0;
+    width: 100%;
+    border: 0;
+  }
+  /* line 235, ../scss/_galeria.scss */
+  .tab-galeria li .t-gal:hover:after {
+    height: 3px;
+    background-color: #e32c40;
+  }
+
+  /* line 245, ../scss/_galeria.scss */
+  .content-galeria {
+    font-size: 0;
+    display: none;
+  }
+  /* line 249, ../scss/_galeria.scss */
+  .content-galeria.open {
+    display: block;
+  }
+  /* line 253, ../scss/_galeria.scss */
+  .content-galeria .galeria-lista {
+    display: block !important;
+    background-color: transparent;
+    padding-bottom: 0;
+  }
+
+  .content-galeria .galeria-lista .slider-gal
+  {
+    position: relative;
+  }
+  /* line 258, ../scss/_galeria.scss */
+  .content-galeria .galeria-lista .slider-gal .item-g {
+    visibility: visible;
+    height: auto;
+    overflow: hidden;
+  }
+  /* line 264, ../scss/_galeria.scss */
+  .content-galeria .galeria-lista .slider-gal .item-g:first-child {
+    visibility: visible;
+    height: auto;
+  }
+  /* line 270, ../scss/_galeria.scss */
+  .content-galeria .galeria-lista .slider-gal.slick-initialized .item-g {
+    visibility: visible !important;
+  }
+  /* line 276, ../scss/_galeria.scss */
+  .content-galeria .item-g {
+    width: 25%;
+    text-align: center;
+    overflow: hidden;
+    display: inline-block;
+    cursor: pointer;
+    border: 5px solid #fff;
+  }
+  /* line 284, ../scss/_galeria.scss */
+  .content-galeria .item-g a:before {
+    opacity: 0;
+  }
+  /* line 290, ../scss/_galeria.scss */
+  .content-galeria .slick-track[style] {
+    width: 100% !important;
+    transform: none !important;
+  }
+  /* line 295, ../scss/_galeria.scss */
+  .content-galeria .slick-slide[style] {
+    display: block !important;
+    width: 25% !important;
+  }
+}
+@-webkit-keyframes ui-spinner-rotate-right {
+  /* line 58, ../../scss/_ui-spinner.scss */
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  /* line 59, ../../scss/_ui-spinner.scss */
+  25% {
+    -webkit-transform: rotate(180deg);
+  }
+  /* line 60, ../../scss/_ui-spinner.scss */
+  50% {
+    -webkit-transform: rotate(180deg);
+  }
+  /* line 61, ../../scss/_ui-spinner.scss */
+  75% {
+    -webkit-transform: rotate(360deg);
+  }
+  /* line 62, ../../scss/_ui-spinner.scss */
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes ui-spinner-rotate-left {
+  /* line 66, ../../scss/_ui-spinner.scss */
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  /* line 67, ../../scss/_ui-spinner.scss */
+  25% {
+    -webkit-transform: rotate(0deg);
+  }
+  /* line 68, ../../scss/_ui-spinner.scss */
+  50% {
+    -webkit-transform: rotate(180deg);
+  }
+  /* line 69, ../../scss/_ui-spinner.scss */
+  75% {
+    -webkit-transform: rotate(180deg);
+  }
+  /* line 70, ../../scss/_ui-spinner.scss */
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@-moz-keyframes ui-spinner-rotate-right {
+  /* line 74, ../../scss/_ui-spinner.scss */
+  0% {
+    -moz-transform: rotate(0deg);
+  }
+  /* line 75, ../../scss/_ui-spinner.scss */
+  25% {
+    -moz-transform: rotate(180deg);
+  }
+  /* line 76, ../../scss/_ui-spinner.scss */
+  50% {
+    -moz-transform: rotate(180deg);
+  }
+  /* line 77, ../../scss/_ui-spinner.scss */
+  75% {
+    -moz-transform: rotate(360deg);
+  }
+  /* line 78, ../../scss/_ui-spinner.scss */
+  100% {
+    -moz-transform: rotate(360deg);
+  }
+}
+@-moz-keyframes ui-spinner-rotate-left {
+  /* line 82, ../../scss/_ui-spinner.scss */
+  0% {
+    -moz-transform: rotate(0deg);
+  }
+  /* line 83, ../../scss/_ui-spinner.scss */
+  25% {
+    -moz-transform: rotate(0deg);
+  }
+  /* line 84, ../../scss/_ui-spinner.scss */
+  50% {
+    -moz-transform: rotate(180deg);
+  }
+  /* line 85, ../../scss/_ui-spinner.scss */
+  75% {
+    -moz-transform: rotate(180deg);
+  }
+  /* line 86, ../../scss/_ui-spinner.scss */
+  100% {
+    -moz-transform: rotate(360deg);
+  }
+}
+@keyframes ui-spinner-rotate-right {
+  /* line 90, ../../scss/_ui-spinner.scss */
+  0% {
+    transform: rotate(0deg);
+  }
+  /* line 91, ../../scss/_ui-spinner.scss */
+  25% {
+    transform: rotate(180deg);
+  }
+  /* line 92, ../../scss/_ui-spinner.scss */
+  50% {
+    transform: rotate(180deg);
+  }
+  /* line 93, ../../scss/_ui-spinner.scss */
+  75% {
+    transform: rotate(360deg);
+  }
+  /* line 94, ../../scss/_ui-spinner.scss */
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes ui-spinner-rotate-left {
+  /* line 98, ../../scss/_ui-spinner.scss */
+  0% {
+    transform: rotate(0deg);
+  }
+  /* line 99, ../../scss/_ui-spinner.scss */
+  25% {
+    transform: rotate(0deg);
+  }
+  /* line 100, ../../scss/_ui-spinner.scss */
+  50% {
+    transform: rotate(180deg);
+  }
+  /* line 101, ../../scss/_ui-spinner.scss */
+  75% {
+    transform: rotate(180deg);
+  }
+  /* line 102, ../../scss/_ui-spinner.scss */
+  100% {
+    transform: rotate(360deg);
+  }
+}
+/* line 110, ../../scss/_ui-spinner.scss */
+/* line 172, ../scss/_color360.scss */
+.ui-spinner {
+  position: relative;
+  border-radius: 100%;
+}
+
+/* line 114, ../../scss/_ui-spinner.scss */
+/* line 178, ../scss/_color360.scss */
+.ui-spinner .side {
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+  position: absolute;
+}
+
+/* line 120, ../../scss/_ui-spinner.scss */
+/* line 186, ../scss/_color360.scss */
+.ui-spinner .side .fill {
+  border-radius: 999px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -ms-animation-iteration-count: infinite;
+  -o-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  -ms-animation-timing-function: linear;
+  -o-animation-timing-function: linear;
+  animation-timing-function: linear;
+}
+
+/* line 130, ../../scss/_ui-spinner.scss */
+/* line 204, ../scss/_color360.scss */
+.ui-spinner .side-left {
+  left: 0;
+}
+
+/* line 133, ../../scss/_ui-spinner.scss */
+/* line 209, ../scss/_color360.scss */
+.ui-spinner .side-left .fill {
+  left: 100%;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  -webkit-animation-name: ui-spinner-rotate-left;
+  -moz-animation-name: ui-spinner-rotate-left;
+  -ms-animation-name: ui-spinner-rotate-left;
+  -o-animation-name: ui-spinner-rotate-left;
+  animation-name: ui-spinner-rotate-left;
+  -webkit-transform-origin: 0 50%;
+  -moz-transform-origin: 0 50%;
+  -ms-transform-origin: 0 50%;
+  -o-transform-origin: 0 50%;
+  transform-origin: 0 50%;
+}
+
+/* line 142, ../../scss/_ui-spinner.scss */
+/* line 226, ../scss/_color360.scss */
+.ui-spinner .side-right {
+  left: 50%;
+}
+
+/* line 145, ../../scss/_ui-spinner.scss */
+/* line 231, ../scss/_color360.scss */
+.ui-spinner .side-right .fill {
+  left: -100%;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  -webkit-animation-name: ui-spinner-rotate-right;
+  -moz-animation-name: ui-spinner-rotate-right;
+  -ms-animation-name: ui-spinner-rotate-right;
+  -o-animation-name: ui-spinner-rotate-right;
+  animation-name: ui-spinner-rotate-right;
+  -webkit-transform-origin: 100% 50%;
+  -moz-transform-origin: 100% 50%;
+  -ms-transform-origin: 100% 50%;
+  -o-transform-origin: 100% 50%;
+  transform-origin: 100% 50%;
+}
+
+/*
+* Symbolset
+* www.symbolset.com
+* Copyright © 2012 Oak Studios LLC
+*
+* Upload this file to your web server
+* and place this within your <head> tags.
+* <link href="webfonts/ss-pika.css" rel="stylesheet" />
+*/
+@font-face {
+  font-family: "SSPika";
+  src: url("ss-pika.html");
+  src: url("ss-pikad41d.html?#iefix") format("embedded-opentype"), url("ss-pika-2.html") format("woff"), url("ss-pika-3.html") format("truetype"), url("ss-pika-4.html#SSPika") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/* This triggers a redraw in IE to Fix IE8's :before content rendering. */
+/* line 25, ../../scss/_webfont.scss */
+/* line 266, ../scss/_color360.scss */
+html:hover [class^="ss-"] {
+  -ms-zoom: 1;
+}
+
+/* line 31, ../../scss/_webfont.scss */
+/* line 271, ../scss/_color360.scss */
+.ss-icon,
+.ss-icon.ss-pika,
+[class^="ss-"]:before,
+[class*=" ss-"]:before,
+[class^="ss-"].ss-pika:before,
+[class*=" ss-"].ss-pika:before,
+[class^="ss-"].right:after,
+[class*=" ss-"].right:after,
+[class^="ss-"].ss-pika.right:after,
+[class*=" ss-"].ss-pika.right:after {
+  font-family: "SSPika";
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: none;
+  text-rendering: optimizeLegibility;
+  white-space: nowrap;
+  -webkit-font-feature-settings: "liga";
+  -moz-font-feature-settings: "liga=1";
+  -moz-font-feature-settings: "liga";
+  -ms-font-feature-settings: "liga" 1;
+  -o-font-feature-settings: "liga";
+  font-feature-settings: "liga";
+  -webkit-font-smoothing: antialiased;
+}
+
+/* line 48, ../../scss/_webfont.scss */
+/* line 297, ../scss/_color360.scss */
+[class^="ss-"].right:before,
+[class*=" ss-"].right:before {
+  display: none;
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 304, ../scss/_color360.scss */
+.ss-cursor:before,
+.ss-cursor.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 310, ../scss/_color360.scss */
+.ss-crosshair:before,
+.ss-crosshair.right:after {
+  content: '⌖';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 316, ../scss/_color360.scss */
+.ss-search:before,
+.ss-search.right:after {
+  content: '🔎';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 322, ../scss/_color360.scss */
+.ss-zoomin:before,
+.ss-zoomin.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 328, ../scss/_color360.scss */
+.ss-zoomout:before,
+.ss-zoomout.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 334, ../scss/_color360.scss */
+.ss-screenshot:before,
+.ss-screenshot.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 340, ../scss/_color360.scss */
+.ss-binoculars:before,
+.ss-binoculars.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 346, ../scss/_color360.scss */
+.ss-view:before,
+.ss-view.right:after {
+  content: '👀';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 352, ../scss/_color360.scss */
+.ss-attach:before,
+.ss-attach.right:after {
+  content: '📎';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 358, ../scss/_color360.scss */
+.ss-link:before,
+.ss-link.right:after {
+  content: '🔗';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 364, ../scss/_color360.scss */
+.ss-move:before,
+.ss-move.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 370, ../scss/_color360.scss */
+.ss-write:before,
+.ss-write.right:after {
+  content: '✎';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 376, ../scss/_color360.scss */
+.ss-writingdisabled:before,
+.ss-writingdisabled.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 382, ../scss/_color360.scss */
+.ss-erase:before,
+.ss-erase.right:after {
+  content: '✐';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 388, ../scss/_color360.scss */
+.ss-compose:before,
+.ss-compose.right:after {
+  content: '📝';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 394, ../scss/_color360.scss */
+.ss-draw:before,
+.ss-draw.right:after {
+  content: '✏';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 400, ../scss/_color360.scss */
+.ss-lock:before,
+.ss-lock.right:after {
+  content: '🔒';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 406, ../scss/_color360.scss */
+.ss-unlock:before,
+.ss-unlock.right:after {
+  content: '🔓';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 412, ../scss/_color360.scss */
+.ss-key:before,
+.ss-key.right:after {
+  content: '🔑';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 418, ../scss/_color360.scss */
+.ss-backspace:before,
+.ss-backspace.right:after {
+  content: '⌫';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 424, ../scss/_color360.scss */
+.ss-ban:before,
+.ss-ban.right:after {
+  content: '🚫';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 430, ../scss/_color360.scss */
+.ss-nosmoking:before,
+.ss-nosmoking.right:after {
+  content: '🚭';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 436, ../scss/_color360.scss */
+.ss-trash:before,
+.ss-trash.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 442, ../scss/_color360.scss */
+.ss-target:before,
+.ss-target.right:after {
+  content: '◎';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 448, ../scss/_color360.scss */
+.ss-new:before,
+.ss-new.right:after {
+  content: '🆕';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 454, ../scss/_color360.scss */
+.ss-tag:before,
+.ss-tag.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 460, ../scss/_color360.scss */
+.ss-pricetag:before,
+.ss-pricetag.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 466, ../scss/_color360.scss */
+.ss-flowertag:before,
+.ss-flowertag.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 472, ../scss/_color360.scss */
+.ss-bookmark:before,
+.ss-bookmark.right:after {
+  content: '🔖';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 478, ../scss/_color360.scss */
+.ss-flag:before,
+.ss-flag.right:after {
+  content: '⚑';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 484, ../scss/_color360.scss */
+.ss-like:before,
+.ss-like.right:after {
+  content: '👍';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 490, ../scss/_color360.scss */
+.ss-dislike:before,
+.ss-dislike.right:after {
+  content: '👎';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 496, ../scss/_color360.scss */
+.ss-heart:before,
+.ss-heart.right:after {
+  content: '♥';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 502, ../scss/_color360.scss */
+.ss-halfheart:before,
+.ss-halfheart.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 508, ../scss/_color360.scss */
+.ss-emptyheart:before,
+.ss-emptyheart.right:after {
+  content: '♡';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 514, ../scss/_color360.scss */
+.ss-star:before,
+.ss-star.right:after {
+  content: '⋆';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 520, ../scss/_color360.scss */
+.ss-halfstar:before,
+.ss-halfstar.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 526, ../scss/_color360.scss */
+.ss-medal:before,
+.ss-medal.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 532, ../scss/_color360.scss */
+.ss-ribbon:before,
+.ss-ribbon.right:after {
+  content: '🎀';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 538, ../scss/_color360.scss */
+.ss-bullseye:before,
+.ss-bullseye.right:after {
+  content: '🎯';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 544, ../scss/_color360.scss */
+.ss-sample:before,
+.ss-sample.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 550, ../scss/_color360.scss */
+.ss-crop:before,
+.ss-crop.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 556, ../scss/_color360.scss */
+.ss-layers:before,
+.ss-layers.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 562, ../scss/_color360.scss */
+.ss-gridlines:before,
+.ss-gridlines.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 568, ../scss/_color360.scss */
+.ss-pen:before,
+.ss-pen.right:after {
+  content: '✒';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 574, ../scss/_color360.scss */
+.ss-feather:before,
+.ss-feather.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 580, ../scss/_color360.scss */
+.ss-rubbereraser:before,
+.ss-rubbereraser.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 586, ../scss/_color360.scss */
+.ss-paintroller:before,
+.ss-paintroller.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 592, ../scss/_color360.scss */
+.ss-rubberstamp:before,
+.ss-rubberstamp.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 598, ../scss/_color360.scss */
+.ss-checkclipboard:before,
+.ss-checkclipboard.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 604, ../scss/_color360.scss */
+.ss-linechartclipboard:before,
+.ss-linechartclipboard.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 610, ../scss/_color360.scss */
+.ss-clockwise:before,
+.ss-clockwise.right:after {
+  content: '⥁';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 616, ../scss/_color360.scss */
+.ss-phone:before,
+.ss-phone.right:after {
+  content: '📞';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 622, ../scss/_color360.scss */
+.ss-phonedisabled:before,
+.ss-phonedisabled.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 628, ../scss/_color360.scss */
+.ss-headset:before,
+.ss-headset.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 634, ../scss/_color360.scss */
+.ss-megaphone:before,
+.ss-megaphone.right:after {
+  content: '📢';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 640, ../scss/_color360.scss */
+.ss-rss:before,
+.ss-rss.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 646, ../scss/_color360.scss */
+.ss-facetime:before,
+.ss-facetime.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 652, ../scss/_color360.scss */
+.ss-reply:before,
+.ss-reply.right:after {
+  content: '↩';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 658, ../scss/_color360.scss */
+.ss-send:before,
+.ss-send.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 664, ../scss/_color360.scss */
+.ss-mail:before,
+.ss-mail.right:after {
+  content: '✉';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 670, ../scss/_color360.scss */
+.ss-inbox:before,
+.ss-inbox.right:after {
+  content: '📥';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 676, ../scss/_color360.scss */
+.ss-outbox:before,
+.ss-outbox.right:after {
+  content: '📤';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 682, ../scss/_color360.scss */
+.ss-wifimail:before,
+.ss-wifimail.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 688, ../scss/_color360.scss */
+.ss-chat:before,
+.ss-chat.right:after {
+  content: '💬';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 694, ../scss/_color360.scss */
+.ss-user:before,
+.ss-user.right:after {
+  content: '👤';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 700, ../scss/_color360.scss */
+.ss-femaleuser:before,
+.ss-femaleuser.right:after {
+  content: '👧';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 706, ../scss/_color360.scss */
+.ss-users:before,
+.ss-users.right:after {
+  content: '👥';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 712, ../scss/_color360.scss */
+.ss-usergroup:before,
+.ss-usergroup.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 718, ../scss/_color360.scss */
+.ss-adduser:before,
+.ss-adduser.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 724, ../scss/_color360.scss */
+.ss-removeuser:before,
+.ss-removeuser.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 730, ../scss/_color360.scss */
+.ss-deleteuser:before,
+.ss-deleteuser.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 736, ../scss/_color360.scss */
+.ss-userprofile:before,
+.ss-userprofile.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 742, ../scss/_color360.scss */
+.ss-businessuser:before,
+.ss-businessuser.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 748, ../scss/_color360.scss */
+.ss-cart:before,
+.ss-cart.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 754, ../scss/_color360.scss */
+.ss-addcart:before,
+.ss-addcart.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 760, ../scss/_color360.scss */
+.ss-removecart:before,
+.ss-removecart.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 766, ../scss/_color360.scss */
+.ss-deletecart:before,
+.ss-deletecart.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 772, ../scss/_color360.scss */
+.ss-downloadcart:before,
+.ss-downloadcart.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 778, ../scss/_color360.scss */
+.ss-emptycart:before,
+.ss-emptycart.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 784, ../scss/_color360.scss */
+.ss-basket:before,
+.ss-basket.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 790, ../scss/_color360.scss */
+.ss-gift:before,
+.ss-gift.right:after {
+  content: '🎁';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 796, ../scss/_color360.scss */
+.ss-apple:before,
+.ss-apple.right:after {
+  content: '🍏';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 802, ../scss/_color360.scss */
+.ss-cashregister:before,
+.ss-cashregister.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 808, ../scss/_color360.scss */
+.ss-store:before,
+.ss-store.right:after {
+  content: '🏬';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 814, ../scss/_color360.scss */
+.ss-searchbarcode:before,
+.ss-searchbarcode.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 820, ../scss/_color360.scss */
+.ss-notepad:before,
+.ss-notepad.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 826, ../scss/_color360.scss */
+.ss-creditcard:before,
+.ss-creditcard.right:after {
+  content: '💳';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 832, ../scss/_color360.scss */
+.ss-safe:before,
+.ss-safe.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 838, ../scss/_color360.scss */
+.ss-digitalsafe:before,
+.ss-digitalsafe.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 844, ../scss/_color360.scss */
+.ss-atm:before,
+.ss-atm.right:after {
+  content: '🏧';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 850, ../scss/_color360.scss */
+.ss-dispensecash:before,
+.ss-dispensecash.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 856, ../scss/_color360.scss */
+.ss-banknote:before,
+.ss-banknote.right:after {
+  content: '💵';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 862, ../scss/_color360.scss */
+.ss-coins:before,
+.ss-coins.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 868, ../scss/_color360.scss */
+.ss-bankcheck:before,
+.ss-bankcheck.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 874, ../scss/_color360.scss */
+.ss-piggybank:before,
+.ss-piggybank.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 880, ../scss/_color360.scss */
+.ss-moneybag:before,
+.ss-moneybag.right:after {
+  content: '💰';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 886, ../scss/_color360.scss */
+.ss-tip:before,
+.ss-tip.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 892, ../scss/_color360.scss */
+.ss-calculator:before,
+.ss-calculator.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 898, ../scss/_color360.scss */
+.ss-percent:before,
+.ss-percent.right:after {
+  content: '%';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 904, ../scss/_color360.scss */
+.ss-bank:before,
+.ss-bank.right:after {
+  content: '🏦';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 910, ../scss/_color360.scss */
+.ss-scales:before,
+.ss-scales.right:after {
+  content: '⚖';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 916, ../scss/_color360.scss */
+.ss-piechart:before,
+.ss-piechart.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 922, ../scss/_color360.scss */
+.ss-piechartthirds:before,
+.ss-piechartthirds.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 928, ../scss/_color360.scss */
+.ss-barchart:before,
+.ss-barchart.right:after {
+  content: '📊';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 934, ../scss/_color360.scss */
+.ss-upwardsbarchart:before,
+.ss-upwardsbarchart.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 940, ../scss/_color360.scss */
+.ss-downwardsbarchart:before,
+.ss-downwardsbarchart.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 946, ../scss/_color360.scss */
+.ss-horizontalbarchart:before,
+.ss-horizontalbarchart.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 952, ../scss/_color360.scss */
+.ss-analytics:before,
+.ss-analytics.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 958, ../scss/_color360.scss */
+.ss-upwardslinechart:before,
+.ss-upwardslinechart.right:after {
+  content: '📈';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 964, ../scss/_color360.scss */
+.ss-downwardslinechart:before,
+.ss-downwardslinechart.right:after {
+  content: '📉';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 970, ../scss/_color360.scss */
+.ss-linecharts:before,
+.ss-linecharts.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 976, ../scss/_color360.scss */
+.ss-scatterchart:before,
+.ss-scatterchart.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 982, ../scss/_color360.scss */
+.ss-stock:before,
+.ss-stock.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 988, ../scss/_color360.scss */
+.ss-form:before,
+.ss-form.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 994, ../scss/_color360.scss */
+.ss-box:before,
+.ss-box.right:after {
+  content: '📦';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1000, ../scss/_color360.scss */
+.ss-crate:before,
+.ss-crate.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1006, ../scss/_color360.scss */
+.ss-deliveryvan:before,
+.ss-deliveryvan.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1012, ../scss/_color360.scss */
+.ss-deliverytruck:before,
+.ss-deliverytruck.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1018, ../scss/_color360.scss */
+.ss-forklift:before,
+.ss-forklift.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1024, ../scss/_color360.scss */
+.ss-cargoship:before,
+.ss-cargoship.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1030, ../scss/_color360.scss */
+.ss-hook:before,
+.ss-hook.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1036, ../scss/_color360.scss */
+.ss-weight:before,
+.ss-weight.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1042, ../scss/_color360.scss */
+.ss-containers:before,
+.ss-containers.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1048, ../scss/_color360.scss */
+.ss-fragile:before,
+.ss-fragile.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1054, ../scss/_color360.scss */
+.ss-thissideup:before,
+.ss-thissideup.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1060, ../scss/_color360.scss */
+.ss-home:before,
+.ss-home.right:after {
+  content: '⌂';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1066, ../scss/_color360.scss */
+.ss-building:before,
+.ss-building.right:after {
+  content: '🏢';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1072, ../scss/_color360.scss */
+.ss-lodging:before,
+.ss-lodging.right:after {
+  content: '🏨';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1078, ../scss/_color360.scss */
+.ss-earth:before,
+.ss-earth.right:after {
+  content: '🌎';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1084, ../scss/_color360.scss */
+.ss-globe:before,
+.ss-globe.right:after {
+  content: '🌐';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1090, ../scss/_color360.scss */
+.ss-garage:before,
+.ss-garage.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1096, ../scss/_color360.scss */
+.ss-warehouse:before,
+.ss-warehouse.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1102, ../scss/_color360.scss */
+.ss-floorplan:before,
+.ss-floorplan.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1108, ../scss/_color360.scss */
+.ss-address:before,
+.ss-address.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1114, ../scss/_color360.scss */
+.ss-searchhouse:before,
+.ss-searchhouse.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1120, ../scss/_color360.scss */
+.ss-housesale:before,
+.ss-housesale.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1126, ../scss/_color360.scss */
+.ss-navigate:before,
+.ss-navigate.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1132, ../scss/_color360.scss */
+.ss-compass:before,
+.ss-compass.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1138, ../scss/_color360.scss */
+.ss-signpost:before,
+.ss-signpost.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1144, ../scss/_color360.scss */
+.ss-map:before,
+.ss-map.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1150, ../scss/_color360.scss */
+.ss-gps:before,
+.ss-gps.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1156, ../scss/_color360.scss */
+.ss-compassnavigate:before,
+.ss-compassnavigate.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1162, ../scss/_color360.scss */
+.ss-compassarrow:before,
+.ss-compassarrow.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1168, ../scss/_color360.scss */
+.ss-location:before,
+.ss-location.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1174, ../scss/_color360.scss */
+.ss-pin:before,
+.ss-pin.right:after {
+  content: '📍';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1180, ../scss/_color360.scss */
+.ss-pushpin:before,
+.ss-pushpin.right:after {
+  content: '📌';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1186, ../scss/_color360.scss */
+.ss-maplocation:before,
+.ss-maplocation.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1192, ../scss/_color360.scss */
+.ss-globelocation:before,
+.ss-globelocation.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1198, ../scss/_color360.scss */
+.ss-puzzle:before,
+.ss-puzzle.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1204, ../scss/_color360.scss */
+.ss-floppydisk:before,
+.ss-floppydisk.right:after {
+  content: '💾';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1210, ../scss/_color360.scss */
+.ss-firewall:before,
+.ss-firewall.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1216, ../scss/_color360.scss */
+.ss-database:before,
+.ss-database.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1222, ../scss/_color360.scss */
+.ss-hdd:before,
+.ss-hdd.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1228, ../scss/_color360.scss */
+.ss-music:before,
+.ss-music.right:after {
+  content: '♫';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1234, ../scss/_color360.scss */
+.ss-eighthnote:before,
+.ss-eighthnote.right:after {
+  content: '♪';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1240, ../scss/_color360.scss */
+.ss-mic:before,
+.ss-mic.right:after {
+  content: '🎤';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1246, ../scss/_color360.scss */
+.ss-volume:before,
+.ss-volume.right:after {
+  content: '🔈';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1252, ../scss/_color360.scss */
+.ss-lowvolume:before,
+.ss-lowvolume.right:after {
+  content: '🔉';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1258, ../scss/_color360.scss */
+.ss-highvolume:before,
+.ss-highvolume.right:after {
+  content: '🔊';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1264, ../scss/_color360.scss */
+.ss-radio:before,
+.ss-radio.right:after {
+  content: '📻';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1270, ../scss/_color360.scss */
+.ss-stereo:before,
+.ss-stereo.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1276, ../scss/_color360.scss */
+.ss-airplay:before,
+.ss-airplay.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1282, ../scss/_color360.scss */
+.ss-vinylrecord:before,
+.ss-vinylrecord.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1288, ../scss/_color360.scss */
+.ss-disc:before,
+.ss-disc.right:after {
+  content: '💿';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1294, ../scss/_color360.scss */
+.ss-camera:before,
+.ss-camera.right:after {
+  content: '📷';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1300, ../scss/_color360.scss */
+.ss-picture:before,
+.ss-picture.right:after {
+  content: '🌄';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1306, ../scss/_color360.scss */
+.ss-video:before,
+.ss-video.right:after {
+  content: '📹';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1312, ../scss/_color360.scss */
+.ss-playvideo:before,
+.ss-playvideo.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1318, ../scss/_color360.scss */
+.ss-play:before,
+.ss-play.right:after {
+  content: '▶';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1324, ../scss/_color360.scss */
+.ss-pause:before,
+.ss-pause.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1330, ../scss/_color360.scss */
+.ss-stop:before,
+.ss-stop.right:after {
+  content: '■';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1336, ../scss/_color360.scss */
+.ss-record:before,
+.ss-record.right:after {
+  content: '●';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1342, ../scss/_color360.scss */
+.ss-rewind:before,
+.ss-rewind.right:after {
+  content: '⏪';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1348, ../scss/_color360.scss */
+.ss-fastforward:before,
+.ss-fastforward.right:after {
+  content: '⏩';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1354, ../scss/_color360.scss */
+.ss-skipback:before,
+.ss-skipback.right:after {
+  content: '⏮';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1360, ../scss/_color360.scss */
+.ss-skipforward:before,
+.ss-skipforward.right:after {
+  content: '⏭';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1366, ../scss/_color360.scss */
+.ss-eject:before,
+.ss-eject.right:after {
+  content: '⏏';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1372, ../scss/_color360.scss */
+.ss-repeat:before,
+.ss-repeat.right:after {
+  content: '🔁';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1378, ../scss/_color360.scss */
+.ss-replay:before,
+.ss-replay.right:after {
+  content: '↺';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1384, ../scss/_color360.scss */
+.ss-shuffle:before,
+.ss-shuffle.right:after {
+  content: '🔀';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1390, ../scss/_color360.scss */
+.ss-index:before,
+.ss-index.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1396, ../scss/_color360.scss */
+.ss-page:before,
+.ss-page.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1402, ../scss/_color360.scss */
+.ss-book:before,
+.ss-book.right:after {
+  content: '📕';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1408, ../scss/_color360.scss */
+.ss-books:before,
+.ss-books.right:after {
+  content: '📚';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1414, ../scss/_color360.scss */
+.ss-openbook:before,
+.ss-openbook.right:after {
+  content: '📖';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1420, ../scss/_color360.scss */
+.ss-heartbook:before,
+.ss-heartbook.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1426, ../scss/_color360.scss */
+.ss-downloadbook:before,
+.ss-downloadbook.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1432, ../scss/_color360.scss */
+.ss-musicopenbook:before,
+.ss-musicopenbook.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1438, ../scss/_color360.scss */
+.ss-searchbook:before,
+.ss-searchbook.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1444, ../scss/_color360.scss */
+.ss-notebook:before,
+.ss-notebook.right:after {
+  content: '📓';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1450, ../scss/_color360.scss */
+.ss-newspaper:before,
+.ss-newspaper.right:after {
+  content: '📰';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1456, ../scss/_color360.scss */
+.ss-notice:before,
+.ss-notice.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1462, ../scss/_color360.scss */
+.ss-rows:before,
+.ss-rows.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1468, ../scss/_color360.scss */
+.ss-columns:before,
+.ss-columns.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1474, ../scss/_color360.scss */
+.ss-thumbnails:before,
+.ss-thumbnails.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1480, ../scss/_color360.scss */
+.ss-pagecurl:before,
+.ss-pagecurl.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1486, ../scss/_color360.scss */
+.ss-desktop:before,
+.ss-desktop.right:after {
+  content: '💻';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1492, ../scss/_color360.scss */
+.ss-laptop:before,
+.ss-laptop.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1498, ../scss/_color360.scss */
+.ss-tablet:before,
+.ss-tablet.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1504, ../scss/_color360.scss */
+.ss-smartphone:before,
+.ss-smartphone.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1510, ../scss/_color360.scss */
+.ss-cell:before,
+.ss-cell.right:after {
+  content: '📱';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1516, ../scss/_color360.scss */
+.ss-walkytalky:before,
+.ss-walkytalky.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1522, ../scss/_color360.scss */
+.ss-ereader:before,
+.ss-ereader.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1528, ../scss/_color360.scss */
+.ss-ebook:before,
+.ss-ebook.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1534, ../scss/_color360.scss */
+.ss-wifibook:before,
+.ss-wifibook.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1540, ../scss/_color360.scss */
+.ss-wifiopenbook:before,
+.ss-wifiopenbook.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1546, ../scss/_color360.scss */
+.ss-battery:before,
+.ss-battery.right:after {
+  content: '🔋';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1552, ../scss/_color360.scss */
+.ss-highbattery:before,
+.ss-highbattery.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1558, ../scss/_color360.scss */
+.ss-mediumbattery:before,
+.ss-mediumbattery.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1564, ../scss/_color360.scss */
+.ss-lowbattery:before,
+.ss-lowbattery.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1570, ../scss/_color360.scss */
+.ss-emptybattery:before,
+.ss-emptybattery.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1576, ../scss/_color360.scss */
+.ss-chargingbattery:before,
+.ss-chargingbattery.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1582, ../scss/_color360.scss */
+.ss-heartmobile:before,
+.ss-heartmobile.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1588, ../scss/_color360.scss */
+.ss-phonemobile:before,
+.ss-phonemobile.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1594, ../scss/_color360.scss */
+.ss-lockmobile:before,
+.ss-lockmobile.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1600, ../scss/_color360.scss */
+.ss-textmobile:before,
+.ss-textmobile.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1606, ../scss/_color360.scss */
+.ss-dollarmobile:before,
+.ss-dollarmobile.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1612, ../scss/_color360.scss */
+.ss-euromobile:before,
+.ss-euromobile.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1618, ../scss/_color360.scss */
+.ss-rssmobile:before,
+.ss-rssmobile.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1624, ../scss/_color360.scss */
+.ss-navigationmobile:before,
+.ss-navigationmobile.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1630, ../scss/_color360.scss */
+.ss-batterymobile:before,
+.ss-batterymobile.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1636, ../scss/_color360.scss */
+.ss-powermobile:before,
+.ss-powermobile.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1642, ../scss/_color360.scss */
+.ss-browseonline:before,
+.ss-browseonline.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1648, ../scss/_color360.scss */
+.ss-shoponline:before,
+.ss-shoponline.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1654, ../scss/_color360.scss */
+.ss-bankonline:before,
+.ss-bankonline.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1660, ../scss/_color360.scss */
+.ss-realtyonline:before,
+.ss-realtyonline.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1666, ../scss/_color360.scss */
+.ss-readonline:before,
+.ss-readonline.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1672, ../scss/_color360.scss */
+.ss-weatheronline:before,
+.ss-weatheronline.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1678, ../scss/_color360.scss */
+.ss-lightbulb:before,
+.ss-lightbulb.right:after {
+  content: '💡';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1684, ../scss/_color360.scss */
+.ss-lightbulbon:before,
+.ss-lightbulbon.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1690, ../scss/_color360.scss */
+.ss-cfl:before,
+.ss-cfl.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1696, ../scss/_color360.scss */
+.ss-hairdryer:before,
+.ss-hairdryer.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1702, ../scss/_color360.scss */
+.ss-picnictable:before,
+.ss-picnictable.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1708, ../scss/_color360.scss */
+.ss-flame:before,
+.ss-flame.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1714, ../scss/_color360.scss */
+.ss-campfire:before,
+.ss-campfire.right:after {
+  content: '🔥';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1720, ../scss/_color360.scss */
+.ss-bonfire:before,
+.ss-bonfire.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1726, ../scss/_color360.scss */
+.ss-balloon:before,
+.ss-balloon.right:after {
+  content: '🎈';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1732, ../scss/_color360.scss */
+.ss-christmastree:before,
+.ss-christmastree.right:after {
+  content: '🎄';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1738, ../scss/_color360.scss */
+.ss-sweep:before,
+.ss-sweep.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1744, ../scss/_color360.scss */
+.ss-chess:before,
+.ss-chess.right:after {
+  content: '♞';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1750, ../scss/_color360.scss */
+.ss-onedie:before,
+.ss-onedie.right:after {
+  content: '⚀';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1756, ../scss/_color360.scss */
+.ss-twodie:before,
+.ss-twodie.right:after {
+  content: '⚁';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1762, ../scss/_color360.scss */
+.ss-threedie:before,
+.ss-threedie.right:after {
+  content: '⚂';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1768, ../scss/_color360.scss */
+.ss-fourdie:before,
+.ss-fourdie.right:after {
+  content: '⚃';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1774, ../scss/_color360.scss */
+.ss-fivedie:before,
+.ss-fivedie.right:after {
+  content: '⚄';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1780, ../scss/_color360.scss */
+.ss-sixdie:before,
+.ss-sixdie.right:after {
+  content: '⚅';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1786, ../scss/_color360.scss */
+.ss-downloadcloud:before,
+.ss-downloadcloud.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1792, ../scss/_color360.scss */
+.ss-download:before,
+.ss-download.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1798, ../scss/_color360.scss */
+.ss-downloadbox:before,
+.ss-downloadbox.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1804, ../scss/_color360.scss */
+.ss-downloadcrate:before,
+.ss-downloadcrate.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1810, ../scss/_color360.scss */
+.ss-uploadcloud:before,
+.ss-uploadcloud.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1816, ../scss/_color360.scss */
+.ss-upload:before,
+.ss-upload.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1822, ../scss/_color360.scss */
+.ss-uploadbox:before,
+.ss-uploadbox.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1828, ../scss/_color360.scss */
+.ss-uploadcrate:before,
+.ss-uploadcrate.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1834, ../scss/_color360.scss */
+.ss-fork:before,
+.ss-fork.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1840, ../scss/_color360.scss */
+.ss-merge:before,
+.ss-merge.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1846, ../scss/_color360.scss */
+.ss-refresh:before,
+.ss-refresh.right:after {
+  content: '↻';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1852, ../scss/_color360.scss */
+.ss-sync:before,
+.ss-sync.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1858, ../scss/_color360.scss */
+.ss-loading:before,
+.ss-loading.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1864, ../scss/_color360.scss */
+.ss-wifi:before,
+.ss-wifi.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1870, ../scss/_color360.scss */
+.ss-connection:before,
+.ss-connection.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1876, ../scss/_color360.scss */
+.ss-reload:before,
+.ss-reload.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1882, ../scss/_color360.scss */
+.ss-file:before,
+.ss-file.right:after {
+  content: '📄';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1888, ../scss/_color360.scss */
+.ss-addfile:before,
+.ss-addfile.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1894, ../scss/_color360.scss */
+.ss-removefile:before,
+.ss-removefile.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1900, ../scss/_color360.scss */
+.ss-deletefile:before,
+.ss-deletefile.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1906, ../scss/_color360.scss */
+.ss-downloadfile:before,
+.ss-downloadfile.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1912, ../scss/_color360.scss */
+.ss-uploadfile:before,
+.ss-uploadfile.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1918, ../scss/_color360.scss */
+.ss-importfile:before,
+.ss-importfile.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1924, ../scss/_color360.scss */
+.ss-exportfile:before,
+.ss-exportfile.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1930, ../scss/_color360.scss */
+.ss-settingsfile:before,
+.ss-settingsfile.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1936, ../scss/_color360.scss */
+.ss-lockfile:before,
+.ss-lockfile.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1942, ../scss/_color360.scss */
+.ss-userfile:before,
+.ss-userfile.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1948, ../scss/_color360.scss */
+.ss-picturefile:before,
+.ss-picturefile.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1954, ../scss/_color360.scss */
+.ss-textfile:before,
+.ss-textfile.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1960, ../scss/_color360.scss */
+.ss-exe:before,
+.ss-exe.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1966, ../scss/_color360.scss */
+.ss-zip:before,
+.ss-zip.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1972, ../scss/_color360.scss */
+.ss-doc:before,
+.ss-doc.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1978, ../scss/_color360.scss */
+.ss-ppt:before,
+.ss-ppt.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1984, ../scss/_color360.scss */
+.ss-pdf:before,
+.ss-pdf.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1990, ../scss/_color360.scss */
+.ss-jpg:before,
+.ss-jpg.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 1996, ../scss/_color360.scss */
+.ss-png:before,
+.ss-png.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2002, ../scss/_color360.scss */
+.ss-folder:before,
+.ss-folder.right:after {
+  content: '📁';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2008, ../scss/_color360.scss */
+.ss-openfolder:before,
+.ss-openfolder.right:after {
+  content: '📂';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2014, ../scss/_color360.scss */
+.ss-downloadfolder:before,
+.ss-downloadfolder.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2020, ../scss/_color360.scss */
+.ss-uploadfolder:before,
+.ss-uploadfolder.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2026, ../scss/_color360.scss */
+.ss-cloudfolder:before,
+.ss-cloudfolder.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2032, ../scss/_color360.scss */
+.ss-lockfolder:before,
+.ss-lockfolder.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2038, ../scss/_color360.scss */
+.ss-securefolder:before,
+.ss-securefolder.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2044, ../scss/_color360.scss */
+.ss-picturefolder:before,
+.ss-picturefolder.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2050, ../scss/_color360.scss */
+.ss-moviefolder:before,
+.ss-moviefolder.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2056, ../scss/_color360.scss */
+.ss-quote:before,
+.ss-quote.right:after {
+  content: '“';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2062, ../scss/_color360.scss */
+.ss-text:before,
+.ss-text.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2068, ../scss/_color360.scss */
+.ss-font:before,
+.ss-font.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2074, ../scss/_color360.scss */
+.ss-highlight:before,
+.ss-highlight.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2080, ../scss/_color360.scss */
+.ss-print:before,
+.ss-print.right:after {
+  content: '⎙';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2086, ../scss/_color360.scss */
+.ss-fax:before,
+.ss-fax.right:after {
+  content: '📠';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2092, ../scss/_color360.scss */
+.ss-list:before,
+.ss-list.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2098, ../scss/_color360.scss */
+.ss-layout:before,
+.ss-layout.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2104, ../scss/_color360.scss */
+.ss-action:before,
+.ss-action.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2110, ../scss/_color360.scss */
+.ss-redirect:before,
+.ss-redirect.right:after {
+  content: '↪';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2116, ../scss/_color360.scss */
+.ss-expand:before,
+.ss-expand.right:after {
+  content: '⤢';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2122, ../scss/_color360.scss */
+.ss-contract:before,
+.ss-contract.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2128, ../scss/_color360.scss */
+.ss-help:before,
+.ss-help.right:after {
+  content: '❓';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2134, ../scss/_color360.scss */
+.ss-info:before,
+.ss-info.right:after {
+  content: 'ℹ';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2140, ../scss/_color360.scss */
+.ss-alert:before,
+.ss-alert.right:after {
+  content: '⚠';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2146, ../scss/_color360.scss */
+.ss-caution:before,
+.ss-caution.right:after {
+  content: '⛔';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2152, ../scss/_color360.scss */
+.ss-logout:before,
+.ss-logout.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2158, ../scss/_color360.scss */
+.ss-login:before,
+.ss-login.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2164, ../scss/_color360.scss */
+.ss-scaleup:before,
+.ss-scaleup.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2170, ../scss/_color360.scss */
+.ss-scaledown:before,
+.ss-scaledown.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2176, ../scss/_color360.scss */
+.ss-plus:before,
+.ss-plus.right:after {
+  content: '+';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2182, ../scss/_color360.scss */
+.ss-hyphen:before,
+.ss-hyphen.right:after {
+  content: '-';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2188, ../scss/_color360.scss */
+.ss-check:before,
+.ss-check.right:after {
+  content: '✓';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2194, ../scss/_color360.scss */
+.ss-delete:before,
+.ss-delete.right:after {
+  content: '␡';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2200, ../scss/_color360.scss */
+.ss-bearface:before,
+.ss-bearface.right:after {
+  content: '🐻';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2206, ../scss/_color360.scss */
+.ss-bird:before,
+.ss-bird.right:after {
+  content: '🐦';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2212, ../scss/_color360.scss */
+.ss-fishes:before,
+.ss-fishes.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2218, ../scss/_color360.scss */
+.ss-tropicalfish:before,
+.ss-tropicalfish.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2224, ../scss/_color360.scss */
+.ss-tree:before,
+.ss-tree.right:after {
+  content: '🌳';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2230, ../scss/_color360.scss */
+.ss-evergreen:before,
+.ss-evergreen.right:after {
+  content: '🌲';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2236, ../scss/_color360.scss */
+.ss-palmtree:before,
+.ss-palmtree.right:after {
+  content: '🌴';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2242, ../scss/_color360.scss */
+.ss-leaf:before,
+.ss-leaf.right:after {
+  content: '🍂';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2248, ../scss/_color360.scss */
+.ss-seedling:before,
+.ss-seedling.right:after {
+  content: '🌱';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2254, ../scss/_color360.scss */
+.ss-grass:before,
+.ss-grass.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2260, ../scss/_color360.scss */
+.ss-settings:before,
+.ss-settings.right:after {
+  content: '⚙';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2266, ../scss/_color360.scss */
+.ss-dashboard:before,
+.ss-dashboard.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2272, ../scss/_color360.scss */
+.ss-dial:before,
+.ss-dial.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2278, ../scss/_color360.scss */
+.ss-notifications:before,
+.ss-notifications.right:after {
+  content: '🔔';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2284, ../scss/_color360.scss */
+.ss-notificationsdisabled:before,
+.ss-notificationsdisabled.right:after {
+  content: '🔕';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2290, ../scss/_color360.scss */
+.ss-flash:before,
+.ss-flash.right:after {
+  content: '⌁';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2296, ../scss/_color360.scss */
+.ss-wrench:before,
+.ss-wrench.right:after {
+  content: '🔧';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2302, ../scss/_color360.scss */
+.ss-tapemeasure:before,
+.ss-tapemeasure.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2308, ../scss/_color360.scss */
+.ss-clock:before,
+.ss-clock.right:after {
+  content: '⏲';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2314, ../scss/_color360.scss */
+.ss-watch:before,
+.ss-watch.right:after {
+  content: '⌚';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2320, ../scss/_color360.scss */
+.ss-stopwatch:before,
+.ss-stopwatch.right:after {
+  content: '⏱';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2326, ../scss/_color360.scss */
+.ss-alarmclock:before,
+.ss-alarmclock.right:after {
+  content: '⏰';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2332, ../scss/_color360.scss */
+.ss-calendar:before,
+.ss-calendar.right:after {
+  content: '📅';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2338, ../scss/_color360.scss */
+.ss-addcalendar:before,
+.ss-addcalendar.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2344, ../scss/_color360.scss */
+.ss-removecalendar:before,
+.ss-removecalendar.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2350, ../scss/_color360.scss */
+.ss-checkcalendar:before,
+.ss-checkcalendar.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2356, ../scss/_color360.scss */
+.ss-deletecalendar:before,
+.ss-deletecalendar.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2362, ../scss/_color360.scss */
+.ss-sausage:before,
+.ss-sausage.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2368, ../scss/_color360.scss */
+.ss-burger:before,
+.ss-burger.right:after {
+  content: '🍔';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2374, ../scss/_color360.scss */
+.ss-pizza:before,
+.ss-pizza.right:after {
+  content: '🍕';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2380, ../scss/_color360.scss */
+.ss-fish:before,
+.ss-fish.right:after {
+  content: '🐟';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2386, ../scss/_color360.scss */
+.ss-shrimp:before,
+.ss-shrimp.right:after {
+  content: '🍤';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2392, ../scss/_color360.scss */
+.ss-turkey:before,
+.ss-turkey.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2398, ../scss/_color360.scss */
+.ss-steak:before,
+.ss-steak.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2404, ../scss/_color360.scss */
+.ss-sidedish:before,
+.ss-sidedish.right:after {
+  content: '🍚';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2410, ../scss/_color360.scss */
+.ss-noodles:before,
+.ss-noodles.right:after {
+  content: '🍜';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2416, ../scss/_color360.scss */
+.ss-spaghetti:before,
+.ss-spaghetti.right:after {
+  content: '🍝';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2422, ../scss/_color360.scss */
+.ss-corn:before,
+.ss-corn.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2428, ../scss/_color360.scss */
+.ss-carrot:before,
+.ss-carrot.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2434, ../scss/_color360.scss */
+.ss-icecream:before,
+.ss-icecream.right:after {
+  content: '🍨';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2440, ../scss/_color360.scss */
+.ss-mug:before,
+.ss-mug.right:after {
+  content: '☕';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2446, ../scss/_color360.scss */
+.ss-beer:before,
+.ss-beer.right:after {
+  content: '🍺';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2452, ../scss/_color360.scss */
+.ss-bottle:before,
+.ss-bottle.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2458, ../scss/_color360.scss */
+.ss-wineglass:before,
+.ss-wineglass.right:after {
+  content: '🍷';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2464, ../scss/_color360.scss */
+.ss-cocktail:before,
+.ss-cocktail.right:after {
+  content: '🍸';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2470, ../scss/_color360.scss */
+.ss-tea:before,
+.ss-tea.right:after {
+  content: '🍵';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2476, ../scss/_color360.scss */
+.ss-teapot:before,
+.ss-teapot.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2482, ../scss/_color360.scss */
+.ss-waterbottle:before,
+.ss-waterbottle.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2488, ../scss/_color360.scss */
+.ss-wineglasssparkle:before,
+.ss-wineglasssparkle.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2494, ../scss/_color360.scss */
+.ss-salt:before,
+.ss-salt.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2500, ../scss/_color360.scss */
+.ss-pepper:before,
+.ss-pepper.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2506, ../scss/_color360.scss */
+.ss-oliveoil:before,
+.ss-oliveoil.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2512, ../scss/_color360.scss */
+.ss-hotsauce:before,
+.ss-hotsauce.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2518, ../scss/_color360.scss */
+.ss-coal:before,
+.ss-coal.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2524, ../scss/_color360.scss */
+.ss-oven:before,
+.ss-oven.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2530, ../scss/_color360.scss */
+.ss-stove:before,
+.ss-stove.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2536, ../scss/_color360.scss */
+.ss-cook:before,
+.ss-cook.right:after {
+  content: '🍳';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2542, ../scss/_color360.scss */
+.ss-bbq:before,
+.ss-bbq.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2548, ../scss/_color360.scss */
+.ss-utensils:before,
+.ss-utensils.right:after {
+  content: '🍴';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2554, ../scss/_color360.scss */
+.ss-spoonfork:before,
+.ss-spoonfork.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2560, ../scss/_color360.scss */
+.ss-knife:before,
+.ss-knife.right:after {
+  content: '🔪';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2566, ../scss/_color360.scss */
+.ss-cookingutensils:before,
+.ss-cookingutensils.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2572, ../scss/_color360.scss */
+.ss-measuringcup:before,
+.ss-measuringcup.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2578, ../scss/_color360.scss */
+.ss-colander:before,
+.ss-colander.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2584, ../scss/_color360.scss */
+.ss-scale:before,
+.ss-scale.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2590, ../scss/_color360.scss */
+.ss-eggtimer:before,
+.ss-eggtimer.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2596, ../scss/_color360.scss */
+.ss-platter:before,
+.ss-platter.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2602, ../scss/_color360.scss */
+.ss-apron:before,
+.ss-apron.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2608, ../scss/_color360.scss */
+.ss-bbqapron:before,
+.ss-bbqapron.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2614, ../scss/_color360.scss */
+.ss-chef:before,
+.ss-chef.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2620, ../scss/_color360.scss */
+.ss-handbag:before,
+.ss-handbag.right:after {
+  content: '👜';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2626, ../scss/_color360.scss */
+.ss-briefcase:before,
+.ss-briefcase.right:after {
+  content: '💼';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2632, ../scss/_color360.scss */
+.ss-hanger:before,
+.ss-hanger.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2638, ../scss/_color360.scss */
+.ss-weathervane:before,
+.ss-weathervane.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2644, ../scss/_color360.scss */
+.ss-thermometer:before,
+.ss-thermometer.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2650, ../scss/_color360.scss */
+.ss-weather:before,
+.ss-weather.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2656, ../scss/_color360.scss */
+.ss-cloud:before,
+.ss-cloud.right:after {
+  content: '☁';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2662, ../scss/_color360.scss */
+.ss-droplet:before,
+.ss-droplet.right:after {
+  content: '💧';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2668, ../scss/_color360.scss */
+.ss-sun:before,
+.ss-sun.right:after {
+  content: '☀';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2674, ../scss/_color360.scss */
+.ss-partlycloudy:before,
+.ss-partlycloudy.right:after {
+  content: '⛅';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2680, ../scss/_color360.scss */
+.ss-rain:before,
+.ss-rain.right:after {
+  content: '☔';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2686, ../scss/_color360.scss */
+.ss-thunderstorm:before,
+.ss-thunderstorm.right:after {
+  content: '⛈';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2692, ../scss/_color360.scss */
+.ss-umbrella:before,
+.ss-umbrella.right:after {
+  content: '☂';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2698, ../scss/_color360.scss */
+.ss-rainbow:before,
+.ss-rainbow.right:after {
+  content: '🌈';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2704, ../scss/_color360.scss */
+.ss-fog:before,
+.ss-fog.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2710, ../scss/_color360.scss */
+.ss-wind:before,
+.ss-wind.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2716, ../scss/_color360.scss */
+.ss-tornado:before,
+.ss-tornado.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2722, ../scss/_color360.scss */
+.ss-snowflake:before,
+.ss-snowflake.right:after {
+  content: '❄';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2728, ../scss/_color360.scss */
+.ss-fan:before,
+.ss-fan.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2734, ../scss/_color360.scss */
+.ss-solarpanel:before,
+.ss-solarpanel.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2740, ../scss/_color360.scss */
+.ss-plug:before,
+.ss-plug.right:after {
+  content: '🔌';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2746, ../scss/_color360.scss */
+.ss-outlet:before,
+.ss-outlet.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2752, ../scss/_color360.scss */
+.ss-car:before,
+.ss-car.right:after {
+  content: '🚘';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2758, ../scss/_color360.scss */
+.ss-taxi:before,
+.ss-taxi.right:after {
+  content: '🚖';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2764, ../scss/_color360.scss */
+.ss-locomotive:before,
+.ss-locomotive.right:after {
+  content: '🚂';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2770, ../scss/_color360.scss */
+.ss-train:before,
+.ss-train.right:after {
+  content: '🚆';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2776, ../scss/_color360.scss */
+.ss-traintunnel:before,
+.ss-traintunnel.right:after {
+  content: '🚇';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2782, ../scss/_color360.scss */
+.ss-bus:before,
+.ss-bus.right:after {
+  content: '🚍';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2788, ../scss/_color360.scss */
+.ss-truck:before,
+.ss-truck.right:after {
+  content: '🚚';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2794, ../scss/_color360.scss */
+.ss-caravan:before,
+.ss-caravan.right:after {
+  content: '🚐';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2800, ../scss/_color360.scss */
+.ss-tractor:before,
+.ss-tractor.right:after {
+  content: '🚜';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2806, ../scss/_color360.scss */
+.ss-tunnel:before,
+.ss-tunnel.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2812, ../scss/_color360.scss */
+.ss-plane:before,
+.ss-plane.right:after {
+  content: '✈';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2818, ../scss/_color360.scss */
+.ss-arrival:before,
+.ss-arrival.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2824, ../scss/_color360.scss */
+.ss-departure:before,
+.ss-departure.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2830, ../scss/_color360.scss */
+.ss-helicopter:before,
+.ss-helicopter.right:after {
+  content: '🚁';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2836, ../scss/_color360.scss */
+.ss-bike:before,
+.ss-bike.right:after {
+  content: '🚲';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2842, ../scss/_color360.scss */
+.ss-motorcycle:before,
+.ss-motorcycle.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2848, ../scss/_color360.scss */
+.ss-boat:before,
+.ss-boat.right:after {
+  content: '🚢';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2854, ../scss/_color360.scss */
+.ss-sailboat:before,
+.ss-sailboat.right:after {
+  content: '⛵';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2860, ../scss/_color360.scss */
+.ss-schooner:before,
+.ss-schooner.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2866, ../scss/_color360.scss */
+.ss-skylift:before,
+.ss-skylift.right:after {
+  content: '🚡';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2872, ../scss/_color360.scss */
+.ss-rocket:before,
+.ss-rocket.right:after {
+  content: '🚀';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2878, ../scss/_color360.scss */
+.ss-steeringwheel:before,
+.ss-steeringwheel.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2884, ../scss/_color360.scss */
+.ss-trafficcamera:before,
+.ss-trafficcamera.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2890, ../scss/_color360.scss */
+.ss-fuel:before,
+.ss-fuel.right:after {
+  content: '⛽';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2896, ../scss/_color360.scss */
+.ss-jerrycan:before,
+.ss-jerrycan.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2902, ../scss/_color360.scss */
+.ss-passport:before,
+.ss-passport.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2908, ../scss/_color360.scss */
+.ss-trafficlight:before,
+.ss-trafficlight.right:after {
+  content: '🚦';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2914, ../scss/_color360.scss */
+.ss-highway:before,
+.ss-highway.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2920, ../scss/_color360.scss */
+.ss-road:before,
+.ss-road.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2926, ../scss/_color360.scss */
+.ss-intersection:before,
+.ss-intersection.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2932, ../scss/_color360.scss */
+.ss-wheelchair:before,
+.ss-wheelchair.right:after {
+  content: '♿';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2938, ../scss/_color360.scss */
+.ss-elevator:before,
+.ss-elevator.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2944, ../scss/_color360.scss */
+.ss-golf:before,
+.ss-golf.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2950, ../scss/_color360.scss */
+.ss-hockey:before,
+.ss-hockey.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2956, ../scss/_color360.scss */
+.ss-iceskate:before,
+.ss-iceskate.right:after {
+  content: '⛸';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2962, ../scss/_color360.scss */
+.ss-billiards:before,
+.ss-billiards.right:after {
+  content: '🎱';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2968, ../scss/_color360.scss */
+.ss-baseballglove:before,
+.ss-baseballglove.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2974, ../scss/_color360.scss */
+.ss-tennis:before,
+.ss-tennis.right:after {
+  content: '🎾';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2980, ../scss/_color360.scss */
+.ss-tabletennis:before,
+.ss-tabletennis.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2986, ../scss/_color360.scss */
+.ss-badminton:before,
+.ss-badminton.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2992, ../scss/_color360.scss */
+.ss-boxing:before,
+.ss-boxing.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 2998, ../scss/_color360.scss */
+.ss-bowling:before,
+.ss-bowling.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 3004, ../scss/_color360.scss */
+.ss-football:before,
+.ss-football.right:after {
+  content: '🏈';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 3010, ../scss/_color360.scss */
+.ss-soccer:before,
+.ss-soccer.right:after {
+  content: '⚽';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 3016, ../scss/_color360.scss */
+.ss-hiker:before,
+.ss-hiker.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 3022, ../scss/_color360.scss */
+.ss-pool:before,
+.ss-pool.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 3028, ../scss/_color360.scss */
+.ss-shower:before,
+.ss-shower.right:after {
+  content: '🚿';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 3034, ../scss/_color360.scss */
+.ss-exercise:before,
+.ss-exercise.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 3040, ../scss/_color360.scss */
+.ss-exercisebike:before,
+.ss-exercisebike.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 3046, ../scss/_color360.scss */
+.ss-dumbbell:before,
+.ss-dumbbell.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 3052, ../scss/_color360.scss */
+.ss-jumprope:before,
+.ss-jumprope.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 3058, ../scss/_color360.scss */
+.ss-yoga:before,
+.ss-yoga.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 3064, ../scss/_color360.scss */
+.ss-suitcase:before,
+.ss-suitcase.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 3070, ../scss/_color360.scss */
+.ss-luggage:before,
+.ss-luggage.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 3076, ../scss/_color360.scss */
+.ss-donotdisturb:before,
+.ss-donotdisturb.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 3082, ../scss/_color360.scss */
+.ss-sunscreen:before,
+.ss-sunscreen.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 3088, ../scss/_color360.scss */
+.ss-callbell:before,
+.ss-callbell.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 3094, ../scss/_color360.scss */
+.ss-hospital:before,
+.ss-hospital.right:after {
+  content: '⛨';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 3100, ../scss/_color360.scss */
+.ss-medicalcross:before,
+.ss-medicalcross.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 3106, ../scss/_color360.scss */
+.ss-ambulance:before,
+.ss-ambulance.right:after {
+  content: '🚑';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 3112, ../scss/_color360.scss */
+.ss-bandage:before,
+.ss-bandage.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 3118, ../scss/_color360.scss */
+.ss-medicalthermometer:before,
+.ss-medicalthermometer.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 3124, ../scss/_color360.scss */
+.ss-stethoscope:before,
+.ss-stethoscope.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 3130, ../scss/_color360.scss */
+.ss-syringe:before,
+.ss-syringe.right:after {
+  content: '💉';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 3136, ../scss/_color360.scss */
+.ss-pill:before,
+.ss-pill.right:after {
+  content: '💊';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 3142, ../scss/_color360.scss */
+.ss-pillbottle:before,
+.ss-pillbottle.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 3148, ../scss/_color360.scss */
+.ss-supplements:before,
+.ss-supplements.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 3154, ../scss/_color360.scss */
+.ss-bathroomscale:before,
+.ss-bathroomscale.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 3160, ../scss/_color360.scss */
+.ss-dna:before,
+.ss-dna.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 3166, ../scss/_color360.scss */
+.ss-anatomicalheart:before,
+.ss-anatomicalheart.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 3172, ../scss/_color360.scss */
+.ss-checkheart:before,
+.ss-checkheart.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 3178, ../scss/_color360.scss */
+.ss-eyesurgery:before,
+.ss-eyesurgery.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 3184, ../scss/_color360.scss */
+.ss-brokenbone:before,
+.ss-brokenbone.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 3190, ../scss/_color360.scss */
+.ss-up:before,
+.ss-up.right:after {
+  content: '⬆';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 3196, ../scss/_color360.scss */
+.ss-upright:before,
+.ss-upright.right:after {
+  content: '⬈';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 3202, ../scss/_color360.scss */
+.ss-right:before,
+.ss-right.right:after {
+  content: '➡';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 3208, ../scss/_color360.scss */
+.ss-downright:before,
+.ss-downright.right:after {
+  content: '⬊';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 3214, ../scss/_color360.scss */
+.ss-down:before,
+.ss-down.right:after {
+  content: '⬇';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 3220, ../scss/_color360.scss */
+.ss-downleft:before,
+.ss-downleft.right:after {
+  content: '⬋';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 3226, ../scss/_color360.scss */
+.ss-left:before,
+.ss-left.right:after {
+  content: '⬅';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 3232, ../scss/_color360.scss */
+.ss-upleft:before,
+.ss-upleft.right:after {
+  content: '⬉';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 3238, ../scss/_color360.scss */
+.ss-navigateup:before,
+.ss-navigateup.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 3244, ../scss/_color360.scss */
+.ss-navigateright:before,
+.ss-navigateright.right:after {
+  content: '▻';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 3250, ../scss/_color360.scss */
+.ss-navigatedown:before,
+.ss-navigatedown.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 3256, ../scss/_color360.scss */
+.ss-navigateleft:before,
+.ss-navigateleft.right:after {
+  content: '◅';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 3262, ../scss/_color360.scss */
+.ss-directup:before,
+.ss-directup.right:after {
+  content: '▴';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 3268, ../scss/_color360.scss */
+.ss-directright:before,
+.ss-directright.right:after {
+  content: '▹';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 3274, ../scss/_color360.scss */
+.ss-dropdown:before,
+.ss-dropdown.right:after {
+  content: '▾';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 3280, ../scss/_color360.scss */
+.ss-directleft:before,
+.ss-directleft.right:after {
+  content: '◃';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 3286, ../scss/_color360.scss */
+.ss-leftright:before,
+.ss-leftright.right:after {
+  content: '⬌';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 3292, ../scss/_color360.scss */
+.ss-rightward:before,
+.ss-rightward.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 3298, ../scss/_color360.scss */
+.ss-leftward:before,
+.ss-leftward.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 3304, ../scss/_color360.scss */
+.ss-previouspage:before,
+.ss-previouspage.right:after {
+  content: '⎗';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 3310, ../scss/_color360.scss */
+.ss-nextpage:before,
+.ss-nextpage.right:after {
+  content: '⎘';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 3316, ../scss/_color360.scss */
+.ss-retweet:before,
+.ss-retweet.right:after {
+  content: '';
+}
+
+/* line 50, ../../scss/_webfont.scss */
+/* line 3322, ../scss/_color360.scss */
+.ss-share:before,
+.ss-share.right:after {
+  content: '';
+}
+
+/* line 1, ../../scss/_ui.scss */
+/* line 3328, ../scss/_color360.scss */
+.ui {
+  width: 100%;
+  position: relative;
+  margin: 30px 0 0 0;
+}
+
+/* line 6, ../../scss/_ui.scss */
+/* line 3335, ../scss/_color360.scss */
+.ui .next {
+  font-size: 2.0em;
+  position: absolute;
+  display: inline-block;
+  color: #CDD3D1;
+  cursor: pointer;
+  right: 0px;
+}
+
+/* line 14, ../../scss/_ui.scss */
+/* line 3345, ../scss/_color360.scss */
+.ui .prev {
+  font-size: 2.0em;
+  position: absolute;
+  display: inline-block;
+  color: #CDD3D1;
+  cursor: pointer;
+  left: 0px;
+}
+
+/* line 26, ../../scss/_ui-spinner.scss */
+/* line 3355, ../scss/_color360.scss */
+.ui-spinner {
+  width: 46px;
+  height: 46px;
+  background: #dddddd;
+}
+
+/* line 31, ../../scss/_ui-spinner.scss */
+/* line 3362, ../scss/_color360.scss */
+.ui-spinner .side .fill {
+  background: #3c76ca;
+  -webkit-animation-duration: 3s;
+  -moz-animation-duration: 3s;
+  -ms-animation-duration: 3s;
+  -o-animation-duration: 3s;
+  animation-duration: 3s;
+  opacity: 0.8;
+}
+
+/* line 39, ../../scss/_ui-spinner.scss */
+/* line 3373, ../scss/_color360.scss */
+.ui-spinner:after {
+  content: "";
+  background: transparent;
+  position: absolute;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  top: 9px;
+  left: 9px;
+  display: block;
+}
+
+/* line 4, ../scss/_colores.scss */
+#colores h2 {
+  text-align: center;
+  color: #e32c40;
+  margin-bottom: 0;
+}
+/* line 10, ../scss/_colores.scss */
+#colores .colores {
+  color: #000;
+  text-align: center;
+  margin-top: 0;
+}
+/* line 15, ../scss/_colores.scss */
+#colores .colores .lista-color {
+  padding: 0;
+  margin: 0;
+}
+/* line 19, ../scss/_colores.scss */
+#colores .colores li {
+  display: inline-block;
+  padding: 3px;
+  position: relative;
+  padding-top: 15px;
+}
+/* line 26, ../scss/_colores.scss */
+#colores .colores li a.flex-active {
+  border-color: #a7a7a7;
+}
+/* line 30, ../scss/_colores.scss */
+#colores .colores li a {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border: solid 4px #e5e6e7;
+  border-radius: 50%;
+  background: url(../img/transparencia.png) no-repeat;
+  background-size: 42px;
+  transition: .3s;
+  box-shadow: none;
+  font-size: 0;
+}
+/* line 43, ../scss/_colores.scss */
+#colores .colores li p {
+    position: absolute;
+    top: 100%;
+    font-size: .9rem;
+    width: 13rem;
+    text-align: center;
+    margin-left: -5rem;
+    line-height: 1.1em;
+    opacity: 0;
+    transition: .3s;
+    display: none;
+    color: #2a2a2a;
+    z-index: 2;
+    padding: 5px;
+    border-radius: inherit;
+}
+
+/* line 64, ../scss/_colores.scss */
+#colores .colores li:hover p,
+#colores .colores li a.flex-active p {
+  opacity: 1;
+  display: block;
+}
+/* line 75, ../scss/_colores.scss */
+#colores .autos .auto-color {
+  display: none;
+  position: relative;
+}
+/* line 79, ../scss/_colores.scss */
+
+#colores .autos
+{
+  padding-top: 20px;
+}
+
+
+#colores .autos .auto-color:first-child {
+  display: block;
+}
+/* line 83, ../scss/_colores.scss */
+#colores .autos .auto-color .rotar {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  text-align: center;
+}
+/* line 90, ../scss/_colores.scss */
+#colores .autos .auto-color .auto360 {
+  position: relative;
+  width: 100%;
+}
+/* line 94, ../scss/_colores.scss */
+#colores .autos .auto-color .auto360:before {
+  content: '';
+  display: block;
+  width: 100%;
+  padding-top: 54.2%;
+}
+/* line 101, ../scss/_colores.scss */
+#colores .autos .auto-color .auto360 .threesixty {
+  display: block;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  /* height: 540px; */
+}
+/* line 113, ../scss/_colores.scss */
+.bottom-colores {
+  text-align: center;
+}
+/* line 116, ../scss/_colores.scss */
+.bottom-colores .nota {
+  font-size: 10px;
+  padding: 15px;
+}
+/* line 121, ../scss/_colores.scss */
+.bottom-colores .botones {
+  margin: 0 5px 10px;
+  min-width: 204px;
+  font-size: 14px;
+}
+/* line 127, ../scss/_colores.scss */
+#colores .bottom-colores .btn-black:after {
+  display: none;
+  margin: 0 0 10px 0;
+}
+
+@media screen and (min-width: 992px) {
+  /* line 139, ../scss/_colores.scss */
+  #colores .colores {
+    padding-left: 0;
+    margin-top: 0;
+    text-align: left;
+  }
+  /* line 145, ../scss/_colores.scss */
+  #colores h2 {
+    color: #000;
+    text-align: left;
+/*    width: 200px;
+    margin: 0 0 -54px;*/
+    padding-left: 0;
+/*    transform: translate(0, 70%);*/
+  }
+}
+@media screen and (min-width: 1200px) {
+  /* line 161, ../scss/_colores.scss */
+  #colores .colores {
+    /*padding-left: 40px;*/
+  }
+  /* line 166, ../scss/_colores.scss */
+  #colores h2 {
+ /*   padding-left: 40px;
+    transform: translate(0, 132%);*/
+  }
+}
+/* line 10, ../scss/_interna.scss */
+.section {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 13px;
+}
+/* line 15, ../scss/_interna.scss */
+.section h2 {
+  margin: 0 auto 30px;
+  font-weight: 600;
+  font-size: 18px;
+  text-align: center;
+}
+/* line 21, ../scss/_interna.scss */
+.section h2 strong {
+  font-weight: bold;
+}
+
+/* line 31, ../scss/_interna.scss */
+#banners {
+  padding-bottom: 30px;
+}
+/* line 34, ../scss/_interna.scss */
+#banners .content-banner {
+  margin-bottom: 15px;
+}
+/* line 37, ../scss/_interna.scss */
+#banners .content-banner img {
+  width: 100%;
+  max-width: none;
+}
+/* line 43, ../scss/_interna.scss */
+#banners .content-beneficios {
+  background-color: #f5f5f5;
+  width: 100%;
+  padding: 35px;
+  margin-bottom: 30px;
+}
+/* line 49, ../scss/_interna.scss */
+#banners .content-beneficios .t-beneficios {
+  width: 100%;
+  font-size: 18px;
+  font-weight: 600;
+  color: #494949;
+  text-align: center;
+  line-height: 1.2em;
+  padding-bottom: 10px;
+}
+/* line 58, ../scss/_interna.scss */
+#banners .content-beneficios .t-beneficios br {
+  display: none;
+}
+/* line 62, ../scss/_interna.scss */
+#banners .content-beneficios .t-beneficios .red {
+  color: #e32c40;
+  display: block;
+}
+/* line 69, ../scss/_interna.scss */
+#banners .content-beneficios .lista-benefcios {
+  width: 100%;
+  font-size: 13px;
+}
+/* line 73, ../scss/_interna.scss */
+#banners .content-beneficios .lista-benefcios .item-beneficio {
+  display: block;
+  width: 100%;
+  border-radius: 20px;
+  border: 2px solid #fff;
+  padding: 7px;
+  font-size: 14px;
+  color: #282828;
+  text-align: center;
+  margin: 10px 0;
+  line-height: 1.2em;
+}
+/* line 85, ../scss/_interna.scss */
+#banners .content-beneficios .lista-benefcios .item-beneficio br {
+  display: none;
+}
+/* line 89, ../scss/_interna.scss */
+#banners .content-beneficios .lista-benefcios .item-beneficio .logo {
+  display: none;
+}
+/* line 93, ../scss/_interna.scss */
+#banners .content-beneficios .lista-benefcios .item-beneficio:hover {
+  background-color: #fff;
+}
+
+/* line 105, ../scss/_interna.scss */
+#videos {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  height: auto;
+  text-align: center;
+  position: relative;
+}
+/* line 112, ../scss/_interna.scss */
+#videos h2 {
+  text-align: center;
+  display: block;
+}
+/* line 117, ../scss/_interna.scss */
+#videos h2 .break {
+  display: none;
+}
+/* line 121, ../scss/_interna.scss */
+#videos h2 .linea:after {
+  margin: 0 auto;
+}
+/* line 126, ../scss/_interna.scss */
+#videos p {
+  margin-bottom: 20px;
+}
+/* line 130, ../scss/_interna.scss */
+#videos .video {
+  display: block;
+  border-radius: 6px;
+  overflow: hidden;
+  background-color: #000;
+}
+/* line 136, ../scss/_interna.scss */
+#videos .video .layer-video {
+  position: relative;
+  display: block;
+  opacity: .3;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+/* line 142, ../scss/_interna.scss */
+#videos .video .layer-video img {
+  width: 100%;
+}
+/* line 146, ../scss/_interna.scss */
+#videos .video .layer-video .play {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -28px;
+  margin-left: -28px;
+  transform: scale(1);
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+/* line 157, ../scss/_interna.scss */
+#videos .video .layer-video:hover {
+  opacity: .9;
+}
+/* line 160, ../scss/_interna.scss */
+#videos .video .layer-video:hover .play {
+  transform: scale(1.3);
+}
+
+  #videos .reproductor-video
+  {
+    margin-bottom: 15px;
+  }
+
+  #videos .columna-lista-mini-video
+  {
+    display: none;
+  }
+
+/* line 168, ../scss/_interna.scss */
+#modelos {
+  text-align: center;
+  overflow: hidden;
+}
+
+#modelos.seccion
+{
+  padding-top: 0;
+}
+
+/* line 172, ../scss/_interna.scss */
+#modelos h2 {
+  margin: 0 auto 20px;
+  text-align: center;
+}
+/* line 177, ../scss/_interna.scss */
+#modelos .item-auto {
+  padding: 5px;
+}
+/* line 181, ../scss/_interna.scss */
+#modelos .precio {
+  font-size: 11px;
+  line-height: 1.2em;
+  margin-bottom: 18px;
+}
+/* line 186, ../scss/_interna.scss */
+#modelos .precio span {
+  font-weight: 600;
+}
+/* line 191, ../scss/_interna.scss */
+#modelos .box-modelo {
+  background-color: #fff;
+  border-radius: 6px;
+  position: relative;
+  padding: 15px;
+  max-width: 230px;
+  overflow: hidden;
+  margin: 0 auto;
+  border-color: transparent;
+}
+/* line 201, ../scss/_interna.scss */
+#modelos .logo {
+  padding-bottom: 25px;
+  font-size: 15px;
+  font-weight: bold;
+}
+/* line 207, ../scss/_interna.scss */
+#modelos .bottom {
+  width: 100%;
+  font-size: 0;
+  padding-top: 1.5rem;
+  border-top: 1px solid #f6f6f6;
+}
+/* line 213, ../scss/_interna.scss */
+#modelos .bottom a {
+  display: inline-block;
+  color: #fff;
+  font-size: 0.8rem;
+  line-height: 1em;
+  font-weight: 400;
+  padding: 6px 6px;
+  max-width: 180px;
+  text-align: center;
+  border-radius: 17px;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+/* line 226, ../scss/_interna.scss */
+#modelos .bottom .cotizar {
+  background-color: #e32c40;
+  width: 100%;
+}
+/* line 231, ../scss/_interna.scss */
+#modelos .bottom .info {
+  background-color: #bfbfbf;
+  width: 100%;
+  margin-bottom: 6px;
+}
+
+/* line 241, ../scss/_interna.scss */
+#modelos .slick-next,
+#modelos .slick-prev {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  font-size: 0;
+  top: 50%;
+  margin-top: -13px;
+  border: 0;
+  z-index: 10;
+  opacity: 0.7;
+  background-color: transparent;
+}
+/* line 255, ../scss/_interna.scss */
+#modelos .slick-prev {
+  left: 0;
+  background-image: url("../img/prev.png");
+}
+/* line 260, ../scss/_interna.scss */
+#modelos .slick-next {
+  right: 0;
+  background-image: url("../img/next.png");
+}
+/* line 269, ../scss/_interna.scss */
+#modelos .slick-dots li button {
+  border: 2px solid #757575;
+}
+/* line 273, ../scss/_interna.scss */
+#modelos .slick-dots li.slick-active button {
+  background-color: #757575;
+  border: 2px solid #757575;
+}
+
+/* line 282, ../scss/_interna.scss */
+.mfp-content .layer-modelo {
+  display: block;
+}
+
+@media screen and (min-width: 768px) {
+  /* line 290, ../scss/_interna.scss */
+  #modelos h2 {
+    margin: 0 auto 20px;
+    text-align: center;
+  }
+  /* line 295, ../scss/_interna.scss */
+  #modelos .slide-modelos {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  #videos .reproductor-video
+  {
+    margin-bottom: 0;
+    display: none;
+    margin-top: 7.5px;
+  }
+
+  #videos .reproductor-video.active
+  {
+    display: block;
+  }
+
+
+  #videos .columna-lista-mini-video
+  {
+    display: block;
+    position: relative;
+  }
+
+  #videos .item-mini-imagen
+  {
+    position: relative;
+    width: 100%;
+    
+    margin-bottom: 3.75px;
+    margin-top: 3.75px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+
+  #videos .item-mini-imagen.active
+  {
+    opacity: 0.7;
+  }
+
+  #videos .item-mini-imagen .border-imagen-video
+  {
+    margin-right: 7.5px;
+    padding-bottom: 27.5625%;
+    position: relative;
+    width: 49%;
+  }
+
+  #videos .item-mini-imagen h4
+  {
+    width: calc(51% - 7.5px);
+    text-align: left;
+    font-family: 'Toyota Display', sans-serif;
+    font-size: 12px;
+  }
+
+  #videos .item-mini-imagen .border-imagen-video > img
+  {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    top: 0;
+    left: 0;
+  }
+
+  #videos .item-mini-imagen .border-imagen-video .play
+  {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+
+  #videos .slick-prev {
+    left: auto;
+    right: auto;
+    top: auto;
+    bottom: auto;
+    top: -50px;
+    left: 50%;
+    background-image: url(../img/prev.png);
+    transform: rotate(90deg) translateY(50%);
+    width: 25px;
+    height: 25px;
+    margin: 0;
+  }
+
+  #videos .slick-next {
+    left: auto;
+    right: auto;
+    top: auto;
+    bottom: auto;
+    left: 50%;
+    bottom: -50px;
+    background-image: url(../img/next.png);
+    transform: rotate(90deg) translateY(50%);
+    width: 25px;
+    height: 25px;
+    margin: 0;
+  }
+}
+@media screen and (min-width: 992px) {
+  /* line 303, ../scss/_interna.scss */
+  .section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  #detalle-modelo-renovado .section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  #detalle-modelo-renovado .section.bloque-color
+  {
+    text-align: center;
+    padding-top: 30px;
+  }
+
+  #detalle-modelo-renovado #banners {
+    padding-bottom: 0px;
+  }
+  /* line 307, ../scss/_interna.scss */
+  .section h2 {
+    font-size: 1.5rem;
+  }
+  /* line 311, ../scss/_interna.scss */
+  .section .linea {
+    position: relative;
+    padding-top: 5px;
+    display: block;
+  }
+  /* line 316, ../scss/_interna.scss */
+  .section .linea:after {
+    content: '';
+    display: block;
+    width: 100%;
+    max-width: 40px;
+    position: relative;
+    bottom: 0;
+    height: 2px;
+    background: #313131;
+  }
+
+  /* line 333, ../scss/_interna.scss */
+  #videos h2 {
+
+    font-size: 21px;
+    line-height: 1.3em;
+  }
+  /* line 338, ../scss/_interna.scss */
+  #videos h2 .break {
+    display: block;
+  }
+  /* line 342, ../scss/_interna.scss */
+  #videos h2 .linea:after {
+    margin: 0 0;
+  }
+  /* line 347, ../scss/_interna.scss */
+  #videos p {
+    text-align: left;
+  }
+  /* line 353, ../scss/_interna.scss */
+  #videos .video .layer-video {
+    position: relative;
+    display: block;
+    opacity: .3;
+  }
+
+
+
+  /* line 362, ../scss/_interna.scss */
+  #banners .content-beneficios {
+    padding: 32px;
+    font-size: 0;
+    border-radius: 6px;
+  }
+  /* line 367, ../scss/_interna.scss */
+  #banners .content-beneficios .t-beneficios {
+    width: 30%;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: left;
+    padding-left: 4%;
+  }
+  /* line 376, ../scss/_interna.scss */
+  #banners .content-beneficios .t-beneficios br {
+    display: block;
+  }
+  /* line 380, ../scss/_interna.scss */
+  #banners .content-beneficios .t-beneficios .red {
+    font-size: 25px;
+  }
+  /* line 385, ../scss/_interna.scss */
+  #banners .content-beneficios .lista-benefcios {
+    width: 70%;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 0;
+  }
+  /* line 391, ../scss/_interna.scss */
+  #banners .content-beneficios .lista-benefcios .item-beneficio {
+    display: inline-block;
+    border-radius: 10px;
+    border: 0;
+    width: 22%;
+    margin: 0 1.5%;
+    font-size: 12px;
+  }
+  /* line 399, ../scss/_interna.scss */
+  #banners .content-beneficios .lista-benefcios .item-beneficio br {
+    display: block;
+  }
+  /* line 403, ../scss/_interna.scss */
+  #banners .content-beneficios .lista-benefcios .item-beneficio .logo {
+    display: block;
+    border-radius: 10px;
+    border: 2px solid #fff;
+    width: 100%;
+    padding: 12% 0;
+    margin-bottom: 10px;
+    filter: grayscale(1);
+    opacity: .5;
+  }
+  /* line 413, ../scss/_interna.scss */
+  #banners .content-beneficios .lista-benefcios .item-beneficio .logo:hover {
+    filter: grayscale(0);
+    opacity: 1;
+  }
+  /* line 419, ../scss/_interna.scss */
+  #banners .content-beneficios .lista-benefcios .item-beneficio:hover {
+    background-color: transparent;
+  }
+  /* line 422, ../scss/_interna.scss */
+  #banners .content-beneficios .lista-benefcios .item-beneficio:hover .logo {
+    background-color: #fff;
+  }
+
+  /* line 433, ../scss/_interna.scss */
+  #videos {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  /* line 437, ../scss/_interna.scss */
+  #videos h2 {
+    
+  }
+  /* line 440, ../scss/_interna.scss */
+  #videos h2 .break {
+    display: block;
+  }
+  /* line 444, ../scss/_interna.scss */
+  #videos h2 .linea:after {
+    margin: 0 0;
+  }
+  /* line 449, ../scss/_interna.scss */
+  #videos p {
+    text-align: left;
+  }
+  /* line 455, ../scss/_interna.scss */
+  #videos .video .layer-video {
+    position: relative;
+    display: block;
+    opacity: .3;
+  }
+
+  #videos .d-flex-midle {
+    align-items: stretch !important;
+  }
+
+
+
+  /* line 463, ../scss/_interna.scss */
+  #modelos {
+    padding-bottom: 100px;
+  }
+  /* line 466, ../scss/_interna.scss */
+  #modelos h2 {
+    margin: 0 auto 15px;
+    text-align: center;
+  }
+
+  /* line 473, ../scss/_interna.scss */
+  .layer-modelo {
+    background-color: #e30521;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+  }
+  /* line 479, ../scss/_interna.scss */
+  .layer-modelo .container {
+    max-width: 900px;
+    padding: 50px 20px;
+  }
+  /* line 483, ../scss/_interna.scss */
+  .layer-modelo .container .texto {
+    text-align: right;
+    font-size: 17px;
+  }
+  /* line 488, ../scss/_interna.scss */
+  .layer-modelo .container .auto {
+    text-align: center;
+    width: 100%;
+  }
+  /* line 494, ../scss/_interna.scss */
+  .layer-modelo .container .revision-lista div {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  /* line 499, ../scss/_interna.scss */
+  .layer-modelo .container .revision-lista .itemcar {
+    width: auto;
+  }
+  /* line 503, ../scss/_interna.scss */
+  .layer-modelo .container .revision-lista .arrow {
+    padding: 25px;
+  }
+  /* line 508, ../scss/_interna.scss */
+  .layer-modelo .container .revisaremos {
+    font-size: 17px;
+  }
+  /* line 513, ../scss/_interna.scss */
+  .layer-modelo .container .globo {
+    font-size: 17px;
+    
+  }
+}
+
+.nombre-version-home {
+    margin-top: 0;
+    font-size: 20px;
+    color: #e32c40;
+}

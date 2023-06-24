@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="46.188" height="46.25" viewBox="0 0 46.188 46.25">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+      }
+
+      .cls-1 {
+        stroke: #cf2f39;
+        stroke-linecap: round;
+        stroke-width: 1.25px;
+        stroke-dasharray: 0.001 2.5;
+      }
+
+      .cls-2 {
+        stroke: #fff;
+        stroke-width: 3.125px;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <circle class="cls-1" cx="23.094" cy="23.125" r="22.5"/>
+  <path id="flecha_copy_6" data-name="flecha copy 6" class="cls-2" d="M609.378,555.078L600,564.559l-9.378-9.481" transform="translate(-576.906 -534.5)"/>
+</svg>

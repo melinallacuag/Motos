@@ -1,0 +1,84 @@
+h1, h2, h3, h4, h5, h6{font-family:toyotadisplay_bd;letter-spacing:1px;}
+a, li, p{font-family:toyotadisplay_rg;font-size:1rem;letter-spacing:1px;}
+p:last-child{margin-bottom:0;}
+.bloque-intro{padding:0;}
+.bloque-intro .intro{background:#2a2a2a;color:#fff;text-align:center;padding:2rem 0;text-transform:uppercase;position:relative;}
+.bloque-intro .intro::before{content:"";background:#fff;width:100%;height:1px;top:3rem;left:0;position:absolute;}
+.bloque-intro .intro h2{margin:0;display:inline-block;background:#2a2a2a;z-index:2;position:relative;padding:0 1rem;line-height:1;}
+.bloque-financiamiento .beneficios{text-align:center;padding:4rem 0;}
+.bloque-financiamiento h2{font-size:1.5rem;text-transform:uppercase;margin-top:0;margin-bottom:2rem;text-align:center;}
+.bloque-financiamiento .beneficios img{max-height:4.5rem;}
+.bloque-financiamiento .beneficios h3{text-transform:uppercase;margin:2.5rem 0;font-size:1.1rem;}
+.bloque-financiamiento .descubre{text-align:center;padding:4rem 0;background:#f6f6f6;}
+.bloque-financiamiento .descubre a{color:#1a1a1a;font-family:toyotadisplay_bd;}
+.bloque-boton{
+	padding: 2rem 0;
+	background-color: #ccc;
+}
+
+.bloque-boton .columna{
+	text-align: center;
+}
+
+.bloque-boton .columna .link-red{
+    padding: .7rem 2.5rem;
+    padding-right: 6rem;
+    font-size: 1.1rem;
+    position: relative;
+}
+
+.bloque-boton .columna .link-red:before{
+    width: 3rem;
+    height: 100%;
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: url(../../all/themes/toyota/img/icon-see-more.png) no-repeat center #ff4f5a;
+}
+
+.bloque-boton .columna .logo-maf{
+    max-width: 150px;
+    margin-top: 15px;
+}
+img{max-width:100%;height:auto;vertical-align:bottom}
+.container{position:relative;}
+@media screen and (max-width:800px){}
+#infografia{width:100%;position:relative;top:0;padding:69px 0 0 0;text-align:center;color:#000;background-size:cover;background-position:center bottom;background-image:url(financiamiento/bg-web.jpg);}
+#infografia .container{min-height:480px;padding-top:30px;padding-bottom:30px;}
+#infografia .logo-life{margin:0 auto 25px;max-width:80%}
+#infografia .caracteristicas{text-align:center;margin-bottom:20px}
+#infografia .caracteristicas .box{border:2px solid #000;width:60%;display:inline-block;vertical-align:middle}
+#infografia .caracteristicas .box .titulo{font-size:22px;font-weight:bold;color:#fff;background-color:#000;padding:5px}
+#infografia .caracteristicas .box p{font-size:13px;text-transform:uppercase;padding:10px;margin-bottom:0}
+#infografia .caracteristicas .box p strong{display:block}
+#infografia .caracteristicas .textos{width:38%;padding-left:15px;display:inline-block;vertical-align:middle;font-size:13px}
+#infografia .caracteristicas .verde{border:2px solid #008639}
+#infografia .caracteristicas .verde .titulo{background-color:#008639}
+#infografia .caracteristicas .azul{border:2px solid #0054a7}
+#infografia .caracteristicas .azul .titulo{background-color:#0054a7}
+#infografia .caracteristicas .rojo{border:2px solid #aa0f1f}
+#infografia .caracteristicas .rojo .titulo{background-color:#aa0f1f}
+#infografia .auto-cuota{margin-bottom:20px}
+#infografia .agya-cuota{max-width:80%;margin:0 auto 20px;text-align:center}
+#infografia .programa{margin-bottom:20px;background-image:url(financiamiento/programa-md41d.png?);background-size:100%;max-width:597px}
+#infografia .programa:before{display:block;content:'';width:100%;padding-top:73.6%}
+#infografia .pasos{margin-bottom:20px}
+#infografia .pie{background-image:url(financiamiento/footer-md41d.png?);background-size:100%;max-width:549px;width:80%;margin:0 auto}
+#infografia .pie:before{display:block;content:'';width:100%;padding-top:45.6%}
+@media screen and (min-width:768px){#infografia .container{min-height:480px;}
+#infografia .logo-life{width:26%;max-width:255px;display:inline-block;vertical-align:middle;padding-right:10px;margin-top:34px}
+#infografia .caracteristicas{text-align:center;margin-bottom:20px;display:inline-block;vertical-align:top;width:24%;padding:10px}
+#infografia .caracteristicas .box{width:100%}
+#infografia .caracteristicas .box .titulo{font-size:18px}
+#infografia .caracteristicas .box p{font-size:12px}
+#infografia .caracteristicas .textos{width:100%;margin-top:10px;font-size:11px;padding:0}
+#infografia .auto-cuota{position:absolute;left:0%;max-width:427px;width:45%;left:20px}
+#infografia .agya-cuota{max-width:none;text-align:center;width:50%;margin-left:50%;position:relative}
+#infografia .agya-cuota img{max-width:216px}
+#infografia .programa{margin-bottom:20px;background-image:url(financiamiento/programad41d.png?);background-repeat:none;max-width:502px;margin-left:auto;left:0;width:50%}
+#infografia .programa:before{padding-top:21.7%}
+#infografia .pasos{margin-left:70%;width:30%;margin-bottom:20px}
+#infografia .pie{background-image:url(financiamiento/footerd41d.png?);max-width:209px;width:30%;margin:0 auto;margin-left:45%;margin-top:-250px}
+#infografia .pie:before{padding-top:114%}
+}

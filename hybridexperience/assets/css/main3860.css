@@ -1,0 +1,2507 @@
+a {
+  text-decoration: none;
+}
+
+.slick-prev,
+.slick-next {
+  display: none !important;
+}
+
+/* --------------------------------------------------------
+  top section
+----------------------------------------------------------- */
+.contents__container {
+  width: 100vw;
+  height: auto;
+  overflow-x: hidden;
+}
+
+.section__top {
+  position: relative;
+  width: 100vw;
+  height: auto;
+  box-sizing: border-box;
+  overflow: hidden;
+  top: 70px;
+}
+
+/*——————————————————————————————————————— */
+/* sp */
+
+@media screen and (max-width: 750px) {
+  .section__top {
+    position: relative;
+    width: 100vw;
+    height: 100vw;
+    box-sizing: border-box;
+    overflow: hidden;
+    top: 16vw;
+  }
+
+  .section__top::after {
+    position: absolute;
+    content: "";
+    width: 100vw;
+    height: 141vw;
+    background-image: url(../image/top/sp/top__slider__desert.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+  }
+
+}
+
+/* end sp */
+/*———————————————————————— */
+
+
+.section__top::before {
+  position: absolute;
+  content: "";
+  width: 29.5vw;
+  height: 39.6vw;
+  top: 0;
+  left: 50%;
+  margin-left: -17.1vw;
+  background-image: url(../image/top/top__map__image.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  opacity: 0.8;
+  z-index: 100;
+}
+
+/*——————————————————————————————————————— */
+/* sp */
+@media screen and (max-width: 750px) {
+  .section__top::before {
+    display: none;
+  }
+}
+
+/* end sp */
+/*———————————————————————— */
+
+
+/* slider container */
+.top__slider__container {
+  position: relative;
+  width: 100%;
+  height: 46.5vw;
+  max-height: 1090px;
+  top: 0;
+  margin: auto;
+  background-image: url(../image/top/top__slider__desert.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+}
+
+/*——————————————————————————————————————— */
+/* sp */
+@media screen and (max-width: 750px) {
+  .top__slider__container {
+    display: block;
+    width: 100vw;
+    height: 141vw;
+  }
+}
+
+/* end sp */
+/*———————————————————————— */
+
+.top__kv__wrap {
+  position: absolute;
+  width: 53vw;
+  height: 25.3vw;
+  top: 50%;
+  left: 50%;
+  margin-top: -16.2vw;
+  margin-left: -26.5vw;
+  box-sizing: border-box;
+  z-index: 120;
+}
+
+/*——————————————————————————————————————— */
+/* sp */
+@media screen and (max-width: 750px) {
+  .top__kv__wrap {
+    position: absolute;
+    width: 94vw;
+    height: 45vw;
+    top: 50%;
+    left: 50%;
+    margin-top: -43.5vw;
+    margin-left: -47vw;
+    box-sizing: border-box;
+    z-index: 120;
+  }
+}
+
+/* end sp */
+/*———————————————————————— */
+
+.top__kv__image__logo {
+  position: absolute;
+  width: 53vw;
+
+}
+
+/*——————————————————————————————————————— */
+/* sp */
+@media screen and (max-width: 750px) {
+  .top__kv__image__logo {
+    position: absolute;
+    width: 94vw;
+
+  }
+}
+
+/* end sp */
+/*———————————————————————— */
+
+
+/* top navigation */
+.top__nav__container {
+  position: relative;
+  width: 100vw;
+  height: 360px;
+  background-image: url(../image/top/top__nav__bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 200;
+}
+
+/*——————————————————————————————————————— */
+/* sp */
+@media screen and (max-width: 750px) {
+  .top__nav__container {
+    position: relative;
+    width: 100vw;
+    height: 149vw;
+    background-image: url(../image/top/sp/top__nav__bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 16vw;
+    z-index: 200;
+    box-sizing: border-box;
+  }
+}
+
+/* end sp */
+/*———————————————————————— */
+
+.top__nav__inner {
+  position: relative;
+  width: 950px;
+  height: 380px;
+  margin: auto;
+  box-sizing: border-box;
+  border: 1px solid rgba(1, 1, 1, 0);
+
+}
+
+/*——————————————————————————————————————— */
+/* sp */
+@media screen and (max-width: 750px) {
+  .top__nav__inner {
+    position: relative;
+    width: 85vw;
+    height: 224.5vw;
+    margin: auto;
+    box-sizing: border-box;
+    border: 1px solid rgba(1, 1, 1, 0);
+  }
+}
+
+/* end sp */
+/*———————————————————————— */
+
+
+.top__nav__inner p {
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.9px;
+  line-height: 2em;
+}
+
+/*——————————————————————————————————————— */
+/* sp */
+@media screen and (max-width: 750px) {
+  .top__nav__inner p {
+    font-size: 3vw;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    line-height: 2em;
+  }
+}
+
+/* end sp */
+/*———————————————————————— */
+
+.top__nav__p__1 {
+  text-align: center;
+  margin-top: 60px;
+}
+
+/*——————————————————————————————————————— */
+/* sp */
+@media screen and (max-width: 750px) {
+  .top__nav__p__1 {
+    text-align: center;
+    margin-top: 7vw;
+  }
+}
+
+/* end sp */
+/*———————————————————————— */
+
+.top__info__wrap {
+  position: absolute;
+  width: 695px;
+  height: 80px;
+  top: 200px;
+  left: 50%;
+  margin-left: -347.5px;
+  text-align: left;
+}
+
+/*——————————————————————————————————————— */
+/* sp */
+@media screen and (max-width: 750px) {
+  .top__info__wrap {
+    display: none;
+  }
+}
+
+/* end sp */
+/*———————————————————————— */
+.top__info__wrap__sp {
+  display: none;
+}
+
+/*——————————————————————————————————————— */
+/* sp */
+@media screen and (max-width: 750px) {
+  .top__info__wrap__sp {
+    display: block;
+    position: absolute;
+    width: 85vw;
+    height: 80px;
+    top: 73.5vw;
+    left: 50%;
+    margin-left: -42.5vw;
+    text-align: center;
+  }
+
+  .top__info__p__wrap__sp {
+    margin-top: 2.3vw;
+    margin-bottom: 6.2vw;
+  }
+}
+
+/* end sp */
+/*———————————————————————— */
+
+
+
+.top__info__animation__text {
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  line-height: 2em;
+}
+
+/*——————————————————————————————————————— */
+/* sp */
+@media screen and (max-width: 750px) {
+  .top__info__animation__text {
+    font-size: 3.3vw;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    line-height: 1.9em;
+  }
+}
+
+/* end sp */
+/*———————————————————————— */
+
+
+.top__info__strong {
+  color: #EB0A1E;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+/*——————————————————————————————————————— */
+/* sp */
+@media screen and (max-width: 750px) {
+  .top__info__strong {
+    font-size: 3.4vw;
+    color: #EB0A1E;
+    font-weight: 800;
+  }
+}
+
+/* end sp */
+/*———————————————————————— */
+
+
+
+/* --------------------------------------------------------
+  report section
+----------------------------------------------------------- */
+
+.section__report {
+  width: 100vw;
+  height: 100%;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+.report__kv__wrap {
+  width: 100vw;
+  height: 100%;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+.report__kv--pc {
+  width: 100vw;
+}
+
+/*——————————————————————————————————————— */
+/* sp */
+@media screen and (max-width: 750px) {
+  .report__kv--pc {
+    display: none;
+  }
+}
+
+/* end sp */
+/*———————————————————————— */
+
+
+.report__kv--sp {
+  display: none;
+}
+
+/*——————————————————————————————————————— */
+/* sp */
+@media screen and (max-width: 750px) {
+  .report__kv--sp {
+    display: block;
+    width: 100vw;
+  }
+}
+
+/* end sp */
+/*———————————————————————— */
+
+
+
+
+
+.report__inner__container {
+  width: 950px;
+  height: 100%;
+  margin: auto;
+  padding-bottom: 100px;
+}
+
+/*——————————————————————————————————————— */
+/* sp */
+@media screen and (max-width: 750px) {
+  .report__inner__container {
+    width: 85.3vw;
+    height: 100%;
+    margin: auto;
+    padding-bottom: 13.3333vw;
+
+  }
+}
+
+/* end sp */
+/*———————————————————————— */
+
+/* report */
+.report__reporter__container {
+  width: 378px;
+  height: 132px;
+  margin: auto;
+  margin-top: 80px;
+  box-sizing: border-box;
+}
+
+/*——————————————————————————————————————— */
+/* sp */
+@media screen and (max-width: 750px) {
+  .report__reporter__container {
+    flex-flow: column nowrap;
+    flex-direction: column-reverse;
+    width: 49vw;
+    height: 46.4vw;
+    margin: auto;
+    margin-top: 13.4vw;
+    margin-bottom: -15vw;
+    box-sizing: border-box;
+  }
+}
+
+/* end sp */
+/*———————————————————————— */
+
+.report__reporter-name__container {
+  width: 243px;
+  height: 56px;
+  margin-top: 75px;
+  box-sizing: border-box;
+
+}
+
+/*——————————————————————————————————————— */
+/* sp */
+@media screen and (max-width: 750px) {
+  .report__reporter-name__container {
+    width: 49vw;
+    height: 10.5vw;
+    margin-top: 5vw;
+    box-sizing: border-box;
+    text-align: center;
+
+  }
+}
+
+/* end sp */
+/*———————————————————————— */
+
+
+.report__reporter-name--sm {
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+/*——————————————————————————————————————— */
+/* sp */
+@media screen and (max-width: 750px) {
+  .report__reporter-name--sm {
+    font-size: 2.5vw;
+    font-weight: 600;
+    letter-spacing: 0.2vw;
+  }
+}
+
+/* end sp */
+/*———————————————————————— */
+
+
+.report__reporter-name--lg {
+  font-size: 27px;
+  font-weight: 600;
+  color: #85754e;
+  letter-spacing: 2px;
+  margin-top: 8px;
+  white-space: nowrap;
+}
+
+/*——————————————————————————————————————— */
+/* sp */
+@media screen and (max-width: 750px) {
+  .report__reporter-name--lg {
+    font-size: 5.7vw;
+    font-weight: 600;
+    color: #85754e;
+    letter-spacing: 0.2vw;
+    margin-top: 1.5vw;
+    white-space: nowrap;
+  }
+}
+
+/* end sp */
+/*———————————————————————— */
+
+
+.report__reporter-img__wrap {
+  width: 110px;
+  height: 130px;
+  background: url(../image/top/report__reporter.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  box-sizing: border-box;
+
+}
+
+/*——————————————————————————————————————— */
+/* sp */
+@media screen and (max-width: 750px) {
+  .report__reporter-img__wrap {
+    width: 24.5vw;
+    height: 29vw;
+    margin: auto;
+    background: url(../image/top/report__reporter.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-sizing: border-box;
+
+  }
+}
+
+/* end sp */
+/*———————————————————————— */
+
+
+.report__ttl__container--1 {
+  width: 952px;
+  margin: auto;
+  margin-top: 80px;
+  margin-bottom: 38px;
+  box-sizing: border-box;
+}
+
+/*——————————————————————————————————————— */
+/* sp */
+@media screen and (max-width: 750px) {
+  .report__ttl__container--1 {
+    width: 80vw;
+    margin: auto;
+    margin-top: 27.5vw;
+    margin-bottom: 7.8vw;
+    box-sizing: border-box;
+  }
+}
+
+/* end sp */
+/*———————————————————————— */
+
+
+.report__ttl__container--2 {
+  width: 952px;
+  margin: auto;
+  margin-top: 62px;
+  margin-bottom: 38px;
+  box-sizing: border-box;
+}
+
+/*——————————————————————————————————————— */
+/* sp */
+@media screen and (max-width: 750px) {
+  .report__ttl__container--2 {
+    width: 80vw;
+    margin: auto;
+    margin-top: 15.5vw;
+    margin-bottom: 7.73333vw;
+    box-sizing: border-box;
+  }
+}
+
+/* end sp */
+/*———————————————————————— */
+
+.report__ttl__container--3 {
+  width: 952px;
+  margin: auto;
+  margin-top: 103px;
+  margin-bottom: 38px;
+  box-sizing: border-box;
+}
+
+/*——————————————————————————————————————— */
+/* sp */
+@media screen and (max-width: 750px) {
+  .report__ttl__container--3 {
+    width: 80vw;
+    margin: auto;
+    margin-top: 15.5vw;
+    margin-bottom: 7.73333vw;
+    box-sizing: border-box;
+  }
+}
+
+/* end sp */
+/*———————————————————————— */
+
+
+
+.report__ttl--day {
+  position: relative;
+  font-size: 34px;
+  font-weight: 600;
+  color: #85754e;
+  letter-spacing: 2px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+/*——————————————————————————————————————— */
+/* sp */
+@media screen and (max-width: 750px) {
+  .report__ttl--day {
+    font-size: 5.7vw;
+    font-weight: 600;
+    color: #85754e;
+    letter-spacing: 0.2vw;
+    text-align: center;
+    box-sizing: border-box;
+  }
+}
+
+/* end sp */
+/*———————————————————————— */
+
+
+.report__ttl--txt {
+  position: relative;
+  font-size: 28px;
+  font-weight: 600;
+  color: #000;
+  letter-spacing: 1px;
+  margin-top: 9px;
+  text-align: center;
+  white-space: nowrap;
+  box-sizing: border-box;
+
+}
+
+/*——————————————————————————————————————— */
+/* sp */
+@media screen and (max-width: 750px) {
+  .report__ttl--txt {
+    position: relative;
+    font-size: 4.2666vw;
+    font-weight: 600;
+    color: #000;
+    letter-spacing: 0.3vw;
+    line-height: 5vw;
+    margin-top: 3vw;
+    text-align: center;
+    white-space: nowrap;
+    box-sizing: border-box;
+
+  }
+}
+
+/* end sp */
+/*———————————————————————— */
+
+.report__ttl--sub {
+  position: relative;
+  font-size: 20px;
+  font-weight: 600;
+  color: #85754e;
+  letter-spacing: 2px;
+  text-align: center;
+  box-sizing: border-box;
+  padding-top: 12px;
+  padding-bottom: 2px;
+
+}
+
+/*——————————————————————————————————————— */
+/* sp */
+@media screen and (max-width: 750px) {
+  .report__ttl--sub {
+    position: relative;
+    font-size: 3.2vw;
+    font-weight: 600;
+    color: #85754e;
+    letter-spacing: 0.3vw;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 2.7vw;
+    padding-bottom: 0.2666vw;
+    line-height: 4vw;
+  }
+}
+
+/* end sp */
+/*———————————————————————— */
+
+/* -------------------------------------------------------------------
+  accordion
+----------------------------- */
+
+/* flex 並び順 */
+.order1 {
+  order: 2;
+}
+
+/*——————————————————————————————————————— */
+/* sp */
+@media screen and (max-width: 750px) {
+  .order1 {
+    order: 1;
+  }
+}
+
+/* end sp */
+/*———————————————————————— */
+
+
+.order2 {
+  order: 0;
+}
+
+/*——————————————————————————————————————— */
+/* sp */
+@media screen and (max-width: 750px) {
+  .order2 {
+    order: 2;
+  }
+}
+
+/* end sp */
+/*———————————————————————— */
+
+
+/* 一番大外 */
+.accordion__wrap {
+  position: relative;
+  width: 950px;
+  margin: auto;
+  overflow: hidden;
+  transition: all 0.3s;
+
+}
+
+/*——————————————————————————————————————— */
+/* sp */
+@media screen and (max-width: 750px) {
+  .accordion__wrap {
+    position: relative;
+    width: 80vw;
+    max-height: 70.5vw;
+    margin: auto;
+    overflow: hidden;
+    transition: all 0.4s;
+  }
+
+}
+
+/* end sp */
+/*———————————————————————— */
+
+
+/* flex同列箇所 */
+.accordion__content__wrap {
+  width: 950px;
+  margin: auto;
+}
+
+/*——————————————————————————————————————— */
+/* sp */
+@media screen and (max-width: 750px) {
+  .accordion__content__wrap {
+    width: 80vw;
+    margin: auto;
+    flex-flow: column nowrap;
+  }
+}
+
+/* end sp */
+/*———————————————————————— */
+
+.mg--top {
+  margin-top: 32px;
+}
+
+/*——————————————————————————————————————— */
+/* sp */
+@media screen and (max-width: 750px) {
+  .mg--top {
+    margin-top: 5.3vw;
+  }
+
+}
+
+/* end sp */
+/*———————————————————————— */
+
+.pd--top {
+  padding-top: 48px;
+}
+
+/*——————————————————————————————————————— */
+/* sp */
+@media screen and (max-width: 750px) {
+  .pd--top {
+    padding-top: 5.3vw;
+  }
+}
+
+/* end sp */
+/*———————————————————————— */
+
+
+/* テキスト */
+.report__txt {
+  width: 458px;
+  text-align: justify;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 22px;
+  box-sizing: border-box;
+}
+
+/*——————————————————————————————————————— */
+/* sp */
+@media screen and (max-width: 750px) {
+  .report__txt {
+    width: 80vw;
+    text-align: justify;
+    font-size: 3.5vw;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 8vw;
+  }
+
+}
+
+/* end sp */
+/*———————————————————————— */
+
+
+/* 写真 */
+
+.report__image--sml {
+  width: 460px;
+  height: 180px;
+}
+
+/*——————————————————————————————————————— */
+/* sp */
+@media screen and (max-width: 750px) {
+  .report__image--sml {
+    width: 80vw;
+    height: 31.4vw;
+    margin: auto;
+    margin-top: 5.2vw;
+  }
+}
+
+/* end sp */
+/*———————————————————————— */
+
+
+.report__image--mid {
+  width: 460px;
+  height: 365px;
+}
+
+/*——————————————————————————————————————— */
+/* sp */
+@media screen and (max-width: 750px) {
+  .report__image--mid {
+    width: 80vw;
+    height: 63.3vw;
+    margin: auto;
+    margin-top: 5.2vw;
+  }
+}
+
+/* end sp */
+/*———————————————————————— */
+
+
+.report__image--add {
+  width: 460px;
+  height: 415px;
+}
+
+/*——————————————————————————————————————— */
+/* sp */
+@media screen and (max-width: 750px) {
+  .report__image--add {
+    width: 80vw;
+    height: 72.1738vw;
+    margin: auto;
+    margin-top: 5.2vw;
+  }
+}
+
+/* end sp */
+/*———————————————————————— */
+
+.report__image--def {
+  width: 460px;
+  height: 407px;
+}
+
+/*——————————————————————————————————————— */
+/* sp */
+@media screen and (max-width: 750px) {
+  .report__image--def {
+    width: 80vw;
+    height: 70.8vw;
+    margin: auto;
+    margin-top: 5.2vw;
+  }
+}
+
+/* end sp */
+/*———————————————————————— */
+
+.report__image--big {
+  width: 460px;
+  height: 430px;
+}
+
+/*——————————————————————————————————————— */
+/* sp */
+@media screen and (max-width: 750px) {
+  .report__image--big {
+    width: 80vw;
+    height: 73.8vw;
+    margin: auto;
+    margin-top: 5.2vw;
+  }
+}
+
+/* end sp */
+/*———————————————————————— */
+
+.report__image--lrg {
+  width: 460px;
+  height: 435px;
+}
+
+/*——————————————————————————————————————— */
+/* sp */
+@media screen and (max-width: 750px) {
+  .report__image--lrg {
+    width: 80vw;
+    height: 63.3vw;
+    margin: auto;
+    margin-top: 5.2vw;
+  }
+}
+
+/* end sp */
+/*———————————————————————— */
+
+.report__image--kng {
+  width: 460px;
+  height: 644px;
+}
+
+/*——————————————————————————————————————— */
+/* sp */
+@media screen and (max-width: 750px) {
+  .report__image--kng {
+    width: 80vw;
+    height: 110.6vw;
+    margin: auto;
+    margin-top: 5.2vw;
+  }
+}
+
+/* end sp */
+/*———————————————————————— */
+
+.d01-01 {
+  background: url(../image/top/report__d-01__img--01.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+
+.d01-02 {
+  background: url(../image/top/report__d-01__img--02.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: -180px;
+}
+
+/*——————————————————————————————————————— */
+/* sp */
+@media screen and (max-width: 750px) {
+  .d01-02 {
+    background: url(../image/top/report__d-01__img--02.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 5.2vw;
+  }
+}
+
+/* end sp */
+/*———————————————————————— */
+
+
+.d02-01 {
+  background: url(../image/top/report__d-02__img--01.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 60px;
+}
+
+/*——————————————————————————————————————— */
+/* sp */
+@media screen and (max-width: 750px) {
+  .d02-01 {
+    background: url(../image/top/report__d-02__img--01.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 5.2vw;
+  }
+}
+
+/* end sp */
+/*———————————————————————— */
+
+.d02-02 {
+  background: url(../image/top/report__d-02__img--02.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+/*——————————————————————————————————————— */
+/* sp */
+@media screen and (max-width: 750px) {
+  .d02-02 {
+    background: url(../image/top/report__d-02__img--02.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 0.8vw;
+    margin-bottom: -7vw;
+  }
+}
+
+/* end sp */
+/*———————————————————————— */
+
+.d03-01 {
+  background: url(../image/top/report__d-03__img--01.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+
+.d04-01 {
+  background: url(../image/top/report__d-04__img--01.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+
+.d05-01 {
+  background: url(../image/top/report__d-05__img--01.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+
+.d05-02 {
+  background: url(../image/top/report__d-05__img--02.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 10px;
+}
+
+/*——————————————————————————————————————— */
+/* sp */
+@media screen and (max-width: 750px) {
+  .d05-02 {
+    background: url(../image/top/report__d-05__img--02.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 5.2vw;
+  }
+}
+
+/* end sp */
+/*———————————————————————— */
+
+.d07-01 {
+  background: url(../image/top/report__d-07__img--01.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+
+.d07-02 {
+  background: url(../image/top/report__d-07__img--02.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: -102px;
+
+}
+
+/*——————————————————————————————————————— */
+/* sp */
+@media screen and (max-width: 750px) {
+  .d07-02 {
+    background: url(../image/top/report__d-07__img--02.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 5.2vw;
+
+  }
+}
+
+/* end sp */
+/*———————————————————————— */
+
+
+
+/* 閉じてる状態 */
+.__inactive {
+  display: block;
+}
+
+/*——————————————————————————————————————— */
+/* sp */
+@media screen and (max-width: 750px) {
+  .__inactive {
+    display: block;
+    max-height: 70.5vw;
+  }
+}
+
+/* end sp */
+/*———————————————————————— */
+
+
+/* 開いてる状態 */
+.__active {
+  max-height: 1000vw;
+}
+
+/*——————————————————————————————————————— */
+/* sp */
+@media screen and (max-width: 750px) {
+  .__active {
+    max-height: 1000vw;
+  }
+
+}
+
+/* end sp */
+/*———————————————————————— */
+
+
+/* OPEN BUTTON */
+.accordion--open__btn {
+  display: none;
+}
+
+/*——————————————————————————————————————— */
+/* sp */
+@media screen and (max-width: 750px) {
+  .accordion--open__btn {
+    position: relative;
+    display: block;
+    width: 80vw;
+    height: 11.8vw;
+    margin: auto;
+    margin-top: 6.6vw;
+    background-color: transparent;
+    border: 2px solid #000;
+    text-align: center;
+    line-height: 11.8vw;
+    font-size: 4vw;
+    font-weight: 600;
+  }
+
+  .accordion--open__btn::before {
+    position: absolute;
+    content: "";
+    width: 3vw;
+    height: 1.5vw;
+    top: 50%;
+    right: 4vw;
+    margin-top: -0.75vw;
+    background: url(../image/top/sp/btn--open__arrow.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}
+
+/* end sp */
+/*———————————————————————— */
+
+
+/* CLOSE BUTTON */
+.accordion--close__btn {
+  display: none;
+}
+
+/*——————————————————————————————————————— */
+/* sp */
+@media screen and (max-width: 750px) {
+  .accordion--close__btn {
+    position: relative;
+    display: block;
+    width: 79vw;
+    height: 11.8vw;
+    margin: auto;
+    margin-top: 7.6vw;
+    background-color: transparent;
+    border: 2px solid #000;
+    text-align: center;
+    line-height: 11.8vw;
+    font-size: 4vw;
+    font-weight: 600;
+  }
+
+  .accordion--close__btn::before {
+    position: absolute;
+    display: block;
+    width: 2.9vw;
+    height: 1.6vw;
+    top: 50%;
+    right: 4vw;
+    margin-top: -0.8vw;
+    content: "";
+    background: url(../image/top/sp/btn--close__arrow.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+  }
+}
+
+/* end sp */
+/*———————————————————————— */
+
+.d__none {
+  display: none;
+}
+
+/* -----------------------------------------------------------------------
+day-2
+-------------------------------- */
+
+.report__image__inner__wrap {
+  display: block;
+}
+
+
+/* -----------------------------------------------------------------------
+day-5__day8
+-------------------------------- */
+
+.day-5__day8 {
+  position: relative;
+  display: block;
+  width: 100vw;
+  margin: auto;
+  padding-bottom: 100px;
+  background: url(../image/top/report__d05-d08__bg.png);
+  background-repeat: repeat-y;
+  background-size: 100%;
+  background-position: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.day-5__day8::before {
+  position: absolute;
+  display: block;
+  content: "";
+  width: 84.15385vw;
+  height: 62.07692vw;
+  top: 0;
+  right: 0;
+  background: url(../image/top/report__d05-d08__bg--map.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+/*——————————————————————————————————————— */
+/* sp */
+@media screen and (max-width: 750px) {
+  .day-5__day8 {
+    position: relative;
+    display: block;
+    width: 100vw;
+    margin: auto;
+    padding-bottom: 13.3333vw;
+    background: url(../image/top/sp/report__contents__container--add__bg.png);
+    background-repeat: repeat-y;
+    background-size: 100%;
+    background-position: center;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+
+  .day-5__day8::before {
+    display: block;
+    position: absolute;
+    content: "";
+    width: 74.8vw;
+    height: 129.5vw;
+    top: 0;
+    left: 0;
+    background: url(../image/top/sp/report__contents__container--add__map.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}
+
+/* end sp */
+/*———————————————————————— */
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------------------------------------------
+country container
+----------------------- */
+
+.report__country-img__container {
+  width: 950px;
+  margin: auto;
+  margin-top: 60px;
+}
+
+/*——————————————————————————————————————— */
+/* sp */
+@media screen and (max-width: 750px) {
+  .report__country-img__container {
+    width: 100vw;
+    margin: auto;
+    /* margin-top: 13.5vw; */
+    flex-flow: column nowrap;
+    align-content: flex-start;
+  }
+}
+
+/* end sp */
+/*———————————————————————— */
+
+
+.report__country-img__wrap {
+  width: 190px;
+}
+
+/*——————————————————————————————————————— */
+/* sp */
+@media screen and (max-width: 750px) {
+  .report__country-img__wrap {
+    width: 100vw;
+  }
+}
+
+/* end sp */
+/*———————————————————————— */
+
+
+.report__country-img--pc {
+  width: 190px;
+
+}
+
+/*——————————————————————————————————————— */
+/* sp */
+@media screen and (max-width: 750px) {
+  .report__country-img--pc {
+    display: none;
+
+  }
+}
+
+/* end sp */
+/*———————————————————————— */
+
+
+.report__country-img--sp {
+  display: none;
+}
+
+/*——————————————————————————————————————— */
+/* sp */
+@media screen and (max-width: 750px) {
+  .report__country-img--sp {
+    display: block;
+    width: 100vw;
+  }
+}
+
+/* end sp */
+/*———————————————————————— */
+
+
+/* --------------------------------------------------------
+  Campaign site link section
+----------------------------------------------------------- */
+
+.section__link-to-main {
+  position: relative;
+  width: 100vw;
+  height: 410px;
+  margin: auto;
+  background-color: #FFF;
+  box-sizing: border-box;
+}
+
+/*——————————————————————————————————————— */
+/* sp */
+@media screen and (max-width: 750px) {
+  .section__link-to-main {
+    position: relative;
+    width: 100vw;
+    height: 67vw;
+    background-color: transparent;
+    box-sizing: border-box;
+  }
+}
+
+/* end sp */
+/*———————————————————————— */
+
+
+.link-to-main__p__wrap {
+  position: absolute;
+  width: 700px;
+  top: 30px;
+  left: 50%;
+  margin-left: -350px;
+  box-sizing: border-box;
+}
+
+/*——————————————————————————————————————— */
+/* sp */
+@media screen and (max-width: 750px) {
+  .link-to-main__p__wrap {
+    position: absolute;
+    width: 85vw;
+    top: 6.7vw;
+    left: 50%;
+    margin-left: -42.5vw;
+    box-sizing: border-box;
+  }
+}
+
+/* end sp */
+/*———————————————————————— */
+
+
+.link-to-main__p__wrap p {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  white-space: nowrap;
+}
+
+/*——————————————————————————————————————— */
+/* sp */
+@media screen and (max-width: 750px) {
+  .link-to-main__p__wrap p {
+    text-align: center;
+    font-size: 3.3vw;
+    font-weight: 600;
+    letter-spacing: 0.2vw;
+    line-height: 1.5em;
+  }
+}
+
+/* end sp */
+/*———————————————————————— */
+
+
+.link-to-main__bnr__wrap {
+  position: absolute;
+  width: 952px;
+  height: 220px;
+  top: 110px;
+  left: 50%;
+  margin-left: -476px;
+  background-image: url(../image/top/link-to-main__bnr.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  box-sizing: border-box;
+}
+
+/*——————————————————————————————————————— */
+/* sp */
+@media screen and (max-width: 750px) {
+  .link-to-main__bnr__wrap {
+    position: absolute;
+    width: 85vw;
+    height: 44vw;
+    top: 22.5vw;
+    left: 50%;
+    margin-left: -42.5vw;
+    background-image: url(../image/top/sp/link-to-main__bnr.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    box-sizing: border-box;
+  }
+}
+
+/* end sp */
+/*———————————————————————— */
+
+.link-to-main__bnr__wrap:hover {
+  opacity: 0.6;
+}
+
+/* --------------------------------------------------------
+  Car select section
+----------------------------------------------------------- */
+
+
+.section__carselect {
+  width: 100vw;
+  height: auto;
+  background-image: url(../image/top/section__car-select__bg.png);
+  background-position: center;
+  background-repeat: repeat-y;
+  background-size: cover;
+}
+
+.carselect__inner__container {
+  position: relative;
+  width: 950px;
+  height: auto;
+  margin: auto;
+  box-sizing: border-box;
+  border: 1px solid transparent;
+}
+
+/*——————————————————————————————————————— */
+/* sp */
+@media screen and (max-width: 750px) {
+  .carselect__inner__container {
+    position: relative;
+    width: 85vw;
+    height: auto;
+    margin: auto;
+    box-sizing: border-box;
+
+  }
+}
+
+/* end sp */
+/*———————————————————————— */
+
+/* SELECT YOUR COUNTRY */
+
+
+.carselect__title__wrap {
+  position: absolute;
+  width: 330px;
+  top: 80px;
+  left: 50%;
+  margin-left: -165px;
+}
+
+.carselect__title__wrap img {
+  width: 330px;
+}
+
+/*——————————————————————————————————————— */
+/* sp */
+@media screen and (max-width: 750px) {
+  .carselect__title__wrap {
+    position: absolute;
+    width: 61vw;
+    height: 13vw;
+    top: 9.5vw;
+    left: 50%;
+    margin-left: -30.5vw;
+  }
+
+  .carselect__title__wrap img {
+    width: 61vw;
+  }
+
+}
+
+/* end sp */
+/*———————————————————————— */
+
+
+
+
+
+.carselect__box__top {
+  width: 950px;
+  height: 60px;
+  text-align: center;
+  background-color: #000;
+}
+
+/*——————————————————————————————————————— */
+/* sp */
+@media screen and (max-width: 750px) {
+  .carselect__box__top {
+    width: 85vw;
+    height: 8vw;
+    text-align: center;
+    background-color: #000;
+  }
+}
+
+/* end sp */
+/*———————————————————————— */
+
+
+.carselect__box__top h1 {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 60px;
+}
+
+/*——————————————————————————————————————— */
+/* sp */
+@media screen and (max-width: 750px) {
+  .carselect__box__top h1 {
+    color: #fff;
+    font-size: 3.5vw;
+    font-weight: 600;
+    line-height: 8vw;
+  }
+}
+
+/* end sp */
+/*———————————————————————— */
+
+
+.carselect__box__top span {
+  color: #EB0A1E;
+  font-weight: 700;
+  line-height: 60px;
+  margin-right: 7px;
+}
+
+/*——————————————————————————————————————— */
+/* sp */
+@media screen and (max-width: 750px) {
+  .carselect__box__top span {
+    color: #EB0A1E;
+    font-weight: 700;
+    line-height: 8vw;
+    margin-right: 1vw;
+  }
+}
+
+/* end sp */
+/*———————————————————————— */
+
+
+
+/* --------------------------------------------------------------------------------
+SELECT CAR MODEL */
+
+
+.carselct__preview__container {
+  width: 950px;
+  height: 302px;
+  margin-top: 190px;
+  left: 0;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+
+/*——————————————————————————————————————— */
+/* sp */
+@media screen and (max-width: 750px) {
+  .carselct__preview__container {
+    width: 85vw;
+    height: auto;
+    margin-top: 32vw;
+    padding-bottom: 2vw;
+    left: 0;
+    background-color: #fff;
+    box-sizing: border-box;
+  }
+}
+
+/* end sp */
+/*———————————————————————— */
+
+
+
+/* preview container */
+/* common */
+
+.carselect__car__wrap {
+  width: 258px;
+  height: 120px;
+}
+
+.carselect__car__wrap img {
+  width: 258px;
+  height: 120px;
+}
+
+.carselect__car__wrap:hover {
+  opacity: 0.6;
+}
+
+/*——————————————————————————————————————— */
+/* sp */
+@media screen and (max-width: 750px) {
+  .carselect__car__wrap {
+    width: 34.5vw;
+    height: 16vw;
+  }
+
+  .carselect__car__wrap img {
+    width: 34.5vw;
+    height: 16vw;
+
+  }
+}
+
+/* end sp */
+/*———————————————————————— */
+
+
+.carselect__car__wrap a {
+  text-decoration: none;
+}
+
+
+/* CAMRY HV */
+.carselect__car__link--camryhv {
+  font-size: 20px;
+  color: #000;
+  font-weight: 600;
+  text-align: center;
+  padding-left: 1px;
+}
+
+.carselect__car__link--camryhv::before {
+  display: inline-block;
+  content: "";
+  width: 16px;
+  height: 15px;
+  background-image: url(../image/top/carselect__arrow.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  top: 0;
+  left: 0;
+}
+
+/* PRIUS */
+.carselect__car__link--prius {
+  font-size: 20px;
+  color: #000;
+  font-weight: 600;
+  text-align: center;
+  padding-left: 1px;
+}
+
+/*——————————————————————————————————————— */
+/* sp */
+@media screen and (max-width: 750px) {
+  .carselect__car__link--prius {
+    font-size: 3.5vw;
+    color: #000;
+    font-weight: 600;
+    text-align: center;
+    padding-left: 1px;
+  }
+}
+
+/* end sp */
+/*———————————————————————— */
+
+
+.carselect__car__link--prius::before {
+  display: inline-block;
+  content: "";
+  width: 16px;
+  height: 15px;
+  background-image: url(../image/top/carselect__arrow.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  top: 0;
+  left: 0;
+}
+
+/*——————————————————————————————————————— */
+/* sp */
+@media screen and (max-width: 750px) {
+  .carselect__car__link--prius::before {
+    display: inline-block;
+    content: "";
+    width: 3vw;
+    height: 2.2vw;
+    background-image: url(../image/top/carselect__arrow.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    top: 0;
+    left: 0;
+  }
+}
+
+/* end sp */
+/*———————————————————————— */
+
+/* PRIUS C */
+.carselect__car__link--prius-c {
+  font-size: 20px;
+  color: #000;
+  font-weight: 600;
+  text-align: center;
+  padding-left: 1px;
+}
+
+/*——————————————————————————————————————— */
+/* sp */
+@media screen and (max-width: 750px) {
+  .carselect__car__link--prius-c {
+    font-size: 3.5vw;
+    color: #000;
+    font-weight: 600;
+    text-align: center;
+    padding-left: 1px;
+  }
+}
+
+/* end sp */
+/*———————————————————————— */
+
+
+.carselect__car__link--prius-c::before {
+  display: inline-block;
+  content: "";
+  width: 16px;
+  height: 15px;
+  background-image: url(../image/top/carselect__arrow.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  top: 0;
+  left: 0;
+}
+
+/*——————————————————————————————————————— */
+/* sp */
+@media screen and (max-width: 750px) {
+  .carselect__car__link--prius-c::before {
+    display: inline-block;
+    content: "";
+    width: 3vw;
+    height: 2.2vw;
+    background-image: url(../image/top/carselect__arrow.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    top: 0;
+    left: 0;
+  }
+}
+
+/* end sp */
+/*———————————————————————— */
+
+
+/* AVALON HV */
+.carselect__car__link--avalonhv {
+  font-size: 20px;
+  color: #000;
+  font-weight: 600;
+  text-align: center;
+  padding-left: 1px;
+}
+
+/*——————————————————————————————————————— */
+/* sp */
+@media screen and (max-width: 750px) {
+  .carselect__car__link--avalonhv {
+    font-size: 3.5vw;
+    color: #000;
+    font-weight: 600;
+    text-align: center;
+    padding-left: 1px;
+  }
+}
+
+/* end sp */
+/*———————————————————————— */
+
+
+.carselect__car__link--avalonhv::before {
+  display: inline-block;
+  content: "";
+  width: 16px;
+  height: 15px;
+  background-image: url(../image/top/carselect__arrow.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  top: 0;
+  left: 0;
+}
+
+/*——————————————————————————————————————— */
+/* sp */
+@media screen and (max-width: 750px) {
+  .carselect__car__link--avalonhv::before {
+    display: inline-block;
+    content: "";
+    widows: 3vw;
+    height: 2.2vw;
+    background-image: url(../image/top/carselect__arrow.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    top: 0;
+    left: 0;
+  }
+}
+
+/* end sp */
+/*———————————————————————— */
+
+
+/* RAV4 HV */
+.carselect__car__link--rav4hv {
+  font-size: 20px;
+  color: #000;
+  font-weight: 600;
+  text-align: center;
+  padding-left: 1px;
+}
+
+/*——————————————————————————————————————— */
+/* sp */
+@media screen and (max-width: 750px) {
+  .carselect__car__link--rav4hv {
+    font-size: 3.5vw;
+    color: #000;
+    font-weight: 600;
+    text-align: center;
+    padding-left: 1px;
+  }
+}
+
+/* end sp */
+/*———————————————————————— */
+
+
+.carselect__car__link--rav4hv::before {
+  display: inline-block;
+  content: "";
+  width: 12.5px;
+  height: 15px;
+  background-image: url(../image/top/carselect__arrow.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  top: 0;
+  left: 0;
+}
+
+/*——————————————————————————————————————— */
+/* sp */
+@media screen and (max-width: 750px) {
+  .carselect__car__link--rav4hv::before {
+    display: inline-block;
+    content: "";
+    width: 3vw;
+    height: 2.2vw;
+    background-image: url(../image/top/carselect__arrow.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    top: 0;
+    left: 0;
+  }
+}
+
+/* end sp */
+/*———————————————————————— */
+
+
+/* guatemala */
+.carselect__preview__gt__container {
+  display: none;
+}
+
+.carselect__preview__gt__container--active {
+  width: 774px;
+  height: 140px;
+  margin: auto;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+/*——————————————————————————————————————— */
+/* sp */
+@media screen and (max-width: 750px) {
+  .carselect__preview__gt__container--active {
+    width: 86vw;
+    height: auto;
+    margin: auto;
+    margin-top: 4vw;
+    cursor: pointer;
+    padding-bottom: 5vw;
+  }
+}
+
+/* end sp */
+/*———————————————————————— */
+
+
+/* uruguay */
+.carselect__preview__uy__container {
+  display: none;
+}
+
+.carselect__preview__uy__container--active {
+  width: 774px;
+  height: 140px;
+  margin: auto;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+/*——————————————————————————————————————— */
+/* sp */
+@media screen and (max-width: 750px) {
+  .carselect__preview__uy__container--active {
+    width: 86vw;
+    height: 50vw;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 4vw;
+    cursor: pointer;
+    padding-bottom: 0;
+  }
+}
+
+/* end sp */
+/*———————————————————————— */
+
+
+/* ecuador */
+.carselect__preview__ec__container {
+  display: none;
+}
+
+.carselect__preview__ec__container--active {
+  width: 774px;
+  height: 140px;
+  margin: auto;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+/*——————————————————————————————————————— */
+/* sp */
+@media screen and (max-width: 750px) {
+  .carselect__preview__ec__container--active {
+    width: 86vw;
+    height: auto;
+    margin: auto;
+    margin-top: 4vw;
+    cursor: pointer;
+    padding-bottom: 5vw;
+  }
+}
+
+/* end sp */
+/*———————————————————————— */
+
+/* peru */
+.carselect__preview__pe__container {
+  display: none;
+}
+
+.carselect__preview__pe__container--active {
+  width: 774px;
+  height: 140px;
+  margin: auto;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+/*——————————————————————————————————————— */
+/* sp */
+@media screen and (max-width: 750px) {
+  .carselect__preview__pe__container--active {
+    width: 86vw;
+    height: auto;
+    margin: auto;
+    margin-top: 4vw;
+    cursor: pointer;
+    padding-bottom: 5vw;
+  }
+}
+
+/* end sp */
+/*———————————————————————— */
+
+
+/* brazil */
+.carselect__preview__br__container {
+  display: none;
+}
+
+.carselect__preview__br__container--active {
+  width: 774px;
+  height: 140px;
+  margin: auto;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+/*——————————————————————————————————————— */
+/* sp */
+@media screen and (max-width: 750px) {
+  .carselect__preview__br__container--active {
+    width: 86vw;
+    height: auto;
+    margin: auto;
+    margin-top: 4vw;
+    cursor: pointer;
+    padding-bottom: 5vw;
+  }
+}
+
+/* end sp */
+/*———————————————————————— */
+
+
+/* argentina */
+.carselect__preview__ar__container {
+  display: none;
+}
+
+.carselect__preview__ar__container--active {
+  width: 774px;
+  height: 140px;
+  margin: auto;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+/*——————————————————————————————————————— */
+/* sp */
+@media screen and (max-width: 750px) {
+  .carselect__preview__ar__container--active {
+    width: 86vw;
+    height: auto;
+    margin: auto;
+    margin-top: 4vw;
+    cursor: pointer;
+    padding-bottom: 5vw;
+  }
+}
+
+/* end sp */
+/*———————————————————————— */
+
+
+/* --------------------------------------------------------------------------------
+ banner */
+
+
+.carselect__bn__wrap {
+  width: 950px;
+  height: 226px;
+  margin-top: 30px;
+  box-sizing: border-box;
+}
+
+/*——————————————————————————————————————— */
+/* sp */
+@media screen and (max-width: 750px) {
+  .carselect__bn__wrap {
+    width: 85vw;
+    height: 25vw;
+    margin-top: 4.5vw;
+    box-sizing: border-box;
+  }
+}
+
+/* end sp */
+/*———————————————————————— */
+
+.carselect__bn__wrap:hover {
+  opacity: 0.7;
+}
+
+/*——————————————————————————————————————— */
+/* sp */
+@media screen and (max-width: 750px) {
+  .carselect__bn__wrap:hover {
+    opacity: 0.7;
+  }
+}
+
+/* end sp */
+/*———————————————————————— */
+
+
+.carselect__bnr__pc {
+  width: 950px;
+  height: 226px;
+}
+
+/*——————————————————————————————————————— */
+/* sp */
+@media screen and (max-width: 750px) {
+  .carselect__bnr__pc {
+    display: none;
+  }
+}
+
+/* end sp */
+/*———————————————————————— */
+
+
+.carselect__bnr__sp {
+  display: none;
+}
+
+/*——————————————————————————————————————— */
+/* sp */
+@media screen and (max-width: 750px) {
+  .carselect__bnr__sp {
+    display: block;
+    width: 85vw;
+    height: 25vw;
+  }
+}
+
+/* end sp */
+/*———————————————————————— */
+
+
+/* sns */
+.sns__container {
+  width: 205px;
+  height: 75px;
+  margin: auto;
+  margin-top: 65px;
+  margin-bottom: 40px;
+}
+
+/*——————————————————————————————————————— */
+/* sp */
+@media screen and (max-width: 750px) {
+  .sns__container {
+    width: 64vw;
+    height: 21vw;
+    margin: auto;
+    margin-top: 16.5vw;
+    margin-bottom: 10vw;
+  }
+}
+
+/* end sp */
+/*———————————————————————— */
+
+
+.sns__ttl__wrap {
+  width: 152px;
+  height: 25px;
+  margin: auto;
+}
+
+.sns__ttl__wrap img {
+  width: 152px;
+}
+
+/*——————————————————————————————————————— */
+/* sp */
+@media screen and (max-width: 750px) {
+  .sns__ttl__wrap {
+    width: 19vw;
+    height: 5vw;
+    margin: auto;
+  }
+
+  .sns__ttl__wrap img {
+    width: 19vw;
+  }
+}
+
+/* end sp */
+/*———————————————————————— */
+
+.sns__btn__container {
+  width: 205px;
+  height: 36px;
+  margin-top: 16px;
+}
+
+/*——————————————————————————————————————— */
+/* sp */
+@media screen and (max-width: 750px) {
+  .sns__btn__container {
+    width: 64vw;
+    height: 12vw;
+    margin-top: 4.3vw;
+  }
+}
+
+/* end sp */
+/*———————————————————————— */
+
+
+.sns__btn__wrap {
+  width: 36px;
+  height: 36px;
+}
+
+/*——————————————————————————————————————— */
+/* sp */
+@media screen and (max-width: 750px) {
+  .sns__btn__wrap {
+    width: 12vw;
+    height: 12vw;
+  }
+}
+
+/* end sp */
+/*———————————————————————— */
+
+
+.sns__image__pc {
+  display: block;
+}
+
+.sns__image__pc:hover {
+  animation: float_7944 2s linear infinite;
+  transform-origin: 50% 50%;
+}
+
+@keyframes float_7944 {
+  0% {
+    transform: translateY(0)
+  }
+
+  25% {
+    transform: translateY(-6px)
+  }
+
+  50% {
+    transform: translateY(0)
+  }
+
+  100% {
+    transform: translateY(0)
+  }
+}
+
+/*——————————————————————————————————————— */
+/* sp */
+@media screen and (max-width: 750px) {
+  .sns__image__pc {
+    display: none;
+  }
+}
+
+/* end sp */
+/*———————————————————————— */
+
+
+.sns__image__sp {
+  display: none;
+}
+
+/*——————————————————————————————————————— */
+/* sp */
+@media screen and (max-width: 750px) {
+  .sns__image__sp {
+    display: block;
+    width: 12vw;
+  }
+
+  .sns__image__sp:hover {
+    animation: float_7944 2s linear infinite;
+    transform-origin: 50% 50%;
+  }
+
+  @keyframes float_7944 {
+    0% {
+      transform: translateY(0)
+    }
+
+    25% {
+      transform: translateY(-6px)
+    }
+
+    50% {
+      transform: translateY(0)
+    }
+
+    100% {
+      transform: translateY(0)
+    }
+  }
+}
+
+/* end sp */
+/*———————————————————————— */
+
+
+/* SP lang change btn */
+
+.lang__btn__container {
+  display: none;
+}
+
+/*——————————————————————————————————————— */
+/* sp */
+@media screen and (max-width: 750px) {
+  .lang__btn__container {
+    display: flex;
+    width: 82.5vw;
+    height: 12.3vw;
+    margin: auto;
+    margin-bottom: 8vw;
+    box-sizing: border-box;
+  }
+}
+
+/* end sp */
+/*———————————————————————— */
+
+
+
+/*——————————————————————————————————————— */
+/* sp */
+@media screen and (max-width: 750px) {
+  .lang__btn__wrap--en {
+    display: block;
+    width: 41vw;
+    height: 12.3vw;
+    background-image: url(../image/top/sp/lang__en__btn.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-sizing: border-box;
+  }
+
+  .lang__btn__wrap--es {
+    display: block;
+    width: 41vw;
+    height: 12.3vw;
+    background-image: url(../image/top/sp/lang__es__btn.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-sizing: border-box;
+  }
+
+  .lang__btn__wrap--es:hover {
+    display: block;
+    width: 41vw;
+    height: 12.3vw;
+    background-image: url(../image/top/sp/lang__es__btn--red.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-sizing: border-box;
+  }
+
+}
+
+/* end sp */
+/*———————————————————————— */
+
+.anchortext {
+  display: inline-block;
+  text-indent: -99999px;
+  position: absolute;
+}
